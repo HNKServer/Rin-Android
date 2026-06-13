@@ -1,0 +1,113 @@
+name: Build release apk
+
+on:
+  push:
+    branches: '**'
+    tags: '*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out branch
+        uses: actions/checkout@v3
+
+      - name: Install Rust
+        shell: bash
+        run: curl -sSf https://sh.rustup.rs | sh -s -- -y --no-modify-path --default-toolchain stable --profile minimal
+
+      - name: Setup Java
+        uses: https://github.com/actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 17
+
+      - name: Setup Android SDK
+        uses: https://github.com/android-actions/setup-android@v3
+
+      - name: Decode Keystore
+        env:
+          ENCODED_STRING: ${{ secrets.KEYSTORE_BASE_64 }}
+        run: |
+          echo $ENCODED_STRING > keystore-b64.txt
+          base64 -d keystore-b64.txt > app/lovelive.keystore
+
+      - name: Install android NDK
+        id: setup-ndk
+        uses: https://github.com/nttld/setup-ndk@v1
+        with:
+          ndk-version: r29
+
+      - name: Install cargo ndk
+        shell: bash
+        run: |
+          . "$HOME/.cargo/env"
+          cargo install cargo-ndk
+          rustup target add aarch64-linux-android
+
+      - name: Prepare backend source
+        run: |
+          if [ ! -d ew ]; then
+            git clone --recurse-submodules https://git.ethanthesleepy.one/ethanaobrien/ew.git
+          fi
+          cd ew
+          sed -i 's|#\[lib\]|\[lib\]|g' Cargo.toml
+          sed -i 's|#crate-type|crate-type|g' Cargo.toml
+          sed -i 's|#required-features|required-features|g' Cargo.toml
+
+      - name: Build jnilibs
+        shell: bash
+        env:
+          ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
+        run: |
+          . "$HOME/.cargo/env"
+          cd ew
+          cargo ndk -t arm64-v8a -o ../app/src/main/jniLibs/ build --release --features library
+
+      - name: Build Release apk
+        env:
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          RELEASE_KEYSTORE_ALIAS: ${{ secrets.RELEASE_KEYSTORE_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+        run: |
+          ./gradlew assembleRelease --stacktrace
+
+      - name: Move apk file
+        run: |
+          rm -rf ./release
+          mkdir ./release
+          cp app/build/outputs/apk/release/*.apk ./release/
+
+      - name: Create release.json
+        run: |
+          echo "{\"version\": \"$(sed -n 's/.*versionName = "\([0-9\.]*\)".*/\1/p' app/build.gradle.kts)\"}" > ./release/version.json
+
+      - name: Set prerelease variable
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          if [[ "${GITHUB_REF_NAME}" == *-beta ]]; then
+            echo "prerelease=true" >> $GITHUB_ENV
+          else
+            echo "prerelease=false" >> $GITHUB_ENV
+          fi
+
+      - name: Upload artifacts
+        if: startsWith(github.ref, 'refs/heads/')
+        uses: actions/upload-artifact@v3
+        with:
+          name: apk
+          path: ./release/
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: actions/forgejo-release@v2
+        with:
+          direction: upload
+          release-dir: ./release/
+          release-notes-assistant: true
+          tag: "${{ github.ref_name }}"
+          sha: "${{ github.sha }}"
+          title: "Release ${{ github.ref_name }}"
+          token: ${{ github.token }}
+          prerelease: ${{ env.prerelease }}

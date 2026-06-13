@@ -1,0 +1,440 @@
+use jzon::{array, object, JsonValue};
+use actix_web::{web, HttpRequest, Responder};
+use sha1::{Sha1, Digest};
+
+use crate::encryption;
+use crate::router::{userdata, global, items};
+use crate::include_file;
+
+pub fn routes(cfg: &mut web::ServiceConfig) {
+    cfg.service(
+        web::scope("/user")
+            .service(web::resource("").route(web::get().to(user)).route(web::post().to(user_post)))
+            .route("/initialize", web::post().to(initialize))
+            .route("/detail", web::post().to(detail))
+            .route("/getmigrationcode", web::post().to(get_migration_code))
+            .route("/registerpassword", web::post().to(register_password))
+            .route("/migration", web::post().to(migration))
+            .route("/gglrequestmigrationcode", web::post().to(request_migration_code))
+            .route("/gglverifymigrationcode", web::post().to(verify_migration_code))
+            .route("/getregisteredplatformlist", web::post().to(getregisteredplatformlist))
+            .route("/sif/migrate", web::post().to(sif_migrate))
+            .route("/ss/migrate", web::post().to(sifas_migrate))
+    );
+    cfg.route("/deck", web::post().to(deck));
+    cfg.route("/album/sif", web::get().to(sif));
+}
+
+async fn deck(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    let mut user = userdata::get_acc(&key);
+    
+    for (i, data) in user["deck_list"].clone().members().enumerate() {
+        if data["slot"].as_usize().unwrap_or(100) != i + 1 && i < 10 {
+            user["deck_list"][i] = object!{
+                "slot": i + 1,
+                "leader_role": 0,
+                "main_card_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+            }
+        }
+    }
+    
+    for data in user["deck_list"].members_mut() {
+        if data["slot"].as_i32().unwrap() == body["slot"].as_i32().unwrap() {
+            data["main_card_ids"] = body["main_card_ids"].clone();
+            break;
+        }
+    }
+    userdata::save_acc(&key, user.clone());
+    
+    global::api(&req, Some(object!{
+        "deck": {
+            "slot": body["slot"].clone(),
+            "leader_role": 0,
+            "main_card_ids": body["main_card_ids"].clone()
+        },
+        "clear_mission_ids": []
+    }))
+}
+
+async fn user(req: HttpRequest) -> impl Responder {
+    let key = global::get_login(req.headers(), "");
+    let mut user = userdata::get_acc(&key);
+    
+    user["lottery_list"] = array![];
+    
+    global::api(&req, Some(user))
+}
+
+pub async fn gift(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    
+    let mut user = userdata::get_acc_home(&key);
+    let mut userr = userdata::get_acc(&key);
+    let mut chats = userdata::get_acc_chats(&key);
+    let mut missions = userdata::get_acc_missions(&key);
+    
+    let mut cleared_missions = array![];
+    let mut rewards = array![];
+    let mut failed = array![];
+    
+    for gift_id in body["gift_ids"].members() {
+        let mut to_remove = 0;
+        for (j, data) in user["home"]["gift_list"].members_mut().enumerate() {
+            if data["id"] != *gift_id {
+                continue;
+            }
+            if !items::give_gift(data, &mut userr, &mut missions, &mut cleared_missions, &mut chats) {
+                failed.push(gift_id.clone()).unwrap();
+                break;
+            }
+            let to_push = object!{
+                give_type: 2,
+                type: data["reward_type"].clone(),
+                value: data["value"].clone(),
+                level: data["level"].clone(),
+                amount: data["amount"].clone()
+            };
+            rewards.push(to_push).unwrap();
+            to_remove = j + 1;
+            break;
+        }
+        if to_remove != 0 {
+            user["home"]["gift_list"].array_remove(to_remove - 1);
+        }
+    }
+    
+    userdata::save_acc_missions(&key, missions);
+    userdata::save_acc_home(&key, user);
+    userdata::save_acc_chats(&key, chats);
+    userdata::save_acc(&key, userr.clone());
+    let userr = userdata::get_acc(&key);
+
+    global::api(&req, Some(object!{
+        "failed_gift_ids": failed,
+        "updated_value_list": {
+            "gem": userr["gem"].clone(),
+            "item_list": userr["item_list"].clone(),
+            "point_list": userr["point_list"].clone(),
+            "card_list": userr["card_list"].clone()
+        },
+        "clear_mission_ids": cleared_missions,
+        "reward_list": rewards
+    }))
+}
+
+async fn user_post(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+
+    let mut user = userdata::get_acc(&key);
+    
+    if !body["name"].is_null() {
+        user["user"]["name"] = body["name"].clone();
+    }
+    if !body["comment"].is_null() {
+        user["user"]["comment"] = body["comment"].clone();
+    }
+    if !body["favorite_master_card_id"].is_null() {
+        user["user"]["favorite_master_card_id"] = body["favorite_master_card_id"].clone();
+        user["user"]["favorite_card_evolve"] = if global::get_card(body["favorite_master_card_id"].as_i64().unwrap(), &user)["evolve"].is_empty() { 0 } else { 1 }.into();
+    }
+    if !body["guest_smile_master_card_id"].is_null() {
+        user["user"]["guest_smile_master_card_id"] = body["guest_smile_master_card_id"].clone();
+    }
+    if !body["guest_pure_master_card_id"].is_null() {
+        user["user"]["guest_pure_master_card_id"] = body["guest_pure_master_card_id"].clone();
+    }
+    if !body["guest_cool_master_card_id"].is_null() {
+        user["user"]["guest_cool_master_card_id"] = body["guest_cool_master_card_id"].clone();
+    }
+    if !body["friend_request_disabled"].is_null() {
+        user["user"]["friend_request_disabled"] = body["friend_request_disabled"].clone();
+    }
+    if !body["profile_settings"].is_null() {
+        user["user"]["profile_settings"] = body["profile_settings"].clone();
+    }
+    if !body["main_deck_slot"].is_null() {
+        user["user"]["main_deck_slot"] = body["main_deck_slot"].clone();
+    }
+    if !body["master_title_ids"].is_null() {
+        user["user"]["master_title_ids"][0] = body["master_title_ids"][0].clone();
+    }
+    if !body["birthday"].is_null() {
+        user["user"]["birthday"][0] = body["birthday"].clone();
+    }
+    
+    userdata::save_acc(&key, user.clone());
+
+    global::api(&req, Some(object!{
+        "user": user["user"].clone(),
+        "clear_mission_ids": []
+    }))
+}
+
+pub async fn announcement(req: HttpRequest) -> impl Responder {
+    let key = global::get_login(req.headers(), "");
+    
+    let mut user = userdata::get_acc_home(&key);
+    
+    user["home"]["new_announcement_flag"] = (0).into();
+    
+    userdata::save_acc_home(&key, user);
+    
+    global::api(&req, Some(object!{
+        new_announcement_flag: 0
+    }))
+}
+
+async fn get_migration_code(req: HttpRequest, body: String) -> impl Responder {
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+
+    let Some(user_id) = body["user_id"].as_i64() else { return global::api(&req, None); };
+    let code = userdata::user::migration::get_acc_token(user_id);
+
+    global::api(&req, Some(object!{
+        "migrationCode": code
+    }))
+}
+
+async fn register_password(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    
+    let user = userdata::get_acc(&key);
+    
+    userdata::user::migration::save_acc_transfer(user["user"]["id"].as_i64().unwrap(), &body["pass"].to_string());
+    
+    global::api(&req, Some(array![]))
+}
+
+async fn verify_migration_code(req: HttpRequest, body: String) -> impl Responder {
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    
+    let user = userdata::user::migration::get_acc_transfer(&body["migrationCode"].to_string(), &body["pass"].to_string());
+    
+    if !user["success"].as_bool().unwrap() || user["user_id"] == 0 {
+        return global::api(&req, None);
+    }
+
+    let data_user = userdata::get_acc(&user["login_token"].to_string());
+
+    global::api(&req, Some(object!{
+        "user_id": user["user_id"].clone(),
+        "uuid": user["login_token"].to_string(),
+        "charge": data_user["gem"]["charge"].clone(),
+        "free": data_user["gem"]["free"].clone()
+    }))
+}
+async fn request_migration_code(req: HttpRequest, body: String) -> impl Responder {
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    
+    let user = userdata::user::migration::get_acc_transfer(&body["migrationCode"].to_string(), &body["pass"].to_string());
+    
+    if !user["success"].as_bool().unwrap() || user["user_id"] == 0 {
+        return global::api(&req, None);
+    }
+
+    global::api(&req, Some(object!{
+        "twxuid": user["login_token"].to_string()
+    }))
+}
+async fn migration(req: HttpRequest, body: String) -> impl Responder {
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+
+    let user = userdata::get_name_and_rank(body["user_id"].to_string().parse::<i64>().unwrap());
+
+    global::api(&req, Some(user))
+}
+
+async fn detail(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    let friends = userdata::get_acc_friends(&key);
+    
+    let mut user_detail_list = array![];
+    for data in body["user_ids"].members() {
+        let uid = data.as_i64().unwrap();
+        let user = global::get_user(uid, &friends, true);
+        user_detail_list.push(user).unwrap();
+    }
+    global::api(&req, Some(object!{
+        user_detail_list: user_detail_list
+    }))
+}
+
+async fn sif(req: HttpRequest) -> impl Responder {
+    let key = global::get_login(req.headers(), "");
+    let mut user = userdata::get_acc(&key);
+    let mut cards = userdata::get_acc_sif(&key);
+    
+    // prevent duplicate data in the database
+    if user["user"]["sif_user_id"].as_i64().unwrap_or(0) == 111111111 {
+        cards = jzon::parse(&include_file!("src/router/userdata/full_sif.json")).unwrap();
+    }
+
+    if items::give_gift_basic(8, 4293000525, 1, &mut user, &mut array![], &mut array![], &mut array![]) || items::give_gift_basic(8, 4293000521, 1, &mut user, &mut array![], &mut array![], &mut array![]) {
+        userdata::save_acc(&key, user);
+    }
+    
+    global::api(&req, Some(object!{
+        cards: cards
+    }))
+}
+
+async fn sifas_migrate(req: HttpRequest, _body: String) -> impl Responder {
+    global::api(&req, Some(object!{
+        "ss_migrate_status": 1,
+        "user": null,
+        "gift_list": null,
+        "lock_remain_time": null
+    }))
+}
+
+fn _a_sha1(t: &str) -> String {
+    let mut hasher = Sha1::new();
+    hasher.update(t.as_bytes());
+    let result = hasher.finalize();
+    hex::encode_upper(result)
+}
+
+fn generate_passcode_sha1(transfer_id: String, transfer_code: String) -> String {
+    let id_sha1 = _a_sha1(&transfer_id);
+    _a_sha1(&format!("{}{}", id_sha1, transfer_code))
+}
+
+async fn npps4_req(sha_id: String) -> Option<JsonValue> {
+    let args = crate::get_args();
+
+    let mut host = args.npps4;
+    while host.ends_with('/') {
+        host.pop();
+    }
+    let url = format!("{}/ewexport?sha1={}", host, sha_id);
+    println!("Polling NPPS4 at {}", host);
+
+    let body = ureq::get(&url)
+        .call().ok()?
+        .body_mut()
+        .read_to_string().ok()?;
+
+    jzon::parse(&body).ok()
+}
+
+fn clean_sif_data(current: &JsonValue) -> JsonValue {
+    let mut rv = array![];
+    for data in current.members() {
+        rv.push(object!{
+            master_card_id: data["id"].clone(),
+            evolve: if data["idolized"].as_bool().unwrap_or(false) { 1 } else { 0 },
+            sign_flag: if data["signed"].as_bool().unwrap_or(false) { 1 } else { 0 }
+        }).unwrap();
+    }
+    rv
+}
+
+async fn sif_migrate(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let mut user = userdata::get_acc(&key);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+
+    let id = generate_passcode_sha1(body["sif_user_id"].to_string(), body["password"].to_string());
+    let user_info = npps4_req(id).await;
+    if user_info.is_none() {
+        return global::api(&req, Some(object!{
+            sif_migrate_status: 38
+        }));
+    }
+    let user_info = user_info.unwrap();
+
+    //TODO - give rewards? Titles?
+
+    user["user"]["sif_user_id"] = body["sif_user_id"].to_string().parse::<i32>().unwrap().into(); //sif2 client sends this as a string...
+    items::give_gift_basic(8, 4293000525, 1, &mut user, &mut array![], &mut array![], &mut array![]);
+    items::give_gift_basic(8, 4293000521, 1, &mut user, &mut array![], &mut array![], &mut array![]);
+    
+    userdata::save_acc_sif(&key, clean_sif_data(&user_info["units"]));
+    userdata::save_acc(&key, user.clone());
+    
+    global::api(&req, Some(object!{
+        "sif_migrate_status": 0,
+        "user": user["user"].clone(),
+        "master_title_ids": user["master_title_ids"].clone()
+    }))
+
+}
+
+async fn getregisteredplatformlist(req: HttpRequest, _body: String) -> impl Responder {
+    global::api(&req, Some(object!{
+        "google": 0,
+        "apple": 0,
+        "twitter": 0
+    }))
+}
+
+async fn initialize(req: HttpRequest, body: String) -> impl Responder {
+    let key = global::get_login(req.headers(), &body);
+    let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
+    
+    let mut user = userdata::get_acc(&key);
+    let mut user2 = userdata::get_acc_home(&key);
+    let mut missions = userdata::get_acc_missions(&key);
+    let mut chats = userdata::get_acc_chats(&key);
+    let id = body["master_character_id"].as_i64().unwrap();
+    
+    crate::router::chat::add_chat(id, 1, &mut chats);
+    
+    let id = id.to_string();
+    
+    let ur = user["card_list"][0]["master_card_id"].as_i64().unwrap();
+    
+    user["user"]["favorite_master_card_id"] = ur.into();
+    user["user"]["guest_smile_master_card_id"] = ur.into();
+    user["user"]["guest_cool_master_card_id"] = ur.into();
+    user["user"]["guest_pure_master_card_id"] = ur.into();
+    user2["home"]["preset_setting"][0]["illust_master_card_id"] = ur.into();
+    user["gem"]["free"] = (3000).into();
+    user["gem"]["total"] = (3000).into();
+    
+    let userr = &id[id.len() - 2..].parse::<i32>().unwrap();
+    
+    let cardstoreward: JsonValue;
+    let mut masterid = 3000000;
+    if id.starts_with('1') {
+        cardstoreward = array![10010001, 10020001, 10030001, 10040001, 10050001, 10060001, 10070001, 10080001, 10090001]; //muse
+    } else if id.starts_with('2') {
+        cardstoreward = array![20010001, 20020001, 20030001, 20040001, 20050001, 20060001, 20070001, 20080001, 20090001]; //aqours
+        masterid += 9; //muse
+    } else if id.starts_with('3') {
+        cardstoreward = array![30010001, 30020001, 30030001, 30040001, 30050001, 30060001, 30070001, 30080001, 30090001, 30100001, 30110001]; //nijigasaki
+        masterid += 9 + 9; //aqours
+    } else if id.starts_with('4') {
+        cardstoreward = array![40010001, 40020001, 40030001, 40040001, 40050001, 40060001, 40070001, 40080001, 40090001]; //liella
+        masterid += 9 + 9 + 12; //nijigasaki
+    } else {
+        return global::api(&req, None);
+    }
+    masterid += userr;
+    
+    user["user"]["master_title_ids"][0] = masterid.into();
+    
+    // User is rewarded with all base cards in the team they chose. This makes up their new deck_list
+    
+    for (i, data) in cardstoreward.members().enumerate() {
+        items::give_character(data.as_i64().unwrap(), &mut user, &mut missions, &mut array![], &mut array![]);
+        if i < 9 {
+            user["deck_list"][0]["main_card_ids"][i] = data.clone();
+        }
+    }
+    //todo - should the chosen character be in the team twice?
+    user["deck_list"][0]["main_card_ids"][4] = ur.into();
+    
+    userdata::save_acc(&key, user.clone());
+    userdata::save_acc_chats(&key, chats);
+    userdata::save_acc_home(&key, user2);
+    userdata::save_acc_missions(&key, missions);
+
+    global::api(&req, Some(user["user"].clone()))
+}

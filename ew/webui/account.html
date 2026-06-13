@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manage your account on the Love Live! SIF2 private server">
+    <meta property="og:title" content="Account - EW WebUI">
+    <meta property="og:description" content="Manage your account on the Love Live! SIF2 private server">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/account.css">
+    <link rel="stylesheet" href="styles/dialog.css">
+
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/account.mjs" type="module"></script>
+
+    <title>Account - EW WebUI</title>
+</head>
+<body>
+    <header>
+        <img src="favicon.png" alt="Website Logo" width="50" height="50">
+        <span>EW private server</span>
+        <button id="ham-btn" class="hamburger" title="Menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="cards.html">Card Database</a></li>
+                <li><a href="songs.html">Song List</a></li>
+                <li><a href="help.html">FAQ</a></li>
+                <li id="account"><a class="current-page" href="account.html">Account</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Account</h1>
+
+        <div id="tools">
+            <button id="export-account">Export Account</button>
+            <button id="logout">Log out</button>
+        </div>
+
+        <div id="account-details">
+            <h2>User Information</h2>
+            <p><strong>Name:</strong> <span id="user-name"></span></p>
+            <p><strong>User ID:</strong> <span id="user-id"></span></p>
+            <p><strong>Exp:</strong> <span id="user-exp"></span></p>
+            <p><strong>Main Deck Slot:</strong> <span id="user-main-deck-slot"></span></p>
+            <p><strong>Rank:</strong> <span id="user-rank"></span></p>
+            <p><strong>Current Stamina:</strong> <span id="user-stamina"></span></p>
+        </div>
+
+        <div id="gem-info">
+            <h2>Gem Information</h2>
+            <p><strong>Free Gems:</strong> <span id="gem-free"></span></p>
+            <p><strong>Total Gems:</strong> <span id="gem-total"></span></p>
+        </div>
+
+        <div id="login-bonus-section">
+            <h2>Current login bonus list</h2>
+            <ul id="login-bonus-list"></ul>
+            <form id="login-bonus-form">
+                <select name="bonuses" id="bonuses" title="bonuses"></select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="server-time">
+            <h2>Server time</h2>
+            <p>Currently set to: <span id="current-server-time"></span>.</p>
+            <p>Setting to 0 will set it to now, and -1 will reset it.</p>
+            <p>Time will still progress, based off of when you set this timestamp.</p>
+            <form action="time.html" method="GET">
+                <input type="text" name="servertime" placeholder="Enter Server Time">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="account-boost">
+            <h2>Give me Money!!!</h2>
+            <p>Many users have complained about lack of ease of gaining rewards even on private server...</p>
+            <p>So I've added this opt-in button to boost your rewards!</p>
+            <p>This button will (currently) max out many items I think.</p>
+            <p>If you need <i>even more items</i> than this, request for me to add it.</p>
+            <p>Items will be given to in-game mail.</p>
+            <p>Once you use it, you cannot go back.</p>
+            <p>Have fun having everything given to you:</p>
+            <div class="give-me-money">
+                <button>Give it to me NOW !!!</button>
+            </div>
+        </div>
+
+        <div>
+            <h2>Main Deck Cards</h2>
+            <div class="card-grid" id="card-grid"></div>
+        </div>
+        <dialog>
+            <div class="modal-content">
+                <h2 id="modal-title">Error</h2>
+                <p id="modal-message">An error occurred.</p>
+                <button class="close-button">Close</button>
+            </div>
+        </dialog>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://discord.gg/gHuCzK3b2Z" target="_blank"><img src="images/discord.png" alt="Discord" width="24" height="24"></a>
+        </div>
+        <div class="copyright">
+            <span>©<span id="currentyear"></span> | EW (Ew, Why?) Private Server</span>
+            <p>EW Version 1.1.0 - <a href="https://git.ethanthesleepy.one/ethanaobrien/ew">View source</a> - <a href="https://git.ethanthesleepy.one/ethanaobrien/ew/src/branch/main/LICENSE">View license</a></p>
+        </div>
+    </footer>
+</body>
+</html>

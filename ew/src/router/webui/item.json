@@ -1,0 +1,1054 @@
+{
+  "1": {
+    "reward_type": 4,
+    "en": "Coin",
+    "jp": "Coin"
+  },
+  "1000": {
+    "reward_type": 1,
+    "en": "Primogem (idk what its actually called)",
+    "jp": "Primogem (idk what its actually called)"
+  },
+  "15010001": {
+    "reward_type": 3,
+    "en": "1x Scout Ticket",
+    "jp": "1回勧誘チケット"
+  },
+  "15010002": {
+    "reward_type": 3,
+    "en": "10x Scout Ticket",
+    "jp": "10回勧誘チケット"
+  },
+  "15010003": {
+    "reward_type": 3,
+    "en": "10x Limited-Time Scout Ticket",
+    "jp": "期限付き10回勧誘チケット"
+  },
+  "15010004": {
+    "reward_type": 3,
+    "en": "10x Scout Ticket (SIF Data Link Bonus)",
+    "jp": "10回勧誘チケット（スクフェスデータ連携特典）"
+  },
+  "15010005": {
+    "reward_type": 3,
+    "en": "10x Scout Ticket (SIFAS Data Link Bonus)",
+    "jp": "10回勧誘チケット（スクスタデータ連携特典）"
+  },
+  "15010006": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on July 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/7/15 11:59まで)"
+  },
+  "15010007": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on July 15th, 2023)",
+    "jp": "10回通常勧誘チケット(2023/7/15 11:59まで)"
+  },
+  "15010008": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on July 31st, 2023)",
+    "jp": "1回通常勧誘チケット(2023/7/31 11:59まで)"
+  },
+  "15010009": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on July 31st, 2023)",
+    "jp": "10回通常勧誘チケット(2023/7/31 11:59まで)"
+  },
+  "15010010": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on August 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/8/15 11:59まで)"
+  },
+  "15010011": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on August 15th, 2023)",
+    "jp": "10回通常勧誘チケット(2023/8/15 11:59まで)"
+  },
+  "15010012": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on August 31st, 2023)",
+    "jp": "1回通常勧誘チケット(2023/8/31 11:59まで)"
+  },
+  "15010013": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on August 31st, 2023)",
+    "jp": "10回通常勧誘チケット(2023/8/31 11:59まで)"
+  },
+  "15010014": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on September 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/9/15 11:59まで)"
+  },
+  "15010015": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on September 15th, 2023)",
+    "jp": "10回通常勧誘チケット(2023/9/15 11:59まで)"
+  },
+  "15010016": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on September 30th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/9/30 11:59まで)"
+  },
+  "15010017": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on September 30th, 2023)",
+    "jp": "10回通常勧誘チケット(2023/9/30 11:59まで)"
+  },
+  "15010018": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on October 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/10/15 11:59まで)"
+  },
+  "15010019": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on October 15th, 2023)",
+    "jp": "10回通常勧誘チケット(2023/10/15 11:59まで)"
+  },
+  "15010020": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on October 31st, 2023)",
+    "jp": "1回通常勧誘チケット(2023/10/31 11:59まで)"
+  },
+  "15010021": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on October 31st, 2023)",
+    "jp": "10回通常勧誘チケット(2023/10/31 11:59まで)"
+  },
+  "15010022": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on November 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/11/15 11:59まで)"
+  },
+  "15010023": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on November 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/11/15 11:59まで)"
+  },
+  "15010024": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on November 15th, 2023)",
+    "jp": "10回通常勧誘チケット(2023/11/15 11:59まで)"
+  },
+  "15010025": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 07:59AM on March 15th, 2024)",
+    "jp": "1回通常勧誘チケット(2023/11/30 11:59まで)"
+  },
+  "15010026": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 07:59AM on March 15th, 2024)",
+    "jp": "10回通常勧誘チケット(2023/11/30 11:59まで)"
+  },
+  "15010027": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on November 15th, 2023)",
+    "jp": "1回通常勧誘チケット(2023/11/15 11:59まで)"
+  },
+  "15010028": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 07:59AM on March 30th, 2024)",
+    "jp": "1回通常勧誘チケット(2023/12/15 11:59まで)"
+  },
+  "15010029": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 07:59AM on March 30th, 2024)",
+    "jp": "10回通常勧誘チケット(2023/12/15 11:59まで)"
+  },
+  "15010030": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 07:59AM on April 15th, 2024)",
+    "jp": "1回通常勧誘チケット(2023/12/31 11:59まで)"
+  },
+  "15010031": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (vailable until 07:59AM on April 15th, 2024)",
+    "jp": "10回通常勧誘チケット(2023/12/31 11:59まで)"
+  },
+  "15010032": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 11:59AM on December 31st, 2023)",
+    "jp": "1回通常勧誘チケット(2023/12/31 11:59まで)"
+  },
+  "15010033": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 11:59AM on December 31st, 2023)",
+    "jp": "10回通常勧誘チケット(2023/12/31 11:59まで)"
+  },
+  "15010034": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 07:59AM on April  30, 2024)",
+    "jp": "1回通常勧誘チケット(2024/1/15 11:59まで)"
+  },
+  "15010035": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 07:59AM on April  30, 2024)",
+    "jp": "10回通常勧誘チケット(2024/1/15 11:59まで)"
+  },
+  "15010036": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 07:59AM on May 15, 2024)",
+    "jp": "1回通常勧誘チケット(2024/1/31 11:59まで)"
+  },
+  "15010037": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 07:59AM on May 15, 2024)",
+    "jp": "10回通常勧誘チケット(2024/1/31 11:59まで)"
+  },
+  "15010038": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 05:59AM on May 31, 2024)",
+    "jp": "1回通常勧誘チケット(2024/2/14 11:59まで)"
+  },
+  "15010039": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 05:59AM on May 31, 2024)",
+    "jp": "10回通常勧誘チケット(2024/2/14 11:59まで)"
+  },
+  "15010040": {
+    "reward_type": 3,
+    "en": "1x Normal Scout Ticket (Available until 05:59AM on May 31, 2024)",
+    "jp": "1回通常勧誘チケット(2024/3/31 11:59まで)"
+  },
+  "15010041": {
+    "reward_type": 3,
+    "en": "10x Normal Scout Ticket (Available until 05:59AM on May 31, 2024)",
+    "jp": "10回通常勧誘チケット(2024/3/31 11:59まで)"
+  },
+  "15020001": {
+    "reward_type": 3,
+    "en": "10x Scout Ticket (School Idol Festival 2 Super Thanks)",
+    "jp": "10回勧誘チケット（スクフェス2 大感謝勧誘）"
+  },
+  "15500001": {
+    "reward_type": 3,
+    "en": "Release Celebration Scout points",
+    "jp": "勧誘ポイント [リリース記念]"
+  },
+  "15500002": {
+    "reward_type": 3,
+    "en": "Harajuku Liella! After School ♡ Scout Points",
+    "jp": "勧誘ポイント [放課後の原宿Liella!♡]"
+  },
+  "15510004": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510005": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510006": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510007": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510008": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510009": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510010": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510011": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510012": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510013": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510014": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510015": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510016": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510017": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510018": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510019": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510020": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510021": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510022": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510023": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15510024": {
+    "reward_type": 3,
+    "en": "Scout Points (Normal)",
+    "jp": "勧誘ポイント [通常]"
+  },
+  "15520001": {
+    "reward_type": 3,
+    "en": "Scout Points (Out on the Town)",
+    "jp": "勧誘ポイント [わたしたちとこの街]"
+  },
+  "15520002": {
+    "reward_type": 3,
+    "en": "Scout Points (Shopping Streets)",
+    "jp": "勧誘ポイント [商店街をアピールだ！]"
+  },
+  "15520003": {
+    "reward_type": 3,
+    "en": "Scout Points (Live in Nature)",
+    "jp": "勧誘ポイント [Live in Nature]"
+  },
+  "15520004": {
+    "reward_type": 3,
+    "en": "Scout Points (Glittering Dancers)",
+    "jp": "勧誘ポイント [煌めく踊り子]"
+  },
+  "15520005": {
+    "reward_type": 3,
+    "en": "Scout Points (Sunny Summer Camp)",
+    "jp": "勧誘ポイント [太陽降り注ぐ夏合宿]"
+  },
+  "15520006": {
+    "reward_type": 3,
+    "en": "Scout Points (Midsummer Mermaid)",
+    "jp": "勧誘ポイント [真夏の人魚姫]"
+  },
+  "15520007": {
+    "reward_type": 3,
+    "en": "Scout Points (Summer Beach Run)",
+    "jp": "勧誘ポイント [砂浜駆ける夏の海]"
+  },
+  "15520008": {
+    "reward_type": 3,
+    "en": "Scout Points (Flowers Bloom in the Summer Night)",
+    "jp": "勧誘ポイント [夏夜に咲き誇る花]"
+  },
+  "15520009": {
+    "reward_type": 3,
+    "en": "Scout Points (Moonlight Silvergrass)",
+    "jp": "勧誘ポイント [月夜に輝く尾花]"
+  },
+  "15520010": {
+    "reward_type": 3,
+    "en": "Scout Points (Wandering Yukata)",
+    "jp": "勧誘ポイント [浴衣で涼む街めぐり]"
+  },
+  "15520011": {
+    "reward_type": 3,
+    "en": "Scout Points (Trick or Treat!)",
+    "jp": "勧誘ポイント [Trick or Treat!]"
+  },
+  "15520012": {
+    "reward_type": 3,
+    "en": "Scout Points: Sunny Marching Band:",
+    "jp": "勧誘ポイント [ひだまりのマーチングバンド]"
+  },
+  "15520013": {
+    "reward_type": 3,
+    "en": "Scout Points: Kitty Cat 🐾 Maids",
+    "jp": "勧誘ポイント [にゃんにゃん🐾メイドさん]"
+  },
+  "15520014": {
+    "reward_type": 3,
+    "en": "Scout Points: Everyone's Merry Christmas!",
+    "jp": "勧誘ポイント [みんなでMerryChristmas！]"
+  },
+  "15520015": {
+    "reward_type": 3,
+    "en": "Scout Points [Santa Claus at Snow Festival])",
+    "jp": "勧誘ポイント [雪まつりのサンタクロース]"
+  },
+  "15520016": {
+    "reward_type": 3,
+    "en": "Scout Points [Happy New Year to Everyone!]",
+    "jp": "勧誘ポイント [みんなへのあけましておめでとう]"
+  },
+  "15520017": {
+    "reward_type": 3,
+    "en": "Scout Points [Fairy on Ice]",
+    "jp": "勧誘ポイント [氷上のフェアリー]"
+  },
+  "15520018": {
+    "reward_type": 3,
+    "en": "Scout Points [Maiden Trapped in Love]",
+    "jp": "勧誘ポイント [恋に囚われし乙女]"
+  },
+  "15520019": {
+    "reward_type": 3,
+    "en": "Scout Points [Night of the Hundred Demons]",
+    "jp": "勧誘ポイント [百鬼夜行の夜]"
+  },
+  "15520020": {
+    "reward_type": 3,
+    "en": "Scout Points (Y2K♡GALS)",
+    "jp": "勧誘ポイント [Y2K♡GALS]"
+  },
+  "15530001": {
+    "reward_type": 3,
+    "en": "Scout Points (Kanon's Birthday)",
+    "jp": "勧誘ポイント [かのんちゃんお誕生記念]"
+  },
+  "15530002": {
+    "reward_type": 3,
+    "en": "Scout Points (Ai's Birthday)",
+    "jp": "勧誘ポイント [愛ちゃんお誕生記念]"
+  },
+  "15530003": {
+    "reward_type": 3,
+    "en": "Scout Points (Nozomi's Birthday)",
+    "jp": "勧誘ポイント [希ちゃんお誕生記念]"
+  },
+  "15530004": {
+    "reward_type": 3,
+    "en": "Scout Points (Mari's Birthday)",
+    "jp": "勧誘ポイント [鞠莉ちゃんお誕生記念]"
+  },
+  "15530005": {
+    "reward_type": 3,
+    "en": "Scout Points (Shiki's Birthday)",
+    "jp": "勧誘ポイント [四季ちゃんお誕生記念]"
+  },
+  "15530006": {
+    "reward_type": 3,
+    "en": "Scout Points (Karin's Birthday)",
+    "jp": "勧誘ポイント [果林ちゃんお誕生記念]"
+  },
+  "15530007": {
+    "reward_type": 3,
+    "en": "Scout Points (Yoshiko's Birthday)",
+    "jp": "勧誘ポイント [善子ちゃんお誕生記念]"
+  },
+  "15530008": {
+    "reward_type": 3,
+    "en": "Scout Points (Keke's Birthday)",
+    "jp": "勧誘ポイント [可可ちゃんお誕生記念]"
+  },
+  "15530009": {
+    "reward_type": 3,
+    "en": "Scout Points (Nico's Birthday)",
+    "jp": "勧誘ポイント [にこちゃんお誕生記念]"
+  },
+  "15530010": {
+    "reward_type": 3,
+    "en": "Scout Points (Chika's Birthday)",
+    "jp": "勧誘ポイント [千歌ちゃんお誕生記念]"
+  },
+  "15530011": {
+    "reward_type": 3,
+    "en": "Scout Points (Honoka's Birthday)",
+    "jp": "勧誘ポイント [穂乃果ちゃんお誕生記念]"
+  },
+  "15530012": {
+    "reward_type": 3,
+    "en": "Scout Points (Natsumi's Birthday)",
+    "jp": "勧誘ポイント [夏美ちゃんお誕生記念]"
+  },
+  "15530013": {
+    "reward_type": 3,
+    "en": "Scout Points (Setsuna's Birthday)",
+    "jp": "勧誘ポイント [せつ菜ちゃんお誕生記念]"
+  },
+  "15530014": {
+    "reward_type": 3,
+    "en": "Scout Points (Kotori's Birthday)",
+    "jp": "勧誘ポイント [ことりちゃんお誕生記念]"
+  },
+  "15530015": {
+    "reward_type": 3,
+    "en": "Scout Points (Riko's Birthday)",
+    "jp": "勧誘ポイント [梨子ちゃんお誕生記念]"
+  },
+  "15530016": {
+    "reward_type": 3,
+    "en": "Scout Points (Ruby's Birthday)",
+    "jp": "勧誘ポイント [ルビィちゃんお誕生記念]"
+  },
+  "15530017": {
+    "reward_type": 3,
+    "en": "Scout Points (Sumire's Birthday)",
+    "jp": "勧誘ポイント [すみれちゃんお誕生記念]"
+  },
+  "15530018": {
+    "reward_type": 3,
+    "en": "Scout Points (Shioriko's Birthday)",
+    "jp": "勧誘ポイント [栞子ちゃんお誕生記念]"
+  },
+  "15530019": {
+    "reward_type": 3,
+    "en": "Scout Points (Eli's Birthday)",
+    "jp": "勧誘ポイント [絵里ちゃんお誕生記念]"
+  },
+  "15530020": {
+    "reward_type": 3,
+    "en": "Scout Points (Mei's Birthday)",
+    "jp": "勧誘ポイント [メイちゃんお誕生記念]"
+  },
+  "15530021": {
+    "reward_type": 3,
+    "en": "Scout Points (Rin's Birthday)",
+    "jp": "勧誘ポイント [凛ちゃんお誕生記念]"
+  },
+  "15530022": {
+    "reward_type": 3,
+    "en": "Scout Points (Rina's Birthday)",
+    "jp": "勧誘ポイント [璃奈ちゃんお誕生記念]"
+  },
+  "15530023": {
+    "reward_type": 3,
+    "en": "Scout Points (Ren's Birthday)",
+    "jp": "勧誘ポイント [恋ちゃんお誕生記念]"
+  },
+  "15530024": {
+    "reward_type": 3,
+    "en": "Scout Points (Mia's Birthday)",
+    "jp": "勧誘ポイント [ミアちゃんお誕生記念]"
+  },
+  "15530025": {
+    "reward_type": 3,
+    "en": "Scout Points (Kanata's Birthday)",
+    "jp": "勧誘ポイント [彼方ちゃんお誕生記念]"
+  },
+  "15530026": {
+    "reward_type": 3,
+    "en": "Scout Points (Tomari's Birthday)",
+    "jp": "勧誘ポイント [冬毬ちゃんお誕生記念]"
+  },
+  "15530027": {
+    "reward_type": 3,
+    "en": "Scout Points [Daiya's Birth Anniversary]",
+    "jp": "勧誘ポイント [ダイヤちゃんお誕生記念]"
+  },
+  "15530028": {
+    "reward_type": 3,
+    "en": "Scout Points [Hanayo's Birth Anniversary]",
+    "jp": "勧誘ポイント [花陽ちゃんお誕生記念]"
+  },
+  "15530029": {
+    "reward_type": 3,
+    "en": "Scout Points [Margarete's Birth Anniversary]",
+    "jp": "勧誘ポイント [マルガレーテちゃんお誕生記念]"
+  },
+  "15530030": {
+    "reward_type": 3,
+    "en": "Scout Points [Kasumi's Birth Anniversary]",
+    "jp": "勧誘ポイント [かすみちゃんお誕生記念]"
+  },
+  "15530031": {
+    "reward_type": 3,
+    "en": "Scout Points [Ema's Birth Anniversary]",
+    "jp": "勧誘ポイント [エマちゃんお誕生記念]"
+  },
+  "15530032": {
+    "reward_type": 3,
+    "en": "Scout Points [Kanan's Birth Anniversary]",
+    "jp": "勧誘ポイント [果南ちゃんお誕生記念]"
+  },
+  "15530033": {
+    "reward_type": 3,
+    "en": "Scout Points [Ranju's Birth Anniversary]",
+    "jp": "勧誘ポイント [嵐珠ちゃんお誕生記念]"
+  },
+  "15530034": {
+    "reward_type": 3,
+    "en": "Scout Points (Chisato's Birthday)",
+    "jp": "勧誘ポイント [千砂都ちゃんお誕生記念]"
+  },
+  "15530035": {
+    "reward_type": 3,
+    "en": "Scout Points (Ayumu's Birthday)",
+    "jp": "勧誘ポイント [歩夢ちゃんお誕生記念]"
+  },
+  "15530036": {
+    "reward_type": 3,
+    "en": "Scout Points (Hanamaru's Birthday)",
+    "jp": "勧誘ポイント [花丸ちゃんお誕生記念]"
+  },
+  "15530037": {
+    "reward_type": 3,
+    "en": "Scout Points  [Umi's Birthday Anniversary]",
+    "jp": "勧誘ポイント [海未ちゃんお誕生記念]"
+  },
+  "15540001": {
+    "reward_type": 3,
+    "en": "Scout Points (SIF Data Link Bonus)",
+    "jp": "勧誘ポイント [スクフェスデータ連携特典]"
+  },
+  "15540002": {
+    "reward_type": 3,
+    "en": "Scout Points (Attribute Spotlight)",
+    "jp": "勧誘ポイント [属性ピックアップ]"
+  },
+  "15540005": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Ayumu)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 歩夢編]"
+  },
+  "15540006": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Kasumi)",
+    "jp": "勧誘ポイント [ラブソングカーニバル かすみ編]"
+  },
+  "15540007": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Shizuku)",
+    "jp": "勧誘ポイント [ラブソングカーニバル しずく編]"
+  },
+  "15540008": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Karin)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 果林編]"
+  },
+  "15540009": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Ai)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 愛編]"
+  },
+  "15540010": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Kanata)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 彼方編]"
+  },
+  "15540011": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Setsuna)",
+    "jp": "勧誘ポイント [ラブソングカーニバル せつ菜編]"
+  },
+  "15540012": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Emma)",
+    "jp": "勧誘ポイント [ラブソングカーニバル エマ編]"
+  },
+  "15540013": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Rina)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 璃奈編]"
+  },
+  "15540014": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Shioriko)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 栞子編]"
+  },
+  "15540015": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Mia)",
+    "jp": "勧誘ポイント [ラブソングカーニバル ミア編]"
+  },
+  "15540016": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival: Lanzhu)",
+    "jp": "勧誘ポイント [ラブソングカーニバル 嵐珠編]"
+  },
+  "15540017": {
+    "reward_type": 3,
+    "en": "Scout Points (Half Anniversary)",
+    "jp": "勧誘ポイント [Half Anniversary]"
+  },
+  "15540023": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song by Me)",
+    "jp": "勧誘ポイント [私のラブソング編]"
+  },
+  "15540024": {
+    "reward_type": 3,
+    "en": "Scout Points: μ's Spotlight",
+    "jp": "勧誘ポイント [μ's ピックアップ]"
+  },
+  "15540025": {
+    "reward_type": 3,
+    "en": "Scout Points: Aqours Spotlight",
+    "jp": "勧誘ポイント [Aqours ピックアップ]"
+  },
+  "15540027": {
+    "reward_type": 3,
+    "en": "Scout Points: Yohane the Parhelion",
+    "jp": "勧誘ポイント [幻日のヨハネ]"
+  },
+  "15540028": {
+    "reward_type": 3,
+    "en": "Scout Points: 1st-Years Spotlight",
+    "jp": "勧誘ポイント [1年生ピックアップ]"
+  },
+  "15540029": {
+    "reward_type": 3,
+    "en": "Scout Points: 2nd-Years Spotlight",
+    "jp": "勧誘ポイント [2年生ピックアップ]"
+  },
+  "15540030": {
+    "reward_type": 3,
+    "en": "Scout Points: 3rd-Years Spotlight",
+    "jp": "勧誘ポイント [3年生ピックアップ]"
+  },
+  "15540031": {
+    "reward_type": 3,
+    "en": "Scout Points [Year-End & New Year Memorial]",
+    "jp": "勧誘ポイント [年末年始記念]"
+  },
+  "15540032": {
+    "reward_type": 3,
+    "en": "Scout Points [New Year Commemoration]",
+    "jp": "勧誘ポイント [新春記念]"
+  },
+  "15540033": {
+    "reward_type": 3,
+    "en": "Scout Points [Love Song Carnival]",
+    "jp": "勧誘ポイント [ラブソングカーニバル]"
+  },
+  "15540034": {
+    "reward_type": 3,
+    "en": "Scout Points (Super Thanks)",
+    "jp": "勧誘ポイント [大感謝勧誘]"
+  },
+  "15540035": {
+    "reward_type": 3,
+    "en": "Scout Points [Special Scouting]",
+    "jp": "勧誘ポイント [スペシャル勧誘]"
+  },
+  "15570001": {
+    "reward_type": 3,
+    "en": "Scout Points (Global Launch SP Scouting ~Set 1~)"
+  },
+  "15570002": {
+    "reward_type": 3,
+    "en": "Scout Points (Global Launch SP Scouting ~Set 2~)"
+  },
+  "15570003": {
+    "reward_type": 3,
+    "en": "Scout Points [Rerun](Global Launch SP Scouting ~Set 1~)"
+  },
+  "15570004": {
+    "reward_type": 3,
+    "en": "Scout Points:[Rerun](μ's Spotlight)"
+  },
+  "15570005": {
+    "reward_type": 3,
+    "en": "Scout Points:[Rerun](Aqours Spotlight)"
+  },
+  "15570006": {
+    "reward_type": 3,
+    "en": "Scout Points [Rerun](Global Launch SP Scouting ~Set 2~)"
+  },
+  "15570007": {
+    "reward_type": 3,
+    "en": "Scout Points (Special Scout)"
+  },
+  "15570008": {
+    "reward_type": 3,
+    "en": "Scout Points (Love Song Carnival)"
+  },
+  "16005001": {
+    "reward_type": 3,
+    "en": "Lesson Notebook (S)",
+    "jp": "レッスンノート（小）"
+  },
+  "16005002": {
+    "reward_type": 3,
+    "en": "Lesson Notebook (M)",
+    "jp": "レッスンノート（中）"
+  },
+  "16005003": {
+    "reward_type": 3,
+    "en": "Lesson Notebook (L)",
+    "jp": "レッスンノート（大）"
+  },
+  "17001001": {
+    "reward_type": 3,
+    "en": "Skill Notebook (S)",
+    "jp": "スキルブック（小）"
+  },
+  "17001002": {
+    "reward_type": 3,
+    "en": "Skill Notebook (M)",
+    "jp": "スキルブック（中）"
+  },
+  "17001003": {
+    "reward_type": 3,
+    "en": "Skill Notebook (L)",
+    "jp": "スキルブック（大）"
+  },
+  "19100001": {
+    "reward_type": 3,
+    "en": "Light Stick",
+    "jp": "ペンライト"
+  },
+  "20000001": {
+    "reward_type": 3,
+    "en": "LP Candy (S)",
+    "jp": "LPキャンディ[小]"
+  },
+  "20000002": {
+    "reward_type": 3,
+    "en": "LP Candy (M)",
+    "jp": "LPキャンディ[中]"
+  },
+  "20000003": {
+    "reward_type": 3,
+    "en": "LP Candy (L)",
+    "jp": "LPキャンディ[大]"
+  },
+  "20001001": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001002": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001003": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001004": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001005": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001006": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001007": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001008": {
+    "reward_type": 3,
+    "en": "Halloween LP Candy (S)",
+    "jp": "ハロウィンLPキャンディ[小]"
+  },
+  "20001009": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001010": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001011": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001012": {
+    "reward_type": 3,
+    "en": "Christmas LP Candy (S)",
+    "jp": "クリスマスLPキャンディ[小]"
+  },
+  "20001013": {
+    "reward_type": 3,
+    "en": "LP Sticky Mochi",
+    "jp": "LP鏡餅"
+  },
+  "20001014": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001015": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20001016": {
+    "reward_type": 3,
+    "en": "LP Valentine's Chocolate (S)",
+    "jp": "LPバレンタインチョコ[小]"
+  },
+  "20001017": {
+    "reward_type": 3,
+    "en": "LP White Day Macaron (S)",
+    "jp": "LPホワイトデーマカロン[小]"
+  },
+  "20001018": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (S)",
+    "jp": "期限付きLPキャンディ[小]"
+  },
+  "20002001": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (M)",
+    "jp": "期限付きLPキャンディ[中]"
+  },
+  "20003001": {
+    "reward_type": 3,
+    "en": "Limited-Time LP Candy (L)",
+    "jp": "期限付きLPキャンディ[大]"
+  },
+  "21000001": {
+    "reward_type": 3,
+    "en": "Skip Ticket",
+    "jp": "スキップチケット"
+  },
+  "21001001": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001002": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001003": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001004": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001005": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001006": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001007": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001008": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001009": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001010": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001011": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001012": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "21001013": {
+    "reward_type": 3,
+    "en": "Limited-Time Skip Ticket",
+    "jp": "期限付きスキップチケット"
+  },
+  "22000001": {
+    "reward_type": 3,
+    "en": "Star Assist Ticket",
+    "jp": "スターアシストチケット"
+  },
+  "22001001": {
+    "reward_type": 3,
+    "en": "Star Assist Ticket (Limited)",
+    "jp": "期限付きスターアシストチケット"
+  },
+  "22001003": {
+    "reward_type": 3,
+    "en": "Star Assist Ticket (Limited)",
+    "jp": "期限付きスターアシストチケット"
+  },
+  "22001004": {
+    "reward_type": 3,
+    "en": "Star Assist Ticket (Limited)",
+    "jp": "期限付きスターアシストチケット"
+  },
+  "30010001": {
+    "reward_type": 3,
+    "en": "Memorial Piece",
+    "jp": "メモリアルピース"
+  },
+  "30010002": {
+    "reward_type": 3,
+    "en": "Weiß Schwarz Exchange Ticket",
+    "jp": "ヴァイスシュヴァルツ交換券"
+  },
+  "30010003": {
+    "reward_type": 3,
+    "en": "Snowy White Christmas Exchange Ticket",
+    "jp": "スノーホワイトクリスマス交換券"
+  },
+  "30010004": {
+    "reward_type": 3,
+    "en": "Lucky Bag Points",
+    "jp": "福袋ポイント"
+  },
+  "30010005": {
+    "reward_type": 3,
+    "en": "Valentine's Exchange Ticket",
+    "jp": "バレンタイン交換券"
+  }
+}

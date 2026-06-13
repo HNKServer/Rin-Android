@@ -1,0 +1,12 @@
+asset_server/node_modules/
+asset_server/resources/
+target/
+python/
+*.db
+webui/node_modules/
+webui/dist/
+config.json
+docker/data/
+.idea/
+ndk/
+.DS_Store

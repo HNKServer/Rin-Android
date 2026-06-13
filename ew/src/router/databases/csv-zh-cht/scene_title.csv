@@ -1,0 +1,89 @@
+_id,_mainTitle,_mainMasterNavigationId,_masterReleaseLabelId
+DeckTop,Unit Formation,,1
+DeckEdit,Unit Formation,SubTutorial_Composition,1
+DeckCharaSelect,成員 選擇,,1
+Classmate,成員 List,,1
+CostumeCharaList,Costume Change,,1
+Practice,Lesson,SubTutorial_Practice,1
+SkillPractice,Skill Lesson,SubTutorial_SkillPractice,1
+Training,Idolize,SubTutorial_Training,1
+MemberList,成員 List,,1
+WaitingMemberList,Waiting Room,,1
+CardDetail,成員 Details,,1
+MemberIllustrateList,Albums,,1
+MemberCharaTop,成員 Details,,1
+AreaTalkList,Dummy,,1
+Album,Dummy,,1
+MovieCollection,Collection,,1
+CardAlbum,Card Albums,,1
+DeckConfirm,Prepare 演唱會,SubTutorial_LiveReady,1
+Profile,Profile,,1
+RecommendList,選擇 Favorite,,1
+Friend,Friend List,,1
+LiveSelect,選擇 演唱會,,1
+MusicSelect,歌曲 選擇,SubTutorial_FreeLive,1
+CooperationLive,選擇 Session,SubTutorial_MultiLive,1
+CooperationLiveMatching,Matching,,1
+MultiMusicSelect,歌曲 選擇,,1
+MusicDecision,歌曲 Shuffle,,1
+MusicDifficulty,選擇 難度,,1
+MultiConfirm,Final 確認ation,,1
+StampSetting,Favorite Setting,,1
+Warehouse,Room parts,,1
+TitleListSelect,選擇 Title,,1
+TitleListView,Title List,,1
+SealExchange,道具 Exchange,,1
+BadgeExchange,道具 Exchange,,1
+EventTop,Events,,1
+EventStoryTop,Event Story Top,,1
+EventStory,選擇 Event,,1
+EventScoreRanking,Event pt 排行榜,,1
+EventReward,Event 獎勵,,1
+ItemList,道具 List,,1
+ExchangeTop,道具 Exchange,,1
+EventMusicSelect,歌曲 選擇,,1
+EventChallengeLiveMusicSelect,歌曲 選擇,,1
+EventLiveTryMusicSelect,歌曲 選擇,,1
+EventDeckConfirm,Prepare Formation,,1
+EventChallengeLiveDeckConfirm,Prepare Formation,,1
+EventLiveTryDeckConfirm,Prepare Formation,,1
+ExchangeItemList,道具 Exchange,,1
+BirthdayTop,生日,,1
+MapScene,選擇 Area,,1
+MultiLiveEventCooperationLive,Room select,,1
+MultiLiveEventCooperationLiveMatching,Matching,,1
+MultiLiveEventMultiMusicSelect,歌曲 選擇,,1
+MultiLiveEventMusicDecision,歌曲 Shuffle,,1
+MultiLiveEventMusicDifficulty,選擇 難度,,1
+MultiLiveEventMultiConfirm,Final 確認ation,,1
+LimitedLiveTop,Event 演唱會s,,1
+LimitedLiveLottery,歌曲 Shuffle,,1
+TeacherLiveMusicSelect,歌曲 選擇,,1
+TeacherLiveDeckConfirm,Prepare Formation,,1
+TeacherLiveTop,選擇 演唱會,,1
+CharacterEpisodeLevel,Check Episodes,,1
+BoxGardenTop,Customize Room,,1
+GachaTop,招募,MainTutorial_Gacha,1
+GachaResult,招募 Results,MainTutorial_GachaReslt,1
+BandEnrichTop,Band Strengthening TOP,,1
+BandEnrich,Band Strengthening,,1
+StoryTop,Story Top,,1
+StoryMainTop,Story,SubTutorial_Story,1
+StoryCardMemberTop,選擇 成員,,1
+StoryCardEpisodeTop,選擇 Episode,,1
+Shop,Shop,,1
+BeginnerMission,Beginner Goals,SubTutorial_BeginnerMission,1
+GuestSelect,選擇 Guest,SubTutorial_Guest,1
+MusicRanking,歌曲-specific 排行榜,,1
+MusicRecommend,推薦,,1
+ChatTop,,SubTutorial_Chat,1
+ComicList,Comics,,1
+PresentBox,禮物盒,,1
+Mission,Goals,SubTutorial_Mission,1
+ProfileMemberSelect,Profile Settings,,1
+FriendGestDetail,Guest Details,,1
+FriendGestMemberSelect,Edit Guest,,1
+LocationInformation,On-Location 禮物,,223062001
+MusicLibrary,歌曲 Library,,223081401
+SerialCodeDisplay,Check Code,,1
+StarEventRanking,Star 等級 排行榜,,1

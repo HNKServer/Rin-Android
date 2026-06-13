@@ -1,0 +1,347 @@
+_id,_num,_masterVoiceId,_systemVoiceType,_value,_textJa,_textEn,_masterReleaseLabelId
+10010013,1,51010131,52,0,Both 的 你，look at this!<br>cherry blossom is sooo pretty!,test,1
+10010013,2,51010132,53,0,Ready，set!<br>Go 為 it!,test,1
+10020013,1,51020131,52,0,Oh？It's already this late…<br>希 is gonna scold me,test,1
+10020013,2,51020132,53,0,Let me hear even louder cheer!,test,1
+10030013,1,51030131,52,0,Please come 與 play，master♪,test,1
+10030013,2,51030132,53,0,I'm gonna make my snack-!,test,1
+10040013,1,51040131,52,0,Controlling Spirit…<br>Concentrate on bow…,test,1
+10040013,2,51040132,53,0,I'll aim 為 everyone's heart-!<br>Love Arrow Shoot!,test,1
+10050013,1,51050131,52,0,rain fiiinally cleared up，meow!<br>Let's hurry 與 practice，meow♪,test,1
+10050013,2,51050132,53,0,All together now~!<br>Meow-meow-meow~!,test,1
+10060013,1,51060131,52,0,Hey，hey!<br>Don't take pictures so suddenly!,test,1
+10060013,2,51060132,53,0,"Everyone!<br>曜're having good time,<br>aren't you?",test,1
+10070013,1,51070131,52,0,sun is 於 good mood today~,test,1
+10070013,2,51070132,53,0,Over there!<br>I'll share my<br>spiritual power 與 you♪,test,1
+10080013,1,51080131,52,0,I'm really glad I mustered up<br>courage back then…,test,1
+10080013,2,51080132,53,0,Everyone~!<br>Are you enjoying<br>our 演唱會?,test,1
+10090013,1,51090131,52,0,Idols should always<br>be aware that they're being<br>watched！Got it?!,test,1
+10090013,2,51090132,53,0,"All together now，everyone~,<br>妮可-妮可-Ni~!",test,1
+20010011,1,52010111,52,0,Hee，hee，hee.<br>sea 的 Uchiura is<br>really pretty，isn't it♪,test,1
+20010011,2,52010112,53,0,Every-one，Hello-千歌-！Let's all get<br>fired up today♪,test,1
+20020011,1,52020111,52,0,千歌 與 曜… Singing<br>與 two 的 them is so fun 與<br>I love it!,test,1
+20020011,2,52020112,53,0,I'll hit everyone 與 Aqours'<br>passionate feelings!<br>梨子 Beam!,test,1
+20030011,1,52030111,52,0,To be able 至 see this scenery<br>everyday..。What luxury!,test,1
+20030011,2,52030112,53,0,Everyone，are you having great<br>time！Let's hug♪,test,1
+20040011,1,52040111,52,0,"露比，it's morning-！Good Grief,<br>I can't wake you up 當 I see<br>你的pleasant face…",test,1
+20040011,2,52040112,53,0,Everyone！If you don't keep up 與<br>us closely，that's buu，buu!,test,1
+20050011,1,52050111,52,0,分數-!<br>I've best my personal record!,test,1
+20050011,2,52050112,53,0,Full speed ahead~ Yosoro!<br>Followed 透過~ Bow!,test,1
+20060011,1,52060111,52,0,I will gather power 的 darkness<br>into this hand..。Behold power 的<br>fallen angel!,test,1
+20060011,2,52060112,53,0,Mwahaha…<br>Fallen angel Yohane，descending ☆ !!,test,1
+20070011,1,52070111,52,0,*Yawwwwn....* Sun's so nice 與<br>warm，it's making me sleepy，zura......,test,1
+20070011,2,52070112,53,0,Everyone - ！Let's go，zura-!<br>Ohana~？Maru-!!,test,1
+20080011,1,52080111,52,0,There are so many superb views 於<br>this world，but landscape at<br>Awashima is special♪,test,1
+20080011,2,52080112,53,0,Eveeeryone，Shiny- ♪<br>與..。Lock-on!,test,1
+20090011,1,52090111,52,0,Urn...。*Yaaawwwwn*..。mmhm...<br>Morning，黛雅.,test,1
+20090011,2,52090112,53,0,Everyone 與 me~..。Ganbaruby♡,test,1
+30010007,1,53010071,52,0,Morning！Let's do our best today too!,test,1
+30010007,2,53010072,53,0,I'll deliver big voice that whole<br>universe can hear，please listen 至 it!,test,1
+30020007,1,53020071,52,0,Yu Senpai♪ Here，Say，Aa~h♡,test,1
+30020007,2,53020072,53,0,It's Kasumin，everyone's princess♪,test,1
+30030007,1,53030071,52,0,Do not be afraid!<br>I am..。By 你的side!,test,1
+30030007,2,53030072,53,0,Please look at real me!,test,1
+30040007,1,53040071,52,0,Shall I twist my hips little bit more<br>於 this pose?,test,1
+30040007,2,53040072,53,0,Today's target is gonna be y-o-u!,test,1
+30050007,1,53050071,52,0,I'mma break through this fence 透過<br>going on OFFENSIVE！――<br>Just kidding!!,test,1
+30050007,2,53050072,53,0,Let's all get high 與 friends through<br>HIGH fives♪<br>Just Kidding♪,test,1
+30060007,1,53060071,52,0,"Haruka-chan,<br>have as much as you want~♪",test,1
+30060007,2,53060072,53,0,I had great dream today，too~,test,1
+30070007,1,53070071,52,0,battle scenes 的 Princess 的<br>Crimson Sword never fail 至 put<br>me 於 breathless suspense!,test,1
+30070007,2,53070072,53,0,雪菜☆Scarlet Storm!!,test,1
+30080007,1,53080071,52,0,Eek!？What energetic fishes♪<br>Hello~!,test,1
+30080007,2,53080072,53,0,Negative Ion，Release~!,test,1
+30090007,1,53090071,52,0,… Shall we play together?,test,1
+30090007,2,53090072,53,0,璃奈-chan board: Ehehehe,test,1
+30100007,1,53100071,52,0,I have 至 work hard 至 not lose 至<br>anyone!,test,1
+30100007,2,53100072,53,0,I will deliver fun 演唱會 befitting<br>的 你的enjoyment 與 everything<br>I have!,test,1
+30110007,1,53110071,52,0,Wanna hear 歌曲 I've just<br>finished composing？It's very cool!,test,1
+30110007,2,53110072,53,0,"Excellent！Great performance,<br>little baby!",test,1
+30120007,1,53120071,52,0,Everyone's amazing！But 嵐珠's<br>performance is 的 course best♪,test,1
+30120007,2,53120072,53,0,Let me introduce you 至 嵐珠's<br>friend！Yes，it's you!,test,1
+40010007,1,54010071,52,0,Let's all sing together!<br>Ready~？Let's go!,test,1
+40010007,2,54010072,53,0,Please enjoy Liella!'s<br>performance as much as<br>你可以today~!,test,1
+40020007,1,54020071,52,0,"Heheh,<br>I'll show you how masterful<br>my handiwork is!",test,1
+40020007,2,54020072,53,0,Are you enjoying<br>Liella!'s 演唱會~!?,test,1
+40030007,1,54030071,52,0,1，2，3，4..。Jump!!,test,1
+40030007,2,54030072,53,0,Hey~!<br>Make sure 至 enjoy<br>Liella!'s 演唱會 today!,test,1
+40040007,1,54040071,52,0,曜're still looking around!?<br>...Take look at all these bags 與<br>say that 再次!,test,1
+40040007,2,54040072,53,0,I'm gonna do it，so let's do it，okay?<br>Galaxy~~~~!!,test,1
+40050007,1,54050071,52,0,Mother，Yuigaoka's cherry blossoms<br>are blooming 於 their full，<br>splendid glory.,test,1
+40050007,2,54050072,53,0,Everyone，<br>Liella！will send you so many<br>wonderful 歌曲 today!,test,1
+40060007,1,54060071,52,0,It's so much fun 至 be<br>與 香音-senpai~!<br>I'm so moved~!,test,1
+40060007,2,54060072,53,0,Being able 至 sing on such<br>big stage<br>is like dream!,test,1
+40070007,1,54070071,52,0,Yes，yes，yes，yes!<br>There we go，there we go!!<br>I got 香音-senpai~~~!!,test,1
+40070007,2,54070072,53,0,Cheer 為 us，everyone~!,test,1
+40080007,1,54080071,52,0,"Those 學園偶像 are cute,<br>but 芽衣 is cuter.",test,1
+40080007,2,54080072,53,0,Forget about me，look at 芽衣.<br>She's so cute.,test,1
+40090007,1,54090071,52,0,Today Liella！is training stylishly 於<br>Harajuku♪<br>I'll snap shots 的 our senpais on<br>break，yes~!,test,1
+40090007,2,54090072,53,0,I'll give it my all 再次 today，yes!<br>ONINUTS~!!,test,1
+10010015,2,51010152,53,0,Everyone -！Let's get heated up at this<br>演唱會 together 與 µ's!,test,1
+20010013,2,52010132,53,0,I can feel everyone's burning<br>excitement！I'll make Aqours even<br>mooore special 於 today's 演唱會!,test,1
+30010009,2,53010092,53,0,"Everyone-！Are you enjoying<br>虹咲's 演唱會 that's packed<br>與 ""love""-?",test,1
+40010009,2,54010092,53,0,Are our 歌曲 echoing 於 all your<br>hearts~?<br>They're full 的 Liella!'s love 為<br>you...♪,test,1
+40090009,1,54090091,52,0,戀 Senpai！Let's match our<br>smartphone wallpapers，yes!,,223041902
+40090009,2,54090092,53,0,Can I have ice cream？Please let<br>me have these toppings，too！Yes!,,223041902
+40020009,1,54020091,52,0,香音，Please come closer over here!<br>I'm taking shot!~,,223041902
+40020009,2,54020092,53,0,Let's spend sweet time 與 可可 ♪,,223041902
+40030009,1,54030091,52,0,"可可 chan，have some ice cream,<br>let's get fired up!",,223041904
+40030009,2,54030092,53,0,I will let you eat this sweeeeeet<br>ice cream!,,223041904
+10010016,1,51010161,52,0,Eek！That's cold!<br>Oh，thanks 海未.,,223043003
+10010016,2,51010162,53,0,I want you 至 see us<br>taking on these new challenges!,,223043003
+10020015,1,51020151,52,0,Homura's new cat-shaped cookie...<br>Mmmh！♪ It's not just cute，it's delicious!,,223043003
+10020015,2,51020152,53,0,Let's dash into tomorrow together!,,223043003
+10090015,1,51090151,52,0,I'm so glad I joined µ's!,,223043005
+10090015,2,51090152,53,0,I don't care if I stumble.<br>Get up 與 me!,,223043005
+20010014,1,52010141,52,0,曜，those glasses really suit you!<br>Hmm..。How about mine?,,223051503
+20010014,2,52010142,53,0,Final boarding 來自 Numazu 至 happiness！♪<br>Let me take you on wonderful journey!,,223051503
+20020013,1,52020131,52,0,"Do you want bite 善子?<br>Say ""ahhh!""",,223051503
+20020013,2,52020132,53,0,Let me guide you on fun journey!<br>Follow me so you don't get lost。♪,,223051503
+20070013,1,52070131,52,0,*Munch* *munch*<br>Everything is so good，I can't help myself，Zura!,,223051505
+20070013,2,52070132,53,0,Over here，over here！♪<br>Time 為 fun trip 與 me，Zura!,,223051505
+40010010,1,54010101,52,0,I'm so happy 至 see<br>so many things I like!,,223050104
+40010010,2,54010102,53,0,Let me sing<br>special 歌曲，just 為 you!,,223050104
+30050009,1,53050091,52,0,BBQ 與 everyone<br>is best！♡<br>Bring on meat!,,223053002
+30050009,2,53050092,53,0,I'm sending hottest beats<br>right 至 你的heart!,,223053002
+30060009,1,53060091,52,0,Today's show was so...<br>Fun..。Zzz...,,223053103
+30060009,2,53060092,53,0,彼方，I've been waiting<br>為 you 至 come get me 為<br>long，long time!,,223053103
+30080009,1,53080091,52,0,I hope my 歌曲 can be<br>some comfort 至 everyone<br>that listens.,,223053103
+30080009,2,53080092,53,0,I will always be 透過 你的side.<br>曜're my favorite！♪,,223053103
+30090009,1,53090091,52,0,What am I trying 至 convey<br>與 my 演唱會?,,223053105
+30090009,2,53090092,53,0,"If you're 透過 my side,<br>dark forest 或 scary wolves<br>can't faze me.",,223053105
+20030013,1,52030131,52,0,Whoa，it's sea turtle。♪<br>How lucky!,,223061503
+20030013,2,52030132,53,0,Let me give you<br>perfect，special time。♪,,223061503
+20040013,1,52040131,52,0,"鞠莉！If you move too much,<br>you're going 至 lose 你的balance!",,223061503
+20040013,2,52040132,53,0,Let me bring you<br>至 my special little world。♡,,223061503
+20090013,1,52090131,52,0,Wow，I got so dizzy<br>I couldn't hit watermelon!,,223061505
+20090013,2,52090132,53,0,Today's costume is all about<br>my soft，fluttering veil!<br>Want 至 touch it?,,223061505
+10070015,1,51070151,52,0,Rain isn't so bad，is it?<br>繪里，you make me feel happy。♪,,223060902
+10070015,2,51070152,53,0,I just feel like...<br>light is shining on our 未來.,,223060902
+20080013,1,52080131,52,0,Here we go!<br>Three，two，one..。Shiny！☆,,223061302
+20080013,2,52080132,53,0,I'm so happy！♪<br>Make sure you watch me<br>spread my wings 與 fly!,,223061302
+40080009,1,54080091,52,0,芽衣's so serious...<br>And cute.,,223061702
+40080009,2,54080092,53,0,I want you 至 listen...,,223061702
+30040009,1,53040091,52,0,Aaah！W-What?!<br>Why is everyone here?,,223062902
+30040009,2,53040092,53,0,Your cheers 增加 new<br>color 至 my world!,,223062902
+40040009,1,54040091,52,0,Blue sky，white clouds，與 me...<br>spectacular GALAXY!,,223063003
+40040009,2,54040092,53,0,Hehe，are you sure you want<br>至 be that close？Here we go!<br>曜're going 至 get all soapy！♪,,223063003
+40050009,1,54050091,52,0,Nice，芽衣!<br>Leave rest 至 me!,,223063003
+40050009,2,54050092,53,0,Are you ready 至 enjoy<br>summer 與 me?,,223063003
+40060010,1,54060101,52,0,I wish I could pose like<br>你，堇！Let's see...<br>W-Wawawawa!,,223063005
+40060010,2,54060102,53,0,I-I can do it too<br>if I really try!,,223063005
+30010010,1,53010101,52,0,It's been while<br>since I've had 機率 至 relax<br>like this 與 you。♡,,223071504
+30010010,2,53010102,53,0,I know I can overcome anything<br>if it's 為 you...,,223071504
+30100009,1,53100091,52,0,"W-wait 嵐珠,<br>I don't think I'm quite ready—<br>WAAAA!",,223071504
+30100009,2,53100092,53,0,whole new world opened up<br>after I met you.,,223071504
+30020009,1,53020091,52,0,He he he...<br>Who should I take down first？♪,,223071506
+30020009,2,53020092,53,0,What do you think?<br>I thought 的 you 當 I picked out this dress。♡,,223071506
+20060014,1,52060141,52,0,Thanks Zuramaru.<br>I'm really glad you're here.,,223071302
+20060014,2,52060142,53,0,"It's time 至 dance under<br>bright blue sky！As my underling,<br>you need 至 make sure you're ready。♪",,223071302
+40020010,1,54020101,52,0,Thank you!<br>I didn't think Sunny Pas would<br>wish me happy birthday!,,223071703
+40020010,2,54020102,53,0,With 你，I'll keep on chasing my<br>big dreams...與 make them come true!,,223071703
+40020012,1,54020121,52,0,sparkling Christmas tree...<br>It's so pretty!,,223121506
+40020012,2,54020122,53,0,"Since you're being so good,<br>I'm gonna give you sooo<br>many presents!",,223121506
+10090016,1,51090161,52,0,Oh，I can't play piano...<br>Whoa，what're you doing 真姬?!,,223072202
+10090016,2,51090162,53,0,My days have been filled 與 sunshine<br>ever since I met you!,,223072202
+10030016,1,51030161,52,0,I wish we could all do this<br>為 rest 的 time...,,223073103
+10030016,2,51030162,53,0,Don't let summer heat<br>get 你的hype down！♪,,223073103
+10050015,1,51050151,52,0,Woohoo!!!<br>This feels fanmeowstic！♪,,223073103
+10050015,2,51050152,53,0,Today's perfect day 為 greatest concert ever！♪<br>Let's keep it at full energy until end!,,223073103
+10040016,1,51040161,52,0,Gah!<br>I'm not going 至 lose!,,223073105
+10040016,2,51040162,53,0,Could I maybe...make some<br>unforgettable summer memories 與 you?,,223073105
+40070010,1,54070101,52,0,Don't you cry!<br>I'll scoop up enough<br>為 you 與 me!,,223081503
+40070010,2,54070102,53,0,Don't take 你的eyes off me!<br>Let this memory<br>reach deep inside 與 last forever!,,223081503
+40080010,1,54080101,52,0,Rifle angle...good.<br>Target position...good.<br>Physics trajectory calculation...complete。Shooting.,,223081503
+40080010,2,54080102,53,0,Don't look at me，look at everyone else...<br>Especially 芽衣.,,223081503
+40080011,1,54080111,52,0,Naumann's elephant<br>isn't bad choice...,,223121509
+40080011,2,54080112,53,0,I wanted 至 give you stag beetle pupa<br>as gift，but 芽衣 told me 至 stop.<br>Too bad...,,223121509
+40010011,1,54010111,52,0,Look look！It's so pretty!<br>These memories will last lifetime.,,223081505
+40010011,2,54010112,53,0,There's summer festival today!<br>Come on，come dance 與 me!,,223081505
+40010014,1,54010141,52,0,And now fun pose!<br>Nice，I got good picture。♪,,223121506
+40010014,2,54010142,53,0,Here's present 來自 me 至 you.<br>Will you accept?,,223121506
+20010015,1,52010151,52,0,Hehe..。Thanks，everyone.<br>I'm really...blessed。Zzz...,,223080103
+20010015,2,52010152,53,0,Make sure 至 watch over<br>me，forever 與 ever!,,223080103
+20010019,1,52010191,52,0,I wish 至 make even more wonderful memories<br>與 everyone 於 Aqours this year.<br>Come on，everyone，make 你的wish!,,223123106
+20010019,2,52010192,53,0,HAPPY NEW YEAR!<br>I'm happy we got 至<br>celebrate new year together。♪,,223123106
+10010017,1,51010171,52,0,This makes me so happy!<br>Thank you so much 小鳥!<br>I'm going 至 keep it safe forever!,,223080304
+10010017,2,51010172,53,0,I think it's because 的 you that I can<br>shine so bright!,,223080304
+40090010,1,54090101,52,0,"Hey there Mr。Elephant,<br>how did 你的nose<br>get oh so long?!",,223080702
+40090010,2,54090102,53,0,Hey，make sure 至 watch<br>me 來自 now on!,,223080702
+30070009,1,53070091,52,0,曜 learned all my favorite<br>anime 歌曲?!<br>That's so awesome!,,223080802
+30070009,2,53070092,53,0,With 你，I think<br>I can go anywhere.,,223080802
+20060015,1,52060151,52,0,Fallen Angel Yohane's Magic Eyes<br>are twinkling 於 moonlight!,,223083103
+20060015,2,52060152,53,0,Little demons!<br>Dance away night tonight<br>as my minions 的 darkness!,,223083103
+20060016,1,52060161,52,0,Uwaaahh!<br>Don't throw them so hard at me!,,224021403
+20060016,2,52060162,53,0,曜've finally appeared!<br>I'll be one 至 catch you!,,224021403
+20080014,1,52080141,52,0,果南，果南!<br>I see stars next 至 moon!,,223083103
+20080014,2,52080142,53,0,What do you think about me<br>as cute little bunny rabbit?,,223083103
+20080016,1,52080161,52,0,Now，let's face 於 lucky direction<br>與 eat up♪<br>No talking while you eat!,,224021406
+20080016,2,52080162,53,0,"Non non!<br>When you look at me that way,<br>you make me want 至 eat you!",,224021406
+20050014,1,52050141,52,0,Whoa！So cool!<br>Come take look!<br>wind is like wave 的 light！♪,,223083105
+20050014,2,52050142,53,0,*Hop* *hop* ♪<br>Come hop 與 me<br>與 have some fun!,,223083105
+10060015,1,51060151,52,0,Hmm..。 breeze feels so nice.,,223091503
+10060015,2,51060152,53,0,I hope I can make today<br>special day 為 you.<br>Watch me sing my best，okay?,,223091503
+10060017,1,51060171,52,0,曜 want 至 see me skating?<br>...Fine，okay.,,224011503
+10060017,2,51060172,53,0,Being surrounded 透過 flowers is so relaxing.<br>Don't you agree?,,224011503
+10060018,1,51060181,52,0,spring night sky is beautiful too.<br>--……Ah！ shooting star！！!,,224031603
+10060018,2,51060182,53,0,I feel comfortable next 至 you.<br>……Say hello 日後.,,224031603
+10070017,1,51070171,52,0,Look over here!<br>This way，凜!<br>W-Whoa!,,223091503
+10070017,2,51070172,53,0,I bet you can't<br>take 你的eyes off 的 me!,,223091503
+10080016,1,51080161,52,0,Time 至 dig 於!<br>*Munch* *munch*..。So tasty！♡,,223091505
+10080016,2,51080162,53,0,D-Do you think...<br>曜'd like 至 dance 與 me today?,,223091505
+10080017,1,51080171,52,0,-RISE's new 歌曲!<br>lyrics 與 costumes 與 choreography<br>are all so good~!,,224011703
+10080017,2,51080172,53,0,Thanks 為 always supporting me!<br>I'll always support you too.,,224011703
+10030017,1,51030171,52,0,Look，look!<br>I've always wanted 至<br>dress up like bunny！♡,,223091202
+10030017,2,51030172,53,0,Make sure 至<br>keep watching over me，okay？♡,,223091202
+10030018,1,51030181,52,0,I-It's so slippery..。Eek!<br>Argh！It's so hard!,,224011503
+10030018,2,51030182,53,0,I made this bouquet<br>filled 與 all my gratitude 為 you.<br>Will you accept it?,,224011503
+20020014,1,52020141,52,0,Hi there Mr。Seagull!<br>Oh？Hehe。Is that tasty?,,223091902
+20020014,2,52020142,53,0,I hope 你可以be beside me 當<br>I spread my wings 至 follow my dreams.,,223091902
+20020016,1,52020161,52,0,...Okay，made face!<br>Now 至 draw horns...,,224021403
+20020016,2,52020162,53,0,...Oh？曜're finally here?<br>It seems that<br>maybe you won't bore me.,,224021403
+20090014,1,52090141,52,0,My favorite...<br>sweet potato frappe!<br>Looks so yummy！♡,,223092102
+20090014,2,52090142,53,0,I'll spread my wings 與 you<br>與 fly toward bright 未來。♡,,223092102
+20090016,1,52090161,52,0,Toooooo cute！♡<br>*pat* *pat*,,223123103
+20090016,2,52090162,53,0,Happy New Year!<br>Here's 至 spending<br>lot's 的 time 與 you。♡,,223123103
+40040010,1,54040101,52,0,Found it!<br>tastiest looking<br>melon 於 this greenhouse!,,223092802
+40040010,2,54040102,53,0,Don't you dare miss<br>moment I shine!,,223092802
+40040013,1,54040131,52,0,Th-There isn't anything else 至 it.<br>I just wanted 至 thank you 為 everything.<br>That's all!,,224030106
+40040013,2,54040132,53,0,Got time after school?<br>Then come on date 與 me♪,,224030106
+30120010,1,53120101,52,0,Wow！Look 步夢！♡<br>Cute little ghost pastries!,,223093003
+30120010,2,53120102,53,0,I just made executive<br>decision that you'll be 與<br>me 為 alllll time.,,223093003
+30120013,1,53120131,52,0,Do you like me?<br>I bet you really like me!<br>Hehe。I really like you too!,,223121902
+30120013,2,53120132,53,0,Do you like me?<br>I bet you really like me!<br>Hehe。I really like you too!,,223121902
+30120014,1,53120141,52,0,Wheeeee!♡<br>This is so much fun~!,,224021503
+30120014,2,53120142,53,0,one who can thrill you most<br>is 嵐珠!<br>No doubt about that!,,224021503
+30110010,1,53110101,52,0,Trick 或 Treat!<br>So？Did I scare you?,,223093003
+30110010,2,53110102,53,0,Just second!<br>Don't pet me like that...,,223093003
+30030010,1,53030101,52,0,And I'll take this...over here...<br>All done!<br>I hope everyone likes this!,,223093005
+30030010,2,53030102,53,0,I'll play trick even if you give me candy！♡<br>Why？I'm just little devil。♪,,223093005
+20070015,1,52070151,52,0,L-Like this?<br>I hope picture turns out okay.,,223101507
+20070015,2,52070152,53,0,I'm going 至 cast little spell<br>so you can't take 你的eye's off 的 me zura！♪,,223101507
+20070016,1,52070161,52,0,Th-This is VR...!<br>It's 未來，zura~!,,224030403
+20070016,2,52070162,53,0,I want you<br>至 always love me.<br>...Th-This is embarrassing，zura...,,224030403
+20040015,1,52040151,52,0,GYAAAAHHH!<br>Stop it!!!,,223101507
+20040015,2,52040152,53,0,How would you like 至<br>experience some thrills 與 me?,,223101507
+20040016,1,52040161,52,0,What am I going 至 wish 為?<br>Of course，I'm going 至 wish 為 露比's happiness.,,224010104
+20040016,2,52040162,53,0,"I hope I can spend this year,<br>start 的 next year,<br>與 always 與 you.",,224010104
+20030015,1,52030151,52,0,W-What?！Huh?!<br>I think I see somethin—EEK!,,223101509
+20030015,2,52030152,53,0,Trick AND treat!<br>surprise 與 present 為 you！♪,,223101509
+20030016,1,52030161,52,0,These pancakes are so good!<br>Wait，you have present 為 me too?!,,224021005
+20030016,2,52030162,53,0,world 與 just two 的 us<br>doesn't sound half bad.,,224021005
+30100010,1,53100101,52,0,Oh yeah！ other day，璃奈<br>與 I made dance video!,,223100503
+30100010,2,53100102,53,0,"I may still have lots 至 learn,<br>but please stay 透過 me 與 watch over me.",,223100503
+10020017,1,51020171,52,0,C-Cute？Hmm...<br>Don't tease me like that.,,223102102
+10020017,2,51020172,53,0,曜're going 至 be 與 me<br>forever，right?<br>Hehe。That makes me happy.,,223102102
+40070011,1,54070111,52,0,Hehehe..。Hey now，that tickles!<br>Oh you want 至 climb up too?,,223102902
+40070011,2,54070112,53,0,I'm gonna do my absolute best...<br>So make sure 至 keep watching me!,,223102902
+40070013,1,54070131,52,0,This store's black tea<br>has been trending lately...<br>I hope that they'll like it!,,224030103
+40070013,2,54070132,53,0,I got ton 的 cute snaps~<br>I'll send them 至 you later!,,224030103
+10040017,1,51040171,52,0,Let's go，shall we?<br>Off 至 our own adventure!,,223100504
+20050015,1,52050151,52,0,grand adventure 與 you?<br>I just can't stop my excitement!,,223101504
+30070011,1,53070111,52,0,My fiery passion just won't settle down!<br>It's time 至 start our great adventure!,,223101504
+40030011,1,54030111,52,0,Okay，follow me!<br>I'll show you sights that<br>you've never seen before。♪,,223101504
+30010012,1,53010121,52,0,"I'll keep watch over you,<br>forever 與 always。♪",,223100302
+30020011,1,53020111,52,0,I'm always thinking about you first.<br>It's our little promise，okay?,,223101002
+30030012,1,53030121,52,0,Is 你的heart pounding like mine?<br>曜 know I...really like you too.,,223101702
+30040011,1,53040111,52,0,It may take some time...<br>but can you wait so I can<br>tell you how I really feel?,,223102402
+30050012,1,53050121,52,0,Did you know？My most favorite<br>time is time I spend 與 you.,,223103102
+10040017,2,51040172,53,0,Let's go，shall we?<br>Off 至 our own adventure!,,223100504
+20050015,2,52050152,53,0,grand adventure 與 you?<br>I just can't stop my excitement!,,223101504
+20050017,1,52050171,52,0,Mhmm，it's so good!<br>Wait，鞠莉，what is that?!,,223123103
+20050017,2,52050172,53,0,"With you 透過 my side this year,<br>I have feeling I'm going 至 pull Super-Greatest-Best Fortune!",,223123103
+20050019,1,52050191,52,0,Peace!<br>Let's make lot 的 memories!,,224031603
+20050019,2,52050192,53,0,..。 feeling 的 happiness overflows<br>I'm sure it's because I'm 與 you.,,224031603
+30070011,2,53070112,53,0,My fiery passion just won't settle down!<br>It's time 至 start our great adventure!,,223101504
+40030011,2,54030112,53,0,Okay，follow me!<br>I'll show you sights that<br>you've never seen before。♪,,223101504
+30010012,2,53010122,53,0,"I'll keep watch over you,<br>forever 與 always。♪",,223100302
+30010017,1,53010171,52,0,Here，open wide♡<br>What do you think?<br>Did it come out all right?,,224013106
+30010017,2,53010172,53,0,If I told you not 至 accept any chocolate<br>except 為 mine...<br>Would you?,,224013106
+30010018,1,53010181,52,0,I put this flower here...<br>Urm..。I can't get balance right.<br>栞子~!,,224030108
+30010018,2,53010182,53,0,曜 know..。I want 至 keep chasing my dreams<br>together 與 you<br>now 與 forever♪,,224030108
+30020011,2,53020112,53,0,I'm always thinking about you first.<br>It's our little promise，okay?,,223101002
+30020014,1,53020141,52,0,"Muahaha...<br>With 果林's makeup skills,<br>Kasumin will be sooooo much cuter!♡",,224012303
+30020014,2,53020142,53,0,Senpai，I give you permanent residency<br>於 prosperous Kingdom 的 Kasumin♪<br>Now 你可以be together 與 Kasumin forever!♡,,224012303
+30030012,2,53030122,53,0,Is 你的heart pounding like mine?<br>曜 know I...really like you too.,,223101702
+30030014,1,53030141,52,0,Okay，Ophelia?<br>Take this<br>與 sit 於 front 的 霞.,,224013103
+30030014,2,53030142,53,0,I was always scared，but then you saved me.<br>Please keep taking me out<br>至 see whole wide world.,,224013103
+30030015,1,53030151,52,0,Well done，雪菜-san!<br>Your sharpness is different!<br>I can't lose either！,,224031603
+30030015,2,53030152,53,0,I'm ready 至 capture 你的heart!<br>Whether it's theater 或 學園偶像，I'll nail you♪I'll nail you♪,,224031603
+30040011,2,53040112,53,0,It may take some time...<br>but can you wait so I can<br>tell you how I really feel?,,223102402
+30050012,2,53050122,53,0,Did you know？My most favorite<br>time is time I spend 與 you.,,223103102
+40030012,1,54030121,52,0,Good job 與 information session!<br>Cheeeeerrrs!,,223103109
+40060011,1,54060111,52,0,戀，thanks bunch!<br>I'll keep on tryin' my best!,,223103109
+40090011,1,54090111,52,0,I'd like 至 ask you all<br>about appeal 的 Yuijo!,,223103106
+40030012,2,54030122,53,0,Come join us!<br>Let's do this！1，2。1，2!,,223103109
+40030014,1,54030141,52,0,香音，make circle！ circle!<br>Come on！Come on！Hurry up!,,224022503
+40030014,2,54030142,53,0,"If you feel happy 當 you hear me sing<br>與 watch me dance,<br>that's be roundest thing♪",,224022503
+40060011,2,54060112,53,0,Let's make Yuijo<br>great place together!,,223103109
+40060013,1,54060131,52,0,Hmm~♡ Potatoes 於 Tokyo<br>taste stylish!,,224031603
+40060013,2,54060132,53,0,I want you<br>至 keep watching over 希奈子.I'll do my best<br>至 make you smile more!,,224031603
+40090011,2,54090112,53,0,Don't you dare miss out on my<br>brilliant techniques!,,223103106
+40100002,1,54100021,52,0,I'll sing little<br>until everyone arrives.,,224012003
+40100002,2,54100022,53,0,I know you were moved 透過 my 歌曲.<br>Tell me what you thought.,,224012003
+40110002,1,54110021,52,0,It is only logical 為 jellyfish 至 drift 與 waves<br>due 至 their weak swimming ability.,,223122802
+40110002,2,54110022,53,0,I hope 至 keep on<br>brushing up on<br>my performance.,,223122802
+60010001,1,56010011,52,0,I am fortune-teller，Yohane.<br>Do you have any fortunes 至 be told?,,223121403
+60010001,2,56010012,53,0,I want 至 spread our 歌曲 across<br>this town 與 entire world!,,223121403
+60020001,1,56020011,52,0,I sell handmade<br>breads 與 desserts!<br>I recommend my 花丸 Bread，zura!,,223121403
+60020001,2,56020012,53,0,I just looove Yohane's 歌曲<br>與 singing 與 everyone，zura!,,223121403
+60030001,1,56030011,52,0,My name is 黛雅。I am<br>Executive Director General 的<br>Numazu Administrative Office.,,223121403
+60030001,2,56030012,53,0,I hope you enjoy my<br>whole-hearted devotion<br>至 my 歌曲!,,223121403
+60040001,1,56040011,52,0,I'm 露比，nice 至 meet you.<br>My sister，is Executive Director General<br>的 Administrative Office!,,223121403
+60040001,2,56040012,53,0,I hope you enjoy me<br>與 others sing!,,223121403
+60050001,1,56050011,52,0,Come right 於!<br>I'm poster girl 為 Tochiman Ryokan!,,223121403
+60050001,2,56050012,53,0,"Let us give you 歌曲 that reaches 你的heart!<br>With Yohane 與 others,<br>anything is possible!",,223121403
+60060001,1,56060011,52,0,Hi there，I'm 曜!<br>I work as messenger.<br>Leave all 你的deliveries 至 me!,,223121403
+60060001,2,56060012,53,0,We'll use our 歌曲 至<br>show you how we feel!<br>I hope you listen 與 accept our feelings.,,223121403
+60070001,1,56070011,52,0,I'm recycling queen<br>的 Uchira，果南!<br>I can take care 的 all 你的repairs!,,223121403
+60070001,2,56070012,53,0,Are you ready 至 have fun?<br>Let's make best memories 與 everyone.,,223121403
+60080001,1,56080011,52,0,I'm 梨子， zoologist.<br>曜 can ask me anything about animals.,,223121403
+60080001,2,56080012,53,0,I want you 至 hear<br>more 的 our 歌曲.,,223121403
+60090001,1,56090011,52,0,name's 鞠莉。I've heard about you.<br>I always hear you talking.,,223121403
+60090001,2,56090012,53,0,Yohane gives me courage.<br>I hope I can give someone strength，too!,,223121403
+30050013,1,53050131,52,0,Mmmhmmm。This chicken is so good!<br>Hmm?!<br>Kasukasu，let's go over there!,,223111503
+30070013,1,53070131,52,0,I'm gonna give it my all!,,223111503
+30040012,1,53040121,52,0,Welcome back，Young Miss.,,223111506
+30050013,2,53050132,53,0,"Master，master,<br>won't you play 與 me，meow？♡<br>I'm just kitten ya!",,223111503
+30070013,2,53070132,53,0,Master's only one I let just<br>pat me 與 their paws!,,223111503
+30040012,2,53040122,53,0,Look at me！Meow...<br>T-That's little embarrassing!,,223111506
+30040014,1,53040141,52,0,This chocolate is nice 與 sweet.<br>...Oh，please，艾瑪，stop recording!,,224013103
+30040014,2,53040142,53,0,Maybe you've already caught on<br>至 how I feel?<br>...Hehe，I love you.,,224013103
+10050016,1,51050161,52,0,"So many cute things around,<br>it's meowtastic！♡",,223110102
+10050016,2,51050162,53,0,"Would you do something if I asked you?<br>For example...if I asked you 至 come,<br>would you come 至 me?",,223110102
+10050018,1,51050181,52,0,妮可，let's go!<br>It's okay！I'm here 為 you!,,224011506
+10050018,2,51050182,53,0,Let's play tag!<br>Try 與 catch me!,,224011506
+30090012,1,53090121,52,0,It's so fun 與 everyone!<br>Let's play some more，yeah?,,223111302
+30090012,2,53090122,53,0,Want 至 connect 與 me?,,223111302
+40050011,1,54050111,52,0,Yummmmm。♡<br>So many strawberries，everywhere!,,223112402
+40050011,2,54050112,53,0,Your support<br>makes my heart tremble!,,223112402
+40050013,1,54050131,52,0,How do you like them?<br>These scones 與 plenty<br>的 my homemade jam?,,224030103
+40050013,2,54050132,53,0,"Th-This does feel somewhat embarrassing...<br>But wearing this,<br>I feel like I may find new me!",,224030103
+30060011,1,53060111,52,0,"I noticed myself just always<br>thinking about you。For you,<br>I can do anything!",,223110702
+30070014,1,53070141,52,0,"If you need me 至 tell you 100 times 或<br>1,000 times，so be it!<br>I really like you!",,223111402
+30080011,1,53080111,52,0,My memories 與 you<br>will always be treasures that I carry.,,223112102
+30090013,1,53090131,52,0,曜 really opened up my world.<br>Thank you so much!<br>I am so incredibly happy.,,223112802
+30060011,2,53060112,53,0,"I noticed myself just always<br>thinking about you。For you,<br>I can do anything!",,223110702
+30060013,1,53060131,52,0,No one can resist kotatsu blanket table...<br>I've completely surrendered!,,223121602
+30060013,2,53060132,53,0,Hey，come here!<br>Come lay down on my lap.<br>Maybe we can nap together?,,223121602
+30070014,2,53070142,53,0,"If you need me 至 tell you 100 times 或<br>1,000 times，so be it!<br>I really like you!",,223111402
+30080011,2,53080112,53,0,My memories 與 you<br>will always be treasures that I carry.,,223112102
+30080014,1,53080141,52,0,It's my birthday!<br>I'm going 至 eat soooo much!,,224020503
+30080014,2,53080142,53,0,Does 你的heart all feel warm 與 fuzzy?<br>I really hope it does♪,,224020503
+30090013,2,53090132,53,0,曜 really opened up my world.<br>Thank you so much!<br>I am so incredibly happy.,,223112802
+30100013,1,53100131,52,0,Can I be selfish<br>為 just one second?<br>I want 至 bond 與 you.,,223120502
+30110014,1,53110141,52,0,I've never felt like this before.<br>Don't take 你的eyes off me，okay?,,223121202
+30100013,2,53100132,53,0,Can I be selfish<br>為 just one second?<br>I want 至 bond 與 you.,,223120502
+30110014,2,53110142,53,0,I've never felt like this before.<br>Don't take 你的eyes off me，okay?,,223121202
+10040019,1,51040191,52,0,Merry Christmas!<br>5月 joy find us all!,,223113010
+10090018,1,51090181,52,0,small extra step goes<br>long way 於 cooking!,,223113010
+10010020,1,51010201,52,0,Wow，everyone<br>got me such great presents!,,223113006
+10040019,2,51040192,53,0,"If you're cold,<br>I can keep you warm.",,223113010
+10040020,1,51040201,52,0,Shhh..。<br>穗乃果 fell asleep,,224031503
+10040020,2,51040202,53,0,I'll try 至 work hard 來自 now on<br>至 meet 你的expectations.,,224031503
+10090018,2,51090182,53,0,曜 gotta keep warm!<br>Here，come closer.,,223113010
+10010020,2,51010202,53,0,I'm super happy I get 至<br>spend this magical winter<br>sky 與 you!,,223113006
+30110013,1,53110131,52,0,For real?!<br>It's so awesome 至 get tips<br>on my batting form!,,223120602
+30110013,2,53110132,53,0,It's because you stay 透過 my side<br>that I'm able 至 put on my show.<br>Thanks，baby.,,223120602

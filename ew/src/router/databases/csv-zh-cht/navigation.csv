@@ -1,0 +1,22 @@
+_id,_masterScenarioId,_dialogTitle,_masterReleaseLabelId
+SubTutorial_FreeLive,0,歌曲 選擇,1
+SubTutorial_Practice,0,Lesson,1
+SubTutorial_SkillPractice,0,Skill Lesson,1
+SubTutorial_Training,0,Idolize,1
+SubTutorial_Mission,0,Goals,1
+SubTutorial_Story,0,Story,1
+SubTutorial_BeginnerMission,0,Beginner Goals,1
+MainTutorial_Live,0,Tutorial 演唱會,1
+Event_EmotionalRanking,0,Best Girl,1
+SubTutorial_Composition,0,Team,1
+SubTutorial_LiveReady,0,演唱會 Preparations,1
+MainTutorial_DeckConfirm,0,Team,1
+MainTutorial_MainGameCycle,0,Full Cycle,1
+MainTutorial_LiveReslt,0,演唱會 Results,1
+SubTutorial_Chat,0,Chat,1
+MainTutorial_Gacha,0,招募,1
+MainTutorial_GachaReslt,0,招募 Results,1
+MainTutorial_MusicSerect,0,歌曲 選擇,1
+SubTutorial_Guest,0,選擇 Guest,1
+SubTutorial_Star_PlayBonus,0,Star Challenge Play Bonus,223111506
+SubTutorial_Star_ContinuBonus,0,Star Challenge Continued Bonus,223111506

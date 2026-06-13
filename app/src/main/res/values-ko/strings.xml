@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidEw CDN</string>
+    <string name="start_server">서버 시작</string>
+    <string name="stop_server">서버 중지</string>
+    <string name="storage_not_allowed">서버를 시작할 수 없습니다: 외부 파일 디렉터리가 허용되지 않았거나 찾을 수 없습니다</string>
+    <string name="starting">시작 중…</string>
+    <string name="stopping">중지 중…</string>
+    <string name="loading">불러오는 중…</string>
+    <string name="server_started">서버가 시작되었습니다!</string>
+    <string name="server_stopped">서버가 중지되었습니다</string>
+    <string name="unable_to_request_permission">We can\'t request this permission on your device. It should still be okay though. If you encounter issues, allow notifications in settings</string>
+    <string name="continue_txt">계속</string>
+    <string name="permission_granted">권한이 허용되었습니다!</string>
+    <string name="notification_permission_denied">권한이 거부되어 앱이 정상 작동하지 않을 수 있습니다. 나중에 설정에서 알림을 허용할 수 있습니다</string>
+    <string name="download_links">다운로드 및 설치할 버전을 선택하세요:</string>
+    <string name="download_jp">JP APK 다운로드</string>
+    <string name="download_gl">Global APK 다운로드</string>
+    <string name="download_starting">다운로드 시작 중…</string>
+    <string name="download_progress">다운로드 중: %1$d%%</string>
+    <string name="downloading_generic">다운로드 중…</string>
+    <string name="download_complete_installing">다운로드 완료. 설치 프로그램을 여는 중…</string>
+    <string name="download_manual"><![CDATA[Alternatively, <a href="https://ethanthesleepy.one/public/lovelive/sif2/localhost/">download manually</a>]]></string>
+    <string name="download_failed_manual"><![CDATA[Download failed. Please try again or download manually: <br/> <a href="https://ethanthesleepy.one/public/lovelive/sif2/localhost/">Manual Download Page</a>]]></string>
+    <string name="git_notice"><![CDATA[<a href=\'https://git.ethanthesleepy.one/ethanaobrien/ew-android\'>View repository</a> - <a href=\'https://git.ethanthesleepy.one/ethanaobrien/ew/src/branch/main/LICENSE\'>License</a>]]></string>
+    <string name="apk_folder_notice"><![CDATA[<a href=\'https://ethanthesleepy.one/public/lovelive/sif2/localhost/\'>Download APKs here</a>]]></string>
+    <string name="notification_title">Ew 서버</string>
+    <string name="notification_text">SIF2 개인 서버가 실행 중입니다!</string>
+    <string name="home_title">Ew 개인 서버</string>
+    <string name="footer_text">유이를 좋아합니다</string>
+    <string name="center_page_text">서버가 크래시되면 이 앱도 같이 종료될 수 있습니다</string>
+    <string name="open_webui">WebUI 열기: http://127.0.0.1:8080</string>
+    <string name="installing_the_game">게임 설치 중</string>
+    <string name="installing_center_text">자동으로 다운로드하고 설치할 게임 버전을 선택하세요.</string>
+    <string name="needed_permissions">이 앱은 알림 권한이 필요합니다</string>
+    <string name="request_permissions">권한 요청</string>
+    <string name="setup_completed">설정 완료!</string>
+    <string name="setup_completed_desc">게임 준비가 완료되었습니다. 홈 화면에서 서버를 시작할 수 있습니다.</string>
+    <string name="get_started">시작하기</string>
+    <string name="save_and_back">저장하고 돌아가기</string>
+    <string name="first_start_instructions">서버를 시작하려면 앱을 닫았다가 다시 여세요</string>
+    <string name="first_launch_title">Ew, 왜?</string>
+    <string name="first_launch_footer_note">원본보다 더 안정적인 SIF2 개인 서버</string>
+    <string name="begin_setup">설정 시작</string>
+    <string name="app_widget_description">홈 화면에서 서버 시작/중지</string>
+    <string name="app_version">앱 버전 %s</string>
+    <string name="server_internal_version">서버 버전 %s</string>
+    <string name="settings">설정</string>
+    <string name="launch_on_startup">앱 시작 시 실행</string>
+    <string name="check_for_updates">업데이트 확인</string>
+    <string name="easter_mode">이스터 모드</string>
+    <string name="asset_path_title">외부 CDN 패키지 루트(선택)</string>
+    <string name="choose_asset_path">CDN 패키지 루트 선택</string>
+    <string name="masterdata_path_title">Masterdata 덮어쓰기 디렉터리(선택)</string>
+    <string name="choose_masterdata_path">Masterdata 덮어쓰기 디렉터리 선택</string>
+    <string name="path_picker_note">이 CDN 경로는 EN-Android.7z, ZH-Android.7z, KR-Android.7z 같은 대형 압축 해제 CDN 패키지용입니다. 수십 MB짜리 ew/assets 소스 서브모듈이 아니며, ew/assets는 libew.so에 내장됩니다. Masterdata를 비워두면 내장 데이터를 사용합니다.</string>
+</resources>

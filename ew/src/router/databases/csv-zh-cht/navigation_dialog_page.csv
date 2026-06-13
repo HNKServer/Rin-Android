@@ -1,0 +1,57 @@
+_masterNavigationId,_spriteName,_message,_masterReleaseLabelId
+SubTutorial_FreeLive,MainTutorial_MusicSerect_01,選擇 歌曲 與 難度，與 start 演唱會!<br>required LP is same across all difficulties，so 選擇適合自己的難度!<br>歌曲等級越高，挑戰也越大。,1
+SubTutorial_FreeLive,MainTutorial_MusicSerect_02,"如果你不知道該選哪首歌曲，use ""推薦"" 或 ""幫我選"" features!<br>Choose theme 來自 ""推薦"" feature 與 you will get 清單 的 歌曲 that match theme!",1
+SubTutorial_FreeLive,MainTutorial_MusicSerect_03,前 10 名 全球分數 are 顯示<br>於 排行榜 的 each 歌曲!<br>一起衝進前 10 名吧！,1
+SubTutorial_FreeLive,MainTutorial_MusicSerect_04,曜 can earn rewards 透過完成 歌曲 goals 為 each 歌曲!<br>Note that there is reward 為 FULL COMBO clear at each 難度!,1
+SubTutorial_FreeLive,MainTutorial_MusicSerect_05,Check 歌曲 details 至 learn more about each 歌曲<br>與 至 view its clear rewards!,1
+SubTutorial_Practice,SubTutorial_Practice_01,曜 can use Lesson Notebooks 與 Gold<br>至 等級 up 你的club 成員，increasing their attribute points!<br>Participate 於 演唱會s 與 clear 每日 goals 至 gather necessary items 至 等級 up!,1
+SubTutorial_SkillPractice,SubTutorial_SkillPractice_01,曜 can use 技能筆記 至 increase 你的club 成員' skill 等級!<br>Skills are more effective higher their skill 等級!<br>Participate 於 演唱會s 與 clear 每日 goals 至 gather necessary items 至 等級 up!,1
+SubTutorial_Training,SubTutorial_Training_01,Raise club 成員 至 her max 等級，then Idolize her using 螢光棒!<br>Idolizing changes 成員's illustration 與 increases her 等級 cap!,1
+SubTutorial_Training,MainTutorial_GachaReslt_02,When you 招募 already recruited club 成員，you will obtain 螢光棒 instead 的 duplicate!<br>螢光棒 are essential items 為 Idolizing 你的成員!<br>higher 稀有度 的 duplicate club 成員， more 螢光棒 you will obtain!,1
+SubTutorial_Mission,SubTutorial_Mission_01,曜 can obtain all sorts 的 rewards 透過 accomplishing goals!<br>There are additional limited goals 期間 events，so give them shot!,1
+SubTutorial_Story,SubTutorial_Story_01,曜 can enjoy stories 與 每日 life episodes 的 學園偶像!<br>Stories can be unlocked 透過 collecting event points 期間 ongoing events!<br>每日 life episodes can be unlocked 透過完成 歌曲 來自 each group!,1
+MainTutorial_Live,MainTutorial_Live_01,Tap 當 節奏圖示 overlap!<br>better 你的timing， higher 你的rating will be，which will give you better 分數!<br>Let's aim 為 ALL PERFECT!,1
+MainTutorial_Live,MainTutorial_Live_02,If you tap too early 或 too late，you will get<br>BAD 或 MISS rating，causing 你的HP 至 decrease!<br>Be careful！ 演唱會 will end if 你的HP reaches 0!,1
+MainTutorial_Live,MainTutorial_Live_03,開始 combo 透過 achieving consecutive PERFECT 或 GREAT ratings!<br>higher 你的combo count， more 你的分數 will increase!<br>Let's aim 為 FULL COMBO!,1
+MainTutorial_Live,MainTutorial_Live_04,Double note icons should be tapped at same time!,1
+MainTutorial_Live,MainTutorial_Live_05,For hold icons，press 與 hold until second icon appears at end 的 line 的 light.<br>Be careful not 至 release 你的fingers midway，as this will result 於 MISS!,1
+MainTutorial_Live,MainTutorial_Live_06,Getting GOOD on star icon will reduce 你的HP!<br>Additionally，if 你獲得 BAD 或 MISS rating<br>你的HP will decrease more than usual，so be careful!,1
+MainTutorial_Live,MainTutorial_Live_07,For swing icons，slide 你的finger across 來自 first 至 last 的 icons!,1
+MainTutorial_Live,MainTutorial_Live_08,Each club 成員 has her own skill，which activates if certain conditions are met!<br>These skills have various effects，such as 恢復 你的HP<br>或 increasing 你的分數 after certain number 的 combos!,1
+Event_EmotionalRanking,Event_EmotionalRanking_01,Choose 你的best girl 與 participate 於 best girl 排行榜!<br>In best girl 排行榜，players 與 same best girl<br>compete 與 one another based on their event points!,1
+Event_EmotionalRanking,Event_EmotionalRanking_02,"曜 can earn rewards，including titles 為 你的best girl,<br>透過 winning 頂端 spot 於 best girl 排行榜!",1
+SubTutorial_Composition,SubTutorial_Composition_01,Each 歌曲 與 club 成員 has smile，pure，或 cool attribute!<br>To aim 為 high 分數，try building team 與 成員 that match attribute 的 歌曲!,1
+SubTutorial_Composition,SubTutorial_Composition_02,曜 will get 分數 bonus each time you tap 節奏圖示 on club 成員 whose group matches 歌曲 you're playing!<br>曜 will also get 分數 bonus 為 成員 who match attribute 的 歌曲!,1
+SubTutorial_Composition,SubTutorial_Composition_03,When club 成員 is selected as center，her center skill will be activated!<br>These skills affect all 成員 who meet specific conditions!<br>Let's build team that maximizes effect 的 center skill!,1
+SubTutorial_Composition,SubTutorial_Composition_04,"If you're having trouble building team，try using ""推薦"" feature!<br>選擇 你的preferences such as attributes 與 skills，與 system will automatically build team 為 you!",1
+SubTutorial_LiveReady,SubTutorial_LiveReady_01,"曜 can customize 演唱會 settings 於 options menu,<br>such as speed 的 節奏圖示!<br>Try adjusting settings 至 optimize 你的gaming experience!",1
+SubTutorial_LiveReady,SubTutorial_LiveReady_02,Multiplying 你的LP cost directly increases 數量 的 rewards you obtain!<br>Try increasing cost 當 you have lots 的 LP!<br>more LP you consume， more 機率s you will also have 至 obtain random rewards!,1
+SubTutorial_LiveReady,SubTutorial_LiveReady_03,"Once you have cleared 歌曲，你可以skip it at 難度 等級 you've cleared!<br>跳過ping requires 跳過 票券 與 LP,<br>與 你可以obtain rewards just as 於 normal play!",1
+MainTutorial_DeckConfirm,SubTutorial_Composition_01,Each 歌曲 與 club 成員 has smile，pure，或 cool attribute!<br>To aim 為 high 分數，try building team 與 成員 that match attribute 的 歌曲!,1
+MainTutorial_DeckConfirm,SubTutorial_Composition_02,曜 will get 分數 bonus each time you tap 節奏圖示 on club 成員 whose group matches 歌曲 you're playing!<br>曜 will also get 分數 bonus 為 成員 who match attribute 的 歌曲!,1
+MainTutorial_DeckConfirm,SubTutorial_Composition_03,club 成員 selected as center will activate her center skill!<br>These skills affect all 成員 who meet specific conditions!<br>Let's build team that maximizes effectiveness 的 each center skill!,1
+MainTutorial_DeckConfirm,SubTutorial_Composition_04,"If you're having trouble building team，try using ""推薦"" feature!<br>選擇 你的preferences such as attributes 與 skills，與 system will automatically build team 為 you!",1
+MainTutorial_MainGameCycle,MainTutorial_MainGameCycle_01,When you clear 演唱會，你可以earn items 至 power up 你的成員!<br>Participating 於 演唱會s will also increase 你的bond 與 club 成員 於 你的team!,1
+MainTutorial_MainGameCycle,MainTutorial_MainGameCycle_02,曜 can 等級 up 你的成員 於 lessons 透過 using<br>Lesson Notebooks obtained 來自 演唱會s 與 每日 招募s!<br>Attempt more difficult 演唱會s 與 你的等級ed-up club 成員!,1
+MainTutorial_MainGameCycle,MainTutorial_MainGameCycle_03,Let's attempt difficult 演唱會s 與 aim 為 high 分數s<br>與 你的等級ed-up club 成員!,1
+MainTutorial_MainGameCycle,MainTutorial_MainGameCycle_04,曜 can deepen 你的bond 與 club 成員<br>與 unlock new chats 透過 participating 於 演唱會s!,1
+MainTutorial_MainGameCycle,MainTutorial_MainGameCycle_05,曜 can obtain various items 於 道具 招募 一旦 per day，such as Lesson Notebooks 與 技能筆記!<br>Don't forget 至 claim 你的items!,1
+MainTutorial_LiveReslt,MainTutorial_LiveReslt_01,曜 can obtain rewards 當 you clear 演唱會!<br>Additionally，你的bond 與 club 成員 於 你的team will increase!<br>As 你的bond increases，you may 獲得 chat messages 來自 你的成員!,1
+MainTutorial_LiveReslt,MainTutorial_LiveReslt_02,When 你的bond 與 club 成員 increases，you may 獲得 chat messages!<br>曜 can increase 你的bond 透過完成 演唱會s together!<br>Your bond 與 成員 selected as center will increase most!,1
+MainTutorial_LiveReslt,MainTutorial_LiveReslt_03,When 你的bond 與 multiple club 成員 increases，you may 獲得 group chat messages!<br>Deepen 你的bond 與 lots 的 成員 至 have fun chatting 與 them!<br>And who knows？On special occasions，something wonderful may happen...,1
+SubTutorial_Chat,SubTutorial_Chat_01,When 你的bond 與 club 成員 increases，you may 獲得 chat messages!<br>曜 can increase 你的bond 透過完成 演唱會s together!<br>Your bond 與 成員 selected as center will increase most!,1
+SubTutorial_Chat,SubTutorial_Chat_02,When 你的bond 與 multiple club 成員 increases，you may 獲得 group chat messages!<br>Deepen 你的bond 與 lots 的 成員 至 have fun chatting 與 them!<br>And who knows？On special occasions，like 成員's birthday，something wonderful may happen...,1
+MainTutorial_Gacha,MainTutorial_Gacha_01,曜 can recruit new club 成員 與 愛心寶石 或 招募券!<br>Each 招募 has different 內容，so make sure 至 check 招募 details!<br>Some 招募s are only available 為 limited time，so be sure 至 keep 你的eyes peeled!,1
+MainTutorial_Gacha,MainTutorial_Gacha_02,曜 can obtain various items 於 道具 招募 一旦 per day，such as Lesson Notebooks 與 技能筆記!<br>Don't forget 至 claim 你的items!,1
+MainTutorial_GachaReslt,MainTutorial_GachaReslt_01,"Newly joined club 成員 will have ""NEW"" label!",1
+MainTutorial_GachaReslt,MainTutorial_GachaReslt_02,When you 招募 already recruited club 成員，you will obtain 螢光棒 instead 的 duplicate!<br>螢光棒 are essential items 為 Idolizing 你的成員!<br>higher 稀有度 的 duplicate club 成員， more 螢光棒 you will obtain!,1
+MainTutorial_GachaReslt,MainTutorial_GachaReslt_03,曜 will earn 招募 points each time you perform 招募!<br>招募 points can be exchanged 為 items 與 club 成員 於 交換 shop!<br>Note that 當 你的招募 points expire，they will be 轉換 into 技能筆記 (M)!,1
+MainTutorial_MusicSerect,MainTutorial_MusicSerect_01,選擇 歌曲 與 難度，與 start 演唱會!<br>required LP is same across all difficulties，so 選擇適合自己的難度!<br>歌曲等級越高，挑戰也越大。,1
+MainTutorial_MusicSerect,MainTutorial_MusicSerect_02,"如果你不知道該選哪首歌曲，use ""推薦"" 或 ""幫我選"" features!<br>Choose theme 來自 ""推薦"" feature 與 you will get 清單 的 歌曲 that match theme!",1
+MainTutorial_MusicSerect,MainTutorial_MusicSerect_03,前 10 名 全球分數 are 顯示<br>於 排行榜 的 each 歌曲!<br>一起衝進前 10 名吧！,1
+MainTutorial_MusicSerect,MainTutorial_MusicSerect_04,曜 can earn rewards 透過完成 歌曲 goals 為 each 歌曲!<br>Note that there is reward 為 FULL COMBO clear at each 難度!,1
+MainTutorial_MusicSerect,MainTutorial_MusicSerect_05,Check 歌曲 details 至 learn more about each 歌曲<br>與 至 view its clear rewards!,1
+SubTutorial_Guest,SubTutorial_Guest_01,"Before starting 演唱會，你可以select one guest 成員 至 join 你的team!<br>selected guest 成員's center skill will be activated 期間 演唱會,<br>so choose guest 成員 that，為 example，matches 歌曲 attribute 或 fits 你的team!",1
+SubTutorial_BeginnerMission,SubTutorial_BeginnerMission_01,Learn how 至 play SIF2 透過完成 bingo goals!<br>曜 will obtain reward 為 each goal you clear！If you complete bingo line，you will obtain even more rewards!<br>Let's aim 為 full house bingo!,1
+SubTutorial_Star_PlayBonus,SubTutorial_Star_PlayBonus,During event，use Continued Bonus that adds on 至 up 至 five 演唱會s per day<br>與 Play Bonus that boosts 你的分數 bonus every 演唱會<br>至 push limits 的 你的target 分數!,223111506
+SubTutorial_Star_ContinuBonus,SubTutorial_Star_ContinuBonus,During event，use Continued Bonus that adds on 至 up 至 five 演唱會s per day<br>與 Play Bonus that boosts 你的分數 bonus every 演唱會<br>至 push limits 的 你的target 分數!,223111506
