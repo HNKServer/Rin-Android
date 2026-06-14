@@ -20,7 +20,7 @@ All for ZH language support and convenience.
 
 Just follow the APP's internal instructions with default configuration. This modified version server is also compatible with the original versions of clients.
 
-只需遵从APP内置的引导提示，并且保持默认设置即可。修改版服务端依旧兼容各个原始版本的客户端。
+只需遵从 APP 内置的引导提示，并且保持默认设置即可。修改版服务端依旧兼容各个原始版本的客户端。
 
 ### Playing with ZH-CHT
 
@@ -30,9 +30,9 @@ Skip the APP's internal clients download reminder, for the original global versi
 
 Or you can just download it from here : [sif2-gl-zhcnt.apk](https://github.com/HNKServer/Umi/releases/download/1.0/sif2_gl_v13_iap_cdn_fixed.apk)
 
-在设置的CDN配置中选择繁体中文数据包解压后的根目录，然后启动服务器。
+在设置的 CDN 配置中选择繁体中文数据包解压后的根目录，然后启动服务器。
 
-跳过APP内置的客户端下载提示界面，因为原始版本的国际版无法在切换语言设置后正常下载繁体中文数据包，并最终会陷入死循环。确保你手动修改 sif2 国际服客户端版本中的 CDN 设置以匹配服务端。
+跳过 APP 内置的客户端下载提示界面，因为原始版本的国际版无法在切换语言设置后正常下载繁体中文数据包，并最终会陷入死循环。确保你手动修改 sif2 国际服客户端版本中的 CDN 设置以匹配服务端。
 
 或者你也可以直接从此处下载：[sif2-gl-zhcnt.apk](https://github.com/HNKServer/Umi/releases/download/1.0/sif2_gl_v13_iap_cdn_fixed.apk)
 
