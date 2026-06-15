@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidEw CDN</string>
+    <string name="app_name">AndroidEw</string>
     <string name="start_server">Start Server</string>
     <string name="stop_server">Stop Server</string>
     <string name="storage_not_allowed">Could not start server: External Files Directory not allowed or not found</string>
@@ -49,10 +49,24 @@
     <string name="launch_on_startup">Launch on app startup</string>
     <string name="check_for_updates">Check for updates</string>
     <string name="easter_mode">Easter Mode</string>
+
+    <!-- Added for CDN / multilang / external resource support -->
+    <string name="service_name">AndroidEw Server</string>
+    <string name="server_running">EW server is running</string>
+    <string name="restart_server">Restart Server</string>
+    <string name="server_logs">Server Logs</string>
+    <string name="install_game">Install Game</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="select_folder">Select folder</string>
+    <string name="select_archives_folder">Select archives folder</string>
     <string name="asset_path_title">External CDN package root (optional)</string>
     <string name="choose_asset_path">Choose CDN package root</string>
     <string name="masterdata_path_title">Masterdata override directory (optional)</string>
     <string name="choose_masterdata_path">Choose masterdata override directory</string>
     <string name="path_picker_note">This CDN path is for large extracted CDN packages such as EN-Android.7z, ZH-Android.7z and KR-Android.7z. It is not the small ew/assets source submodule, which is compiled into libew.so. Leave masterdata blank to use bundled data.</string>
     <string name="all_files_access_needed">AndroidEw needs All files access to serve external CDN files from %1$s. Please enable Allow access to manage all files, then return and start the server again.</string>
+    <string name="external_cdn_all_files_access_needed">External CDN directory needs All files access: %1$s. Please allow AndroidEw to manage all files in system settings, then return and start the server again.</string>
 </resources>

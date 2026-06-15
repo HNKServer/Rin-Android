@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidEw</string>
+    <string name="start_server">啟動伺服器</string>
+    <string name="stop_server">停止伺服器</string>
+    <string name="storage_not_allowed">無法啟動伺服器：外部檔案目錄未允許或找不到</string>
+    <string name="starting">正在啟動…</string>
+    <string name="stopping">正在停止…</string>
+    <string name="loading">載入中…</string>
+    <string name="server_started">伺服器已啟動！（應該吧）</string>
+    <string name="server_stopped">伺服器已停止</string>
+    <string name="unable_to_request_permission">無法在你的裝置上請求此權限。不過應該仍可使用；如果遇到問題，請到系統設定中允許通知。</string>
+    <string name="continue_txt">繼續</string>
+    <string name="permission_granted">權限已授予！</string>
+    <string name="notification_permission_denied">權限遭拒，App 可能無法正常運作。如果遇到問題，你可以稍後到系統設定中允許通知。</string>
+    <string name="download_links">選擇要下載並安裝的版本：</string>
+    <string name="download_jp">下載日服 APK</string>
+    <string name="download_gl">下載國際服 APK</string>
+    <string name="download_starting">正在開始下載…</string>
+    <string name="download_progress">下載中：%1$d%%</string>
+    <string name="downloading_generic">下載中…</string>
+    <string name="download_complete_installing">下載完成。正在開啟安裝程式…</string>
+    <string name="download_manual">或者&lt;a href=&quot;https://ethanthesleepy.one/public/lovelive/sif2/localhost/&quot;&gt;手動下載&lt;/a&gt;</string>
+    <string name="download_failed_manual">下載失敗。請重試，或手動下載：&lt;br/&gt; &lt;a href=&quot;https://ethanthesleepy.one/public/lovelive/sif2/localhost/&quot;&gt;手動下載頁面&lt;/a&gt;</string>
+    <string name="git_notice">&lt;a href=&quot;https://git.ethanthesleepy.one/ethanaobrien/ew-android&quot;&gt;查看程式碼倉庫&lt;/a&gt; - &lt;a href=&quot;https://git.ethanthesleepy.one/ethanaobrien/ew/src/branch/main/LICENSE&quot;&gt;授權條款&lt;/a&gt;</string>
+    <string name="apk_folder_notice">&lt;a href=&quot;https://ethanthesleepy.one/public/lovelive/sif2/localhost/&quot;&gt;在這裡下載 APK&lt;/a&gt;</string>
+    <string name="notification_title">Ew 伺服器</string>
+    <string name="notification_text">SIF2 私服正在執行！</string>
+    <string name="home_title">Ew 私服</string>
+    <string name="footer_text">我喜歡 Yui</string>
+    <string name="center_page_text">如果伺服器崩潰，這個 App 應該也會一起停止（大概）</string>
+    <string name="open_webui">開啟 WebUI：http://127.0.0.1:8080</string>
+    <string name="installing_the_game">正在安裝遊戲</string>
+    <string name="installing_center_text">選擇要自動下載並安裝的遊戲版本。</string>
+    <string name="needed_permissions">這個 App 需要通知權限</string>
+    <string name="request_permissions">請求權限</string>
+    <string name="setup_completed">設定完成！</string>
+    <string name="setup_completed_desc">遊戲已準備完成。現在可以從首頁啟動伺服器。</string>
+    <string name="get_started">開始使用</string>
+    <string name="save_and_back">儲存並返回</string>
+    <string name="first_start_instructions">關閉並重新開啟 App 以啟動伺服器</string>
+    <string name="first_launch_title">Ew, Why?</string>
+    <string name="first_launch_footer_note">比原版更穩定的 SIF2 私服</string>
+    <string name="begin_setup">開始設定</string>
+    <string name="app_widget_description">從主畫面啟動/停止伺服器</string>
+    <string name="app_version">App 版本：%s</string>
+    <string name="server_internal_version">伺服器版本：%s</string>
+    <string name="settings">設定</string>
+    <string name="launch_on_startup">開啟 App 時自動啟動</string>
+    <string name="check_for_updates">檢查更新</string>
+    <string name="easter_mode">Easter Mode</string>
+    <string name="service_name">AndroidEw 伺服器</string>
+    <string name="server_running">EW 伺服器正在執行</string>
+    <string name="restart_server">重新啟動伺服器</string>
+    <string name="server_logs">伺服器日誌</string>
+    <string name="install_game">安裝遊戲</string>
+    <string name="save">儲存</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    <string name="error">錯誤</string>
+    <string name="select_folder">選擇資料夾</string>
+    <string name="select_archives_folder">選擇 archives 資料夾</string>
+    <string name="asset_path_title">外部 CDN 資源包根目錄（可選）</string>
+    <string name="choose_asset_path">選擇 CDN 資源包根目錄</string>
+    <string name="masterdata_path_title">Masterdata 覆蓋目錄（可選）</string>
+    <string name="choose_masterdata_path">選擇 masterdata 覆蓋目錄</string>
+    <string name="path_picker_note">這個 CDN 路徑用於大型解壓後的 CDN 資源包，例如 EN-Android.7z、ZH-Android.7z 和 KR-Android.7z。它不是小型的 ew/assets 原始碼子模組；後者會編譯進 libew.so。Masterdata 留空時會使用內建資料。</string>
+    <string name="all_files_access_needed">AndroidEw 需要「管理所有檔案」權限，才能從 %1$s 提供外部 CDN 檔案。請啟用「允許管理所有檔案」後返回，並再次啟動伺服器。</string>
+    <string name="external_cdn_all_files_access_needed">外部 CDN 目錄需要「管理所有檔案」權限：%1$s。請在系統設定中允許 AndroidEw 管理所有檔案，然後返回並重新啟動伺服器。</string>
+</resources>

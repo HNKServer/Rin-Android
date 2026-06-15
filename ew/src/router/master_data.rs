@@ -25,7 +25,7 @@ pub fn canonical_lang(lang: &str) -> &'static str {
         Region::Jp => "JP",
         Region::En => "EN",
         Region::Kr => "KR",
-        Region::ZhCht => "ZH",
+        Region::ZhCht => "ZH-CHT",
     }
 }
 

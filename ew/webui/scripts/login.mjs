@@ -6,7 +6,7 @@ function showError(message) {
     const modalMessage = document.getElementById("modal-message");
     const modal = document.querySelector("dialog");
 
-    modalTitle.textContent = "Error";
+    modalTitle.textContent = "錯誤";
     modalMessage.textContent = message;
     modal.showModal();
 }
@@ -23,11 +23,11 @@ form.addEventListener("submit", async (event) => {
     let uid = uidElement.value.replaceAll(" ", "");
     let password = passElement.value;
     if (!uid || !password) {
-        showError("Missing userid/password");
+        showError("缺少使用者 ID 或密碼");
         return;
     }
     if (isNaN(uid)) {
-        showError("UserID should be a number. (The \"Friend ID\" in your profile)");
+        showError("使用者 ID 應為數字。（個人資料中的 Friend ID）");
         return;
     }
     if (window.localStorage) localStorage.setItem("uid", uid);

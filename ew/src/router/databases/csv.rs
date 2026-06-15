@@ -32,7 +32,7 @@ fn region_subdirs(region: Region) -> &'static [&'static str] {
         Region::Jp => &["csv"],
         Region::En => &["csv-en"],
         Region::Kr => &["csv-kr", "csv-en"],
-        Region::ZhCht => &["csv-zh-cht", "csv-zh", "csv-en"],
+        Region::ZhCht => &["csv-zh-cht"],
     }
 }
 

@@ -51,9 +51,6 @@ fn lang_aliases(lang: &str) -> Vec<&'static str> {
 
 fn file_candidates(root: &Path, platform: &str, lang: Option<&str>, hash: &str, file_name: &str) -> Vec<PathBuf> {
     let mut out = Vec::new();
-    // Allow users to select the exact extracted package directory, e.g. .../ZH-Android,
-    // where hash directories live directly under the selected root.
-    if let Some(p) = safe_join(root, &[hash, file_name]) { out.push(p); }
     if let Some(lang) = lang {
         for alias in lang_aliases(lang) {
             if let Some(p) = safe_join(root, &[platform, alias, hash, file_name]) { out.push(p); }

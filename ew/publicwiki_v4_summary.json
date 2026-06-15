@@ -1,0 +1,22 @@
+{
+  "music.csv": {
+    "rows": 637,
+    "name_diff_vs_jp": 97
+  },
+  "card.csv": {
+    "rows": 578,
+    "name_diff_vs_jp": 80
+  },
+  "new_skill.csv": {
+    "rows": 578,
+    "name_diff_vs_jp": 330
+  },
+  "character.csv": {
+    "rows": 50,
+    "name_diff_vs_jp": 37
+  },
+  "csv_count": {
+    "jp": 181,
+    "zh_cht": 181
+  }
+}
