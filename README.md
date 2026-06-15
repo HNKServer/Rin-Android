@@ -12,7 +12,7 @@ All for ZH language support and convenience.
 
 基本上就是原版的 AndroidEw 加上了繁体中文语言包支持以及有 Android 路径映射功能的本地 CDN 数据包分发功能。
 
-一切都是为了支持中文语言包和便捷。
+一切都是为了支持中文语言和便捷。
 
 ## Usage
 
@@ -35,6 +35,12 @@ Or you can just download it from here : [sif2-gl-zhcnt.apk](https://github.com/H
 跳过 APP 内置的客户端下载提示界面，因为原始版本的国际版无法在切换语言设置后正常下载繁体中文数据包，并最终会陷入死循环。确保你手动修改 sif2 国际服客户端版本中的 CDN 设置以匹配服务端。
 
 或者你也可以直接从此处下载：[sif2-gl-zhcnt.apk](https://github.com/HNKServer/Umi/releases/download/1.0/sif2_gl_v13_iap_cdn_fixed.apk)
+
+### Note
+
+This APP is backward compatible with the original one, so just install this version should be sufficient. Nevertheless, I still changed the package name from the original so that it can coexist with the original version just in case you need to do so.
+
+此 APP 向后兼容原始版本，因此仅安装此版本应该已经足以满足需求。话虽如此，我还是更改了包名，这样它就可以与原始版本共存，以防万一你有需求。
 
 ## Other files required
 
