@@ -152,20 +152,16 @@ pub fn live_completed(id: i64, level: i32, failed: bool, score: i64, uid: i64) {
     };
 }
 
-fn get_song_title(live_id: i32, lang: &str) -> String {
-    let details = match lang {
-        "en" => databases::MUSIC_EN[live_id.to_string()].clone(),
-        "zh" | "zh-cht" | "zh_hant" => databases::MUSIC_ZH[live_id.to_string()].clone(),
-        _ => databases::MUSIC[live_id.to_string()].clone(),
+fn get_song_title(live_id: i32, english: bool) -> String {
+    let details = if english {
+        databases::MUSIC_EN[live_id.to_string()].clone()
+    } else {
+        databases::MUSIC[live_id.to_string()].clone()
     };
     if !details.is_null() {
         return details["name"].to_string();
     }
-    match lang {
-        "zh" | "zh-cht" | "zh_hant" => String::from("未知歌曲"),
-        "en" => String::from("Unknown Song"),
-        _ => String::from("不明な楽曲"),
-    }
+    String::from("Unknown Song")
 }
 
 fn get_pass_percent(failed: i64, pass: i64) -> String {
@@ -273,9 +269,8 @@ fn get_html() -> JsonValue {
             if total == 0 { 0.0 } else { pass as f64 / total as f64 }
         };
 
-        let title_jp = get_song_title(info.live_id, "jp");
-        let title_en = get_song_title(info.live_id, "en");
-        let title_zh = get_song_title(info.live_id, "zh");
+        let title_jp = get_song_title(info.live_id, false);
+        let title_en = get_song_title(info.live_id, true);
 
         let normal_txt = get_pass_percent(info.normal_failed, info.normal_pass);
         let hard_txt = get_pass_percent(info.hard_failed, info.hard_pass);
@@ -295,31 +290,30 @@ fn get_html() -> JsonValue {
         table.push_str(&format!(
             r#"<tr>
                 <td class="title-cell"
-                    data-val="{title_zh}"
+                    data-val="{title_jp}"
                     data-title-en="{title_en}"
-                    data-title-jp="{title_jp}"
-                    data-title-zh="{title_zh}">
-                    {title_zh}
+                    data-title-jp="{title_jp}">
+                    {title_jp}
                 </td>
 
                 <td data-plays="{normal_plays}" data-rate="{normal_rate_sort}">
                     <span class="rate-text">{normal_txt}</span>
-                    <span class="meta-text" data-count="{normal_plays}">{normal_plays} 次遊玩</span>
+                    <span class="meta-text">{normal_plays} plays</span>
                 </td>
 
                 <td data-plays="{hard_plays}" data-rate="{hard_rate_sort}">
                     <span class="rate-text">{hard_txt}</span>
-                    <span class="meta-text" data-count="{hard_plays}">{hard_plays} 次遊玩</span>
+                    <span class="meta-text">{hard_plays} plays</span>
                 </td>
 
                 <td data-plays="{expert_plays}" data-rate="{expert_rate_sort}">
                     <span class="rate-text">{expert_txt}</span>
-                    <span class="meta-text" data-count="{expert_plays}">{expert_plays} 次遊玩</span>
+                    <span class="meta-text">{expert_plays} plays</span>
                 </td>
 
                 <td data-plays="{master_plays}" data-rate="{master_rate_sort}">
                     <span class="rate-text">{master_txt}</span>
-                    <span class="meta-text" data-count="{master_plays}">{master_plays} 次遊玩</span>
+                    <span class="meta-text">{master_plays} plays</span>
                 </td>
             </tr>"#
         ));

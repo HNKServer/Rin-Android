@@ -14,13 +14,13 @@ try {
     }
     //console.log(info);
     if (info.links.global && info.links.japan) {
-        let linkHtml = `伺服器管理員提供了下載連結：下載 <a href="${info.links.japan}" target="_blank">日服</a> 或 <a href="${info.links.global}" target="_blank">國際服</a>`;
+        let linkHtml = `Your server admin has a link to download! Download <a href="${info.links.japan}" target="_blank">Japan</a> or <a href="${info.links.global}" target="_blank">Global</a>`;
         downloadUrlElement.innerHTML = linkHtml;
     } else if (info.links.global) {
-        let linkHtml = `伺服器管理員提供了下載連結：下載 <a href="${info.links.global}" target="_blank">國際服</a>`;
+        let linkHtml = `Your server admin has a link to download! Download <a href="${info.links.global}" target="_blank">Global</a>`;
         downloadUrlElement.innerHTML = linkHtml;
     } else if (info.links.japan) {
-        let linkHtml = `伺服器管理員提供了下載連結：下載 <a href="${info.links.japan}" target="_blank">日服</a>`;
+        let linkHtml = `Your server admin has a link to download! Download <a href="${info.links.japan}" target="_blank">Japan</a>`;
         downloadUrlElement.innerHTML = linkHtml;
     }
 

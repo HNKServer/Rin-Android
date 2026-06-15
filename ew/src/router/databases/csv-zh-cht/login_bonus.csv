@@ -1,4 +1,4 @@
-﻿_id,_name,_type,_masterEventId,_loop,_priority,_prefabName,_boardSpriteName,_masterVoiceId,_masterReleaseLabelId
+_id,_name,_type,_masterEventId,_loop,_priority,_prefabName,_boardSpriteName,_masterVoiceId,_masterReleaseLabelId
 1,每日 登入獎勵,1,0,1,0,DailyLoginBonus,loginbonus_daily,0,1
 2,開始ing Dash 登入獎勵,2,0,0,3,LoginBonus_startdash_0001,loginbonus_startdash_0001,0,223041502
 3,開始ing Dash 登入獎勵 (Constant),2,0,0,3,LoginBonus_startdash_0002,loginbonus_startdash_0002,0,223071501
@@ -51,7 +51,7 @@
 10051,Super Thanks！Let’s Play Together Until End Campaign 登入獎勵,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0051,0,224030115
 10054,Anime Broadcast 10 Year Anniversary Love演唱會！Special Talk Session 登入獎勵,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0054,0,224022302
 10055,Love演唱會！Series 禮物s ユニット甲子園 2024　開催記念ログインボーナス,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0055,0,224030902
-10056,LoveLive!TVアニメ放送10周年記念　Love演唱會！Orchestra Concert　開催記念ログインボーナス,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0056,0,224033002
+10056,ラブライブ！TVアニメ放送10周年記念　Love演唱會！Orchestra Concert　開催記念ログインボーナス,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0056,0,224033002
 10057,學園偶像 Festival 2 Super Thanks 登入獎勵,1,0,0,1,LoginBonus_event30day_0001,loginbonus_campaign_0057,0,224030117
 10058,學園偶像 Festival 2 Super Thanks 登入獎勵,1,0,0,1,LoginBonus_event30day_0001,loginbonus_campaign_0058,0,224030117
 10059,スペシャル勧誘記念ログインボーナス～桜坂しずく～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_03003_01,0,224031702

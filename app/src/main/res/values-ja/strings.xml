@@ -1,72 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidEw</string>
-    <string name="start_server">サーバー開始</string>
-    <string name="stop_server">サーバー停止</string>
-    <string name="storage_not_allowed">サーバーの起動に失敗しました: 外部ファイルディレクトリが許可されていないか、または見つかりません。</string>
-    <string name="starting">起動中…</string>
-    <string name="stopping">停止中…</string>
-    <string name="loading">読み込み中…</string>
-    <string name="server_started">サーバー起動完了！(おそらく)</string>
-    <string name="server_stopped">サーバー停止完了</string>
-    <string name="unable_to_request_permission">このデバイスの場合は権限をリクエストできません。それでも問題ないはずです。問題がある場合は、設定で通知を有効にしてください</string>
-    <string name="continue_txt">続ける</string>
-    <string name="permission_granted">権限付与！</string>
-    <string name="notification_permission_denied">権限が拒否されました。アプリは正常に機能しない可能性があります。この場合は後から設定で通知を有効化できます</string>
-    <string name="download_links">ダウンロードしてインストールするバージョンを選択してください:</string>
-    <string name="download_jp">JP APK をダウンロード</string>
-    <string name="download_gl">グローバル APK をダウンロード</string>
-    <string name="download_starting">ダウンロードを開始中…</string>
-    <string name="download_progress">ダウンロード中: %1$d%%</string>
-    <string name="downloading_generic">ダウンロード中…</string>
-    <string name="download_complete_installing">ダウンロード完了。インストーラーを開いています…</string>
-    <string name="download_manual"><![CDATA[または、<a href="https://ethanthesleepy.one/public/lovelive/sif2/localhost/">こちらから手動でダウンロード</a>]]></string>
-    <string name="download_failed_manual"><![CDATA[ダウンロードに失敗しました。再度お试しいただくか、<br/> <a href="https://ethanthesleepy.one/public/lovelive/sif2/localhost/">手動でダウンロード</a>してください。]]></string>
-    <string name="git_notice"><![CDATA[<a href=\'https://git.ethanthesleepy.one/ethanaobrien/ew-android\'>リポジトリを参照</a> - <a href=\'https://git.ethanthesleepy.one/ethanaobrien/ew/src/branch/main/LICENSE\'>ライセンス</a>]]></string>
-    <string name="apk_folder_notice"><![CDATA[<a href=\'https://ethanthesleepy.one/public/lovelive/sif2/localhost/\'>APK のダウンロードはこちら</a>]]></string>
-    <string name="notification_title">エウ サーバー</string>
-    <string name="notification_text">Sif2 プライベートサーバーが稼働しています!</string>
-    <string name="home_title">エウ プライベートサーバー</string>
-    <string name="footer_text">平沢唯が好き</string>
-    <string name="center_page_text">サーバーがクラッシュした場合、このアプリもクラッシュするはずです (たぶん)</string>
-    <string name="open_webui">Web UI を開く: http://127.0.0.1:8080</string>
-    <string name="installing_the_game">ゲームをインストール中</string>
-    <string name="installing_center_text">ダウンロードして自動的にインストールするゲームのバージョンを選択してください。</string>
-    <string name="needed_permissions">このアプリは通知権限が必要です</string>
-    <string name="request_permissions">権限をリクエスト</string>
-    <string name="setup_completed">セットアップ完了!</string>
-    <string name="setup_completed_desc">ゲームの準備が完了しました。ホームスクリーンのサーバーを開始できます。</string>
-    <string name="get_started">始める</string>
-    <string name="save_and_back">保存して戻る</string>
-    <string name="first_start_instructions">サーバーを開始するには、アプリを閉じて再スタートしてください</string>
-    <string name="first_launch_title">エウ、なぜ？</string>
-    <string name="first_launch_footer_note">オリジナルよりも安定した sif2 プライベートサーバー</string>
-    <string name="begin_setup">セットアップ開始</string>
-    <string name="app_widget_description">ホーム画面からサーバーを開始/停止</string>
-    <string name="app_version">アプリバージョン：%s</string>
-    <string name="server_internal_version">サーバーバージョン：%s</string>
-    <string name="settings">設定</string>
-    <string name="launch_on_startup">アプリ起動時に起動</string>
-    <string name="check_for_updates">更新を確認</string>
-    <string name="easter_mode">イースターモード</string>
-
-    <!-- Added for CDN / multilang / external resource support -->
-    <string name="service_name">AndroidEw サーバー</string>
-    <string name="server_running">EW サーバーは稼働中です</string>
-    <string name="restart_server">サーバーを再起動</string>
-    <string name="server_logs">サーバーログ</string>
-    <string name="install_game">ゲームをインストール</string>
-    <string name="save">保存</string>
-    <string name="cancel">キャンセル</string>
-    <string name="ok">OK</string>
-    <string name="error">エラー</string>
-    <string name="select_folder">フォルダーを選択</string>
-    <string name="select_archives_folder">archives フォルダーを選択</string>
+    <string name="app_name">AndroidEw CDN</string>
+    <string name="start_server">Start Server</string>
+    <string name="stop_server">Stop Server</string>
+    <string name="storage_not_allowed">Could not start server: External Files Directory not allowed or not found</string>
+    <string name="starting">Starting…</string>
+    <string name="stopping">Stopping…</string>
+    <string name="loading">Loading…</string>
+    <string name="server_started">Server Started! (hopefully)</string>
+    <string name="server_stopped">Server Stopped</string>
+    <string name="unable_to_request_permission">We can\'t request this permission on your device. It should still be okay though. If you encounter issues, allow notifications in settings</string>
+    <string name="continue_txt">Continue</string>
+    <string name="permission_granted">Permission granted!</string>
+    <string name="notification_permission_denied">Permission denied, the app may not function properly. If this is the case you can enable notifications later in settings</string>
+    <string name="download_links">Choose a version to download and install:</string>
+    <string name="download_jp">Download JP APK</string>
+    <string name="download_gl">Download Global APK</string>
+    <string name="download_starting">Starting download…</string>
+    <string name="download_progress">Downloading: %1$d%%</string>
+    <string name="downloading_generic">Downloading…</string>
+    <string name="download_complete_installing">Download complete. Opening installer…</string>
+    <string name="download_manual"><![CDATA[Alternatively, <a href="https://ethanthesleepy.one/public/lovelive/sif2/localhost/">download manually</a>]]></string>
+    <string name="download_failed_manual"><![CDATA[Download failed. Please try again or download manually: <br/> <a href="https://ethanthesleepy.one/public/lovelive/sif2/localhost/">Manual Download Page</a>]]></string>
+    <string name="git_notice"><![CDATA[<a href=\'https://git.ethanthesleepy.one/ethanaobrien/ew-android\'>View repository</a> - <a href=\'https://git.ethanthesleepy.one/ethanaobrien/ew/src/branch/main/LICENSE\'>License</a>]]></string>
+    <string name="apk_folder_notice"><![CDATA[<a href=\'https://ethanthesleepy.one/public/lovelive/sif2/localhost/\'>Download APKs here</a>]]></string>
+    <string name="notification_title">Ew server</string>
+    <string name="notification_text">Sif2 private server is running!</string>
+    <string name="home_title">Ew private server</string>
+    <string name="footer_text">I like Yui</string>
+    <string name="center_page_text">If the server crashes, this app should too (I think)</string>
+    <string name="open_webui">Open webui: http://127.0.0.1:8080</string>
+    <string name="installing_the_game">Installing the game</string>
+    <string name="installing_center_text">Choose a version of the game to download and install automatically.</string>
+    <string name="needed_permissions">This app needs notification permissions</string>
+    <string name="request_permissions">Request permission</string>
+    <string name="setup_completed">Setup Finished!</string>
+    <string name="setup_completed_desc">The game has been prepared. You can now start the server from the home screen.</string>
+    <string name="get_started">Get Started</string>
+    <string name="save_and_back">Save &amp; Back</string>
+    <string name="first_start_instructions">Close and re-open the app to start the server</string>
+    <string name="first_launch_title">Ew, Why?</string>
+    <string name="first_launch_footer_note">The sif2 private server that\'s more stable than the original</string>
+    <string name="begin_setup">Begin setup</string>
+    <string name="app_widget_description">Start/Stop the server from your homes-screen</string>
+    <string name="app_version">App Version %s</string>
+    <string name="server_internal_version">Server Version %s</string>
+    <string name="settings">Settings</string>
+    <string name="launch_on_startup">Launch on app startup</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="easter_mode">Easter Mode</string>
     <string name="asset_path_title">外部 CDN パッケージのルート（任意）</string>
     <string name="choose_asset_path">CDN パッケージのルートを選択</string>
     <string name="masterdata_path_title">Masterdata 上書きディレクトリ（任意）</string>
-    <string name="choose_masterdata_path">masterdata 上書きディレクトリを選択</string>
-    <string name="path_picker_note">この CDN パスは、EN-Android.7z、ZH-Android.7z、KR-Android.7z などの展開済み大型 CDN パッケージ用です。libew.so に組み込まれる小さな ew/assets ソースサブモジュールではありません。Masterdata を空欄にすると内蔵データを使用します。</string>
-    <string name="all_files_access_needed">AndroidEw は %1$s から外部 CDN ファイルを配信するために「すべてのファイルを管理」権限が必要です。許可してから戻り、もう一度サーバーを起動してください。</string>
-    <string name="external_cdn_all_files_access_needed">外部 CDN ディレクトリには「すべてのファイルを管理」権限が必要です：%1$s。システム設定で AndroidEw にすべてのファイルの管理を許可してから戻り、サーバーを再起動してください。</string>
+    <string name="choose_masterdata_path">Masterdata 上書きディレクトリを選択</string>
+    <string name="path_picker_note">この CDN パスは EN-Android.7z、ZH-Android.7z、KR-Android.7z などの大きな展開済み CDN パッケージ用です。数十 MB の ew/assets ソースサブモジュールではありません。ew/assets は libew.so に組み込まれます。Masterdata を空にすると内蔵データを使用します。</string>
 </resources>

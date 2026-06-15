@@ -5,7 +5,7 @@ function showError(message) {
     const modalMessage = document.getElementById("modal-message");
     const modal = document.querySelector("dialog");
 
-    modalTitle.textContent = "錯誤";
+    modalTitle.textContent = "Error";
     modalMessage.textContent = message;
     modal.showModal();
 }
@@ -32,7 +32,7 @@ if (query === "-1") {
     time = 0;
 }
 if (time < 0 || isNaN(time)) {
-    showError(`輸入無效：「${query}」`);
+    showError(`Invalid input "${query}"`);
     throw new Error("Invalid Time");
 }
 
@@ -47,7 +47,7 @@ try {
 }
 
 if (time === 0) {
-    newTime.textContent = "現在";
+    newTime.textContent = "now";
 } else {
     newTime.textContent = (new Date(time * 1000)).toString();
 }

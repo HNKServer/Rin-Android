@@ -7,7 +7,7 @@ use actix_web::{
 use jzon::{JsonValue, object};
 use lazy_static::lazy_static;
 use include_dir::{include_dir, Dir};
-use std::{collections::HashMap, fs};
+use std::fs;
 
 use crate::include_file;
 use crate::router::{userdata, items};
@@ -236,49 +236,6 @@ pub fn server_info(_req: HttpRequest) -> HttpResponse {
         .body(jzon::stringify(resp))
 }
 
-
-fn webui_region_from_lang(lang: &str) -> Region {
-    match lang.to_ascii_uppercase().as_str() {
-        "EN" => Region::En,
-        "KR" | "KO" => Region::Kr,
-        "ZH" | "ZH-CHT" | "ZH_HANT" | "ZH-HANT" | "ZH-TW" | "ZH-HK" => Region::ZhCht,
-        _ => Region::Jp,
-    }
-}
-
-fn card_attribute_name(attr: i64) -> &'static str {
-    match attr { 1 => "Smile", 2 => "Pure", 3 => "Cool", _ => "" }
-}
-
-fn card_rarity_name(rarity: i64) -> &'static str {
-    match rarity { 1 => "R", 2 => "SR", 3 => "UR", _ => "" }
-}
-
-fn character_name_map(region: Region) -> HashMap<i64, String> {
-    let characters = crate::router::databases::csv::table(region, "character");
-    let mut map = HashMap::new();
-    for c in characters.members() {
-        if let Some(id) = c["id"].as_i64() {
-            map.insert(id, c["name"].to_string());
-        }
-    }
-    map
-}
-
-fn enrich_card(mut card: JsonValue, chars: &HashMap<i64, String>) -> JsonValue {
-    card["image"] = card["illustId"].clone();
-    if let Some(cid) = card["masterCharacterId"].as_i64() {
-        card["character"] = chars.get(&cid).cloned().unwrap_or_default().into();
-    }
-    if let Some(r) = card["rarity"].as_i64() {
-        card["rarityName"] = card_rarity_name(r).into();
-    }
-    if let Some(t) = card["type"].as_i64() {
-        card["attribute"] = card_attribute_name(t).into();
-    }
-    card
-}
-
 fn get_query_str(req: &HttpRequest, key: &str, def: &str) -> String {
     let query_str = req.query_string();
     query_str
@@ -293,48 +250,94 @@ pub fn get_card_info(req: HttpRequest) -> HttpResponse {
     let max = get_query_str(&req, "max", "10").parse::<usize>().unwrap_or(10);
     let all = get_query_str(&req, "all", "false");
     let name_query = get_query_str(&req, "query", "");
-    let lang = get_query_str(&req, "lang", "JP");
-    let region = webui_region_from_lang(&lang);
+
     let start = page * max;
-    let items = crate::router::databases::csv::table(region, "card");
-    let chars = character_name_map(region);
-    let mut enriched: Vec<JsonValue> = items.members().map(|item| enrich_card(item.clone(), &chars)).collect();
+
+    let items = crate::router::databases::csv::table(Region::Jp, "card");
+
     if all == "true" {
-        let resp = object!{ total_pages: 1, current: enriched };
-        return HttpResponse::Ok().content_type(ContentType::json()).body(jzon::stringify(resp));
+        let resp = object!{
+            total_pages: 1,
+            current: items
+        };
+
+        return HttpResponse::Ok()
+            .content_type(ContentType::json())
+            .body(jzon::stringify(resp));
     }
+
+    let mut filtered_items: Vec<_> = items.members().collect();
+
     if !name_query.is_empty() {
         let lowercase_query = name_query.to_lowercase();
-        enriched.retain(|item| {
+        filtered_items.retain(|item| {
             item["name"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["character"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["rarityName"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["attribute"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["id"].to_string().contains(&lowercase_query)
         });
     }
-    let total_len = enriched.len();
-    let page_items: Vec<_> = enriched.into_iter().skip(start).take(max).collect();
-    if page_items.is_empty() { return HttpResponse::NotFound().finish(); }
+    
+    let total_len = filtered_items.len();
+
+    let page_items: Vec<_> = filtered_items
+        .into_iter()
+        .skip(start)
+        .take(max)
+        .cloned()
+        .collect();
+
+    if page_items.is_empty() {
+        return HttpResponse::NotFound()
+            .finish();
+    }
+
     let total_pages = (total_len as f64 / max as f64).ceil() as usize;
     let args = crate::get_args();
-    let resp = object!{ total_pages: total_pages, current: page_items, image_path: args.image_asset_path };
-    HttpResponse::Ok().content_type(ContentType::json()).body(jzon::stringify(resp))
+
+    let resp = object!{
+        total_pages: total_pages,
+        current: page_items,
+        image_path: args.image_asset_path
+    };
+
+    HttpResponse::Ok()
+        .content_type(ContentType::json())
+        .body(jzon::stringify(resp))
 }
 
 pub fn get_music_info(req: HttpRequest) -> HttpResponse {
     let page = get_query_str(&req, "page", "1").parse::<usize>().unwrap_or(1) - 1;
     let max = get_query_str(&req, "max", "10").parse::<usize>().unwrap_or(10);
     let lang = get_query_str(&req, "lang", "JP");
-    let region = webui_region_from_lang(&lang);
+
     let start = page * max;
-    let items = crate::router::databases::csv::table(region, "music");
-    let page_items: Vec<_> = items.members().skip(start).take(max).cloned().collect();
-    if page_items.is_empty() { return HttpResponse::NotFound().finish(); }
+
+    let items = if lang == "EN" {
+        crate::router::databases::csv::table(Region::En, "music")
+    } else {
+        crate::router::databases::csv::table(Region::Jp, "music")
+    };
+
+    let page_items: Vec<_> = items.members()
+        .skip(start)
+        .take(max)
+        .cloned()
+        .collect();
+
+    if page_items.is_empty() {
+        return HttpResponse::NotFound()
+            .finish();
+    }
+
     let total_items = items.len();
     let total_pages = (total_items as f64 / max as f64).ceil() as usize;
-    let resp = object!{ total_pages: total_pages, current: page_items };
-    HttpResponse::Ok().content_type(ContentType::json()).body(jzon::stringify(resp))
+
+    let resp = object!{
+        total_pages: total_pages,
+        current: page_items
+    };
+
+    HttpResponse::Ok()
+        .content_type(ContentType::json())
+        .body(jzon::stringify(resp))
 }
 
 lazy_static! {

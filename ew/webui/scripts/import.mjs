@@ -15,8 +15,8 @@ let closeAction = () => {
 }
 
 function success(uid, migration) {
-    modalClose.textContent = "前往登入"
-    modalTitle.textContent = "成功";
+    modalClose.textContent = "Go to Login"
+    modalTitle.textContent = "Success";
     modalMessage.textContent = `UserID: ${uid}
     Migration ID: ${migration}`;
     modal.showModal();
@@ -26,7 +26,7 @@ function success(uid, migration) {
 }
 
 function showError(message) {
-    modalTitle.textContent = '錯誤';
+    modalTitle.textContent = 'Error';
     modalMessage.textContent = message;
     modal.showModal();
 }
@@ -38,7 +38,7 @@ modalClose.addEventListener("click", () => {
 form.addEventListener("submit", async (event) => {
     event.preventDefault();
     if (!userdataFile.files[0] || !userhomeFile.files[0] || !passwordElement.value) {
-        showError("一個或多個必填項目缺失。");
+        showError("One or more required values are not present.");
         return;
     }
     let data;
@@ -52,16 +52,16 @@ form.addEventListener("submit", async (event) => {
             jp: true
         }
         if (!data.userdata || !data.userdata.user || !data.userdata.user.id) {
-            throw new Error("使用者資料檔格式不正確");
+            throw new Error("Incorrect user data file format");
         }
         if (!data.home || !data.home.home || !data.home.home.information_list) {
-            throw new Error("Home 資料檔格式不正確");
+            throw new Error("Incorrect home data file format");
         }
         if (!Array.isArray(data.missions) && data.missions) {
-            throw new Error("Mission 資料檔格式不正確");
+            throw new Error("Incorrect mission data file format");
         }
         if (!Array.isArray(data.sif_cards) && data.sif_cards) {
-            throw new Error("SIF 卡牌資料檔格式不正確");
+            throw new Error("Incorrect sif card data file format");
         }
     } catch(e) {
         showError(`Could not read/parse JSON files.\n${e.message}`);

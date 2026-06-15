@@ -136,21 +136,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun requestAllFilesAccessForExternalCdn(path: String) {
-        val message = getString(R.string.external_cdn_all_files_access_needed, path)
+        val message = getString(R.string.all_files_access_needed, path)
         setStatusText(message)
         Toast.makeText(this, message, Toast.LENGTH_LONG).show()
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             try {
-                val intent = Intent("android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION")
-                intent.setData(Uri.parse("package:$packageName"))
+                val intent = Intent(
+                    "android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION",
+                    Uri.parse("package:$packageName")
+                )
                 startActivity(intent)
             } catch (_: ActivityNotFoundException) {
-                try {
-                    startActivity(Intent("android.settings.MANAGE_ALL_FILES_ACCESS_PERMISSION"))
-                } catch (_: ActivityNotFoundException) {
-                    startActivity(Intent("android.settings.SETTINGS"))
-                }
+                startActivity(Intent("android.settings.MANAGE_ALL_FILES_ACCESS_PERMISSION"))
             }
         }
     }

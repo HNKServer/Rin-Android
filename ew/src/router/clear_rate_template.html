@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Live 通關率</title>
+    <title>Live Clear Rates</title>
     <style>
         :root {
             --bg-color: #f4f4f9;
@@ -109,23 +109,21 @@
     </style>
 </head>
 <body>
-    <h1 id="pageTitle">Live 通關率</h1>
+    <h1>Live Clear Rates</h1>
 
     <div class="controls">
-        <button class="btn lang-btn" data-lang="jp" onclick="setLanguage('jp')">日本語</button>
-        <button class="btn lang-btn" data-lang="en" onclick="setLanguage('en')">English</button>
-        <button class="btn lang-btn active" data-lang="zh" onclick="setLanguage('zh')">繁體中文</button>
+        <button class="btn" id="btnLang" onclick="toggleLanguage()">Language: JP</button>
 
-        <button class="btn active" id="btnPlays" onclick="setSortMode('plays')">依遊玩次數排序</button>
-        <button class="btn" id="btnRate" onclick="setSortMode('rate')">依通關率排序</button>
-        <button class="btn" id="btnTheme" onclick="toggleTheme()">深色模式 🌓</button>
+        <button class="btn active" id="btnPlays" onclick="setSortMode('plays')">Sort by Plays</button>
+        <button class="btn" id="btnRate" onclick="setSortMode('rate')">Sort by Rate %</button>
+        <button class="btn" onclick="toggleTheme()">Dark Mode 🌓</button>
     </div>
 
     <div class="table-container">
         <table id="rateTable">
             <thead>
                 <tr>
-                    <th id="thTitle" onclick="sortTable(0)">歌曲名稱</th>
+                    <th onclick="sortTable(0)">Song Title</th>
                     <th onclick="sortTable(1)">Normal</th>
                     <th onclick="sortTable(2)">Hard</th>
                     <th onclick="sortTable(3)">Expert</th>
@@ -139,43 +137,10 @@
     </div>
 
     <script>
-        let currentSortMode = 'plays';
-        let currentLang = normalizeLanguage(localStorage.getItem('webui-lang') || localStorage.getItem('lang') || 'zh');
+        let currentSortMode = 'plays'; 
+        let currentLang = localStorage.getItem('lang') || 'jp';
 
-        const labels = {
-            jp: {
-                title: 'ライブクリア率',
-                plays: 'プレイ回数順',
-                rate: 'クリア率順',
-                dark: 'ダークモード 🌓',
-                song: '楽曲名',
-                playUnit: '回プレイ'
-            },
-            en: {
-                title: 'Live Clear Rates',
-                plays: 'Sort by Plays',
-                rate: 'Sort by Rate %',
-                dark: 'Dark Mode 🌓',
-                song: 'Song Title',
-                playUnit: 'plays'
-            },
-            zh: {
-                title: 'Live 通關率',
-                plays: '依遊玩次數排序',
-                rate: '依通關率排序',
-                dark: '深色模式 🌓',
-                song: '歌曲名稱',
-                playUnit: '次遊玩'
-            }
-        };
-
-        function normalizeLanguage(lang) {
-            const v = (lang || '').toLowerCase();
-            if (['zh', 'zh-cht', 'zh_hant', 'zh-hant', 'zh-tw', 'zh-hk'].includes(v)) return 'zh';
-            if (v === 'en') return 'en';
-            if (v === 'jp' || v === 'ja') return 'jp';
-            return 'zh';
-        }
+        updateLanguageDisplay();
 
         function toggleTheme() {
             document.body.classList.toggle('dark-mode');
@@ -187,40 +152,25 @@
             document.body.classList.add('dark-mode');
         }
 
-        function setLanguage(lang) {
-            currentLang = normalizeLanguage(lang);
-            localStorage.setItem('webui-lang', currentLang === 'zh' ? 'ZH-CHT' : currentLang);
-            localStorage.setItem('lang', currentLang === 'zh' ? 'ZH-CHT' : currentLang);
+        function toggleLanguage() {
+            currentLang = currentLang === 'jp' ? 'en' : 'jp';
+            localStorage.setItem('lang', currentLang);
             updateLanguageDisplay();
         }
 
         function updateLanguageDisplay() {
-            const l = labels[currentLang] || labels.zh;
-            document.documentElement.lang = currentLang === 'zh' ? 'zh-Hant' : currentLang;
-            document.title = l.title;
-            document.getElementById('pageTitle').innerText = l.title;
-            document.getElementById('btnPlays').innerText = l.plays;
-            document.getElementById('btnRate').innerText = l.rate;
-            document.getElementById('btnTheme').innerText = l.dark;
-            document.getElementById('thTitle').innerText = l.song;
-
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.toggle('active', normalizeLanguage(btn.dataset.lang) === currentLang);
-            });
+            const btn = document.getElementById('btnLang');
+            btn.innerText = 'Language: ' + (currentLang === 'jp' ? 'JP' : 'EN');
 
             const titleCells = document.querySelectorAll('.title-cell');
+            
             titleCells.forEach(td => {
-                const key = currentLang === 'zh' ? 'zh' : currentLang;
-                const newTitle = td.getAttribute(`data-title-${key}`);
+                const newTitle = td.getAttribute(`data-title-${currentLang}`);
+                
                 if (newTitle) {
                     td.innerText = newTitle;
                     td.setAttribute('data-val', newTitle);
                 }
-            });
-
-            document.querySelectorAll('.meta-text').forEach(span => {
-                const count = span.getAttribute('data-count') || '0';
-                span.innerText = `${count} ${l.playUnit}`;
             });
         }
 
@@ -235,7 +185,7 @@
             var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
             table = document.getElementById("rateTable");
             switching = true;
-            dir = "desc";
+            dir = "desc"; 
 
             var headers = table.getElementsByTagName("TH");
             for (var h of headers) { h.classList.remove("asc", "desc"); }
@@ -263,6 +213,7 @@
                             if (xNum < yNum) { shouldSwitch = true; break; }
                         }
                     } else {
+                        // String sorting (for titles)
                         if (dir == "asc") {
                             if (xVal.toLowerCase() > yVal.toLowerCase()) { shouldSwitch = true; break; }
                         } else if (dir == "desc") {
@@ -273,7 +224,7 @@
                 if (shouldSwitch) {
                     rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
                     switching = true;
-                    switchcount ++;
+                    switchcount ++; 
                 } else {
                     if (switchcount == 0 && dir == "desc") {
                         dir = "asc";
@@ -283,8 +234,6 @@
             }
             headers[n].classList.add(dir);
         }
-
-        updateLanguageDisplay();
     </script>
 </body>
 </html>
