@@ -77,3 +77,7 @@ main h1 {
 #search-button:hover {
     background-color: var(--header-hover);
 }
+
+.language-selector { display: flex; gap: 0.5rem; justify-content: center; margin: 1rem 0; flex-wrap: wrap; }
+.language-selector .lang-btn { padding: 0.45rem 0.85rem; border-radius: 999px; border: 1px solid #bbb; background: #fff; cursor: pointer; }
+.language-selector .lang-btn.active { font-weight: 700; border-color: #333; }

@@ -1,9 +1,9 @@
 const apiBaseUrl = window.location.origin;
-export async function fetchCards(page, query) {
+export async function fetchCards(page, query, lang = "JP") {
     if (isNaN(page)) page = 1;
     try {
-        const q = typeof query === "string" && query.trim() ? `&query=${query}` : "";
-        const response = await fetch(`${apiBaseUrl}/api/webui/listCards?page=${page}${q}`);
+        const q = typeof query === "string" && query.trim() ? `&query=${encodeURIComponent(query)}` : "";
+        const response = await fetch(`${apiBaseUrl}/api/webui/listCards?page=${page}&lang=${encodeURIComponent(lang)}${q}`);
         const data = await response.json();
         return data;
     } catch (error) {
@@ -12,9 +12,9 @@ export async function fetchCards(page, query) {
     }
 }
 
-export async function fetchAllCardInfo() {
+export async function fetchAllCardInfo(lang = "JP") {
     try {
-        const response = await fetch(`${apiBaseUrl}/api/webui/listCards?all=true`);
+        const response = await fetch(`${apiBaseUrl}/api/webui/listCards?all=true&lang=${encodeURIComponent(lang)}`);
         const data = await response.json();
         const cards = data.current;
         let rv = {};
@@ -30,7 +30,7 @@ export async function fetchAllCardInfo() {
 
 export async function fetchMusic(page, lang = "EN") {
     if (isNaN(page)) page = 1;
-    const url = `${apiBaseUrl}/api/webui/listMusic?page=${page}&lang=${lang}`;
+    const url = `${apiBaseUrl}/api/webui/listMusic?page=${page}&lang=${encodeURIComponent(lang)}`;
 
     try {
         const response = await fetch(url);

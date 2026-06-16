@@ -1,4 +1,4 @@
-_id,_phase,_navigationTitle,_masterNoticeRewardId,_displayableTime,_displayableExpireTime,_masterReleaseLabelId
+﻿_id,_phase,_navigationTitle,_masterNoticeRewardId,_displayableTime,_displayableExpireTime,_masterReleaseLabelId
 3,0,4月 2023: Unraveled mystery reward CP,250000003,0,0,223041701
 4,0,4月 2023: Distribution CP,250000004,0,0,223042801
 5,0,5月 2023: Golden Week CP,250000005,0,0,223050105
@@ -32,4 +32,4 @@ _id,_phase,_navigationTitle,_masterNoticeRewardId,_displayableTime,_displayableE
 33,0,SIF 2 Please Santa！Campaign 禮物,250000033,0,0,223122503
 34,0,ハッピーバレンタインデーキャンペーンのプレゼント,250000034,0,0,224021407
 35,0,カラフルスプリングキャンペーンのプレゼント,250000035,0,0,224031402
-36,0,ラブライブ！TVアニメ放送10周年記念 Love演唱會！Orchestra Concert,250000036,0,0,224033003
+36,0,LoveLive!TVアニメ放送10周年記念 Love演唱會！Orchestra Concert,250000036,0,0,224033003

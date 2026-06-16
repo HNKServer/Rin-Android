@@ -1,4 +1,4 @@
-_id,_title,_detail,_type,_parentMasterMissionId,_conditionType,_conditionValues,_conditionNumber,_masterMissionRewardId,_priority,_masterReleaseLabelId
+﻿_id,_title,_detail,_type,_parentMasterMissionId,_conditionType,_conditionValues,_conditionNumber,_masterMissionRewardId,_priority,_masterReleaseLabelId
 1153001,登入 4 天。,登入 4 天。,1,0,53,,4,131153001,99999,1
 1153002,登入 5 天。,登入 5 天。,1,1153001,53,,5,131153002,99998,1
 1153003,登入 10 天。,登入 10 天。,1,1153002,53,,10,131153003,99997,1
@@ -3216,10 +3216,10 @@ _id,_title,_detail,_type,_parentMasterMissionId,_conditionType,_conditionValues,
 1073009,[Story Unlock Requirements] (Hide),完成 50 Love 演唱會！Sunshine!！歌曲.,0,0,73,2,50,0,99,1
 1073010,[Story Unlock Requirements] (Hide),完成 70 Love 演唱會！Sunshine!！歌曲.,0,0,73,2,70,0,99,1
 1073011,[Story Unlock Requirements] (Hide),完成 one Love 演唱會！虹咲學園學園偶像同好會 歌曲.,0,0,73,3,1,0,99,1
-1073012,[Story Unlock Requirements] (Hide),ラブライブ！虹ヶ咲学園スクールアイドル同好会の楽曲を2回クリアする,0,0,73,3,2,0,99,1
-1073013,[Story Unlock Requirements] (Hide),ラブライブ！虹ヶ咲学園スクールアイドル同好会の楽曲を3回クリアする,0,0,73,3,3,0,99,1
-1073014,[Story Unlock Requirements] (Hide),ラブライブ！虹ヶ咲学園スクールアイドル同好会の楽曲を4回クリアする,0,0,73,3,4,0,99,1
-1073015,[Story Unlock Requirements] (Hide),ラブライブ！虹ヶ咲学園スクールアイドル同好会の楽曲を5回クリアする,0,0,73,3,5,0,99,1
+1073012,[Story Unlock Requirements] (Hide),LoveLive!虹ヶ咲学園學園偶像同好会の樂曲を2回クリアする,0,0,73,3,2,0,99,1
+1073013,[Story Unlock Requirements] (Hide),LoveLive!虹ヶ咲学園學園偶像同好会の樂曲を3回クリアする,0,0,73,3,3,0,99,1
+1073014,[Story Unlock Requirements] (Hide),LoveLive!虹ヶ咲学園學園偶像同好会の樂曲を4回クリアする,0,0,73,3,4,0,99,1
+1073015,[Story Unlock Requirements] (Hide),LoveLive!虹ヶ咲学園學園偶像同好会の樂曲を5回クリアする,0,0,73,3,5,0,99,1
 1073016,[Story Unlock Requirements] (Hide),完成 one Love 演唱會！Superstar!！歌曲.,0,0,73,4,1,0,99,1
 1073017,[Story Unlock Requirements] (Hide),完成 10 Love 演唱會！Superstar!！歌曲.,0,0,73,4,10,0,99,1
 1073018,[Story Unlock Requirements] (Hide),完成 30 Love 演唱會！Superstar!！歌曲.,0,0,73,4,30,0,99,1

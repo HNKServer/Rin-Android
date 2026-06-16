@@ -1,4 +1,4 @@
-_id,_name,_category,_detailText,_priority,_spriteName,_masterReleaseLabelId
+﻿_id,_name,_category,_detailText,_priority,_spriteName,_masterReleaseLabelId
 4293000001,Title: Otonokizaka High Student,4293,Proof 的 being student at Otonokizaka High School.,1,title_s_0000_00000_0001,1
 4293000002,Title: SIF Beginner,4293,Proof you started playing SIF!,2,title_s_0000_00000_0002,1
 4293000003,Title: I Love 演唱會s!,4293,title given 至 players who love 演唱會s 與 have participated 於 many 的 them.,3,title_s_0000_00000_0003,1
@@ -649,7 +649,7 @@ _id,_name,_category,_detailText,_priority,_spriteName,_masterReleaseLabelId
 2000041,Happy New Year 2024,2,special title 至 celebrate new year 2024.,41,title_r_2001_00000_0023,224010109
 2000042,Anime Broadcast 10 Year Anniversary Love演唱會！Special Talk Session Commemoration,2,special title 至 commemorate Anime Broadcast 10 Year Anniversary Love演唱會！Special Talk Session.,42,title_r_2001_00000_0024,224022303
 2000043,Love演唱會！Series 禮物s Unit Koshien 2024 Commemoration,2,special title 至 commemorate Love演唱會！Series 禮物s Unit Koshien 2024.,43,title_r_2001_00000_0025,224030903
-2000044,「ラブライブ！TVアニメ放送10周年記念 Love演唱會！Orchestra Concert」開催記念称号,2,「ラブライブ！TVアニメ放送10周年記念 Love演唱會！Orchestra Concert」開催を記念した特別な称号,44,title_r_2001_00000_0026,224033004
+2000044,「LoveLive!TVアニメ放送10周年記念 Love演唱會！Orchestra Concert」開催記念称号,2,「LoveLive!TVアニメ放送10周年記念 Love演唱會！Orchestra Concert」開催を記念した特別な称号,44,title_r_2001_00000_0026,224033004
 3000001,穗乃果 Fan,3,Proof 的 你的bond 與 穗乃果.,1,title_m_0001_01001_0001,1
 3000002,繪里 Fan,3,Proof 的 你的bond 與 繪里.,2,title_m_0001_01002_0001,1
 3000003,小鳥 Fan,3,Proof 的 你的bond 與 小鳥.,3,title_m_0001_01003_0001,1

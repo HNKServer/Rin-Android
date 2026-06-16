@@ -7,6 +7,7 @@ use csv::Region;
 
 fn t(name: &str) -> JsonValue { csv::table(Region::Jp, name) }
 fn g(name: &str) -> JsonValue { csv::table(Region::En, name) }
+fn z(name: &str) -> JsonValue { csv::table(Region::ZhCht, name) }
 
 fn index_by(items: &JsonValue, key: &str) -> JsonValue {
     let mut info = object! {};
@@ -221,6 +222,22 @@ lazy_static! {
 
     pub static ref MUSIC_EN: JsonValue = {
         let music = g("music");
+        let mut info = object! {};
+        for live in LIVE_LIST.entries() {
+            let mut val = object! {};
+            for data in music.members() {
+                if live.1["masterMusicId"] == data["id"] {
+                    val = data.clone();
+                    break;
+                }
+            }
+            info[live.1["id"].to_string()] = val;
+        }
+        info
+    };
+
+    pub static ref MUSIC_ZH: JsonValue = {
+        let music = z("music");
         let mut info = object! {};
         for live in LIVE_LIST.entries() {
             let mut val = object! {};

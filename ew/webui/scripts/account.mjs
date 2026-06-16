@@ -5,7 +5,7 @@ function showError(message) {
     const modalMessage = document.getElementById("modal-message");
     const modal = document.querySelector("dialog");
 
-    modalTitle.textContent = "Error";
+    modalTitle.textContent = "錯誤";
     modalMessage.textContent = message;
     modal.showModal();
 }
@@ -15,7 +15,7 @@ function showMessage(message) {
     const modalMessage = document.getElementById("modal-message");
     const modal = document.querySelector("dialog");
 
-    modalTitle.textContent = "Message";
+    modalTitle.textContent = "訊息";
     modalMessage.textContent = message;
     modal.showModal();
 }
@@ -70,7 +70,7 @@ if (cardList && cardList.length > 0) {
         cardGrid.appendChild(cardElement);
     });
 } else {
-    cardGrid.textContent = "No cards found.";
+    cardGrid.textContent = "找不到卡牌。";
 }
 
 function displayBonuses() {
@@ -83,7 +83,7 @@ function displayBonuses() {
             bonusList.appendChild(li);
         });
     } else {
-        bonusList.innerText = "No current bonuses";
+        bonusList.innerText = "目前沒有登入獎勵";
     }
 }
 displayBonuses();
@@ -109,7 +109,7 @@ document.getElementById("login-bonus-form").addEventListener("submit", async e =
     e.preventDefault();
     let id = parseInt(bonuses.value);
     if (isNaN(id) || id <= 0) {
-        return showError("Login bonus ID must be a greater than 0.");
+        return showError("登入獎勵 ID 必須大於 0。");
     }
     try {
         let resp = await startLoginBonus(id);
@@ -126,7 +126,7 @@ document.getElementById("login-bonus-form").addEventListener("submit", async e =
 const timeStatus = document.getElementById("current-server-time");
 function updateServerTime(time) {
     if (time === 0) {
-        timeStatus.textContent = "now";
+        timeStatus.textContent = "現在";
     } else {
         timeStatus.textContent = (new Date(time * 1000)).toString();
     }
@@ -137,7 +137,7 @@ updateServerTime(data.time);
 document.querySelector(".give-me-money button").addEventListener("click", async (e) => {
     try {
         await cheatMode();
-        showMessage(`You have cheated. Your "Rewards" can be found in the game present box.`);
+        showMessage(`資源已補發，可到遊戲內禮物盒領取。`);
     } catch(e) {
         showError(`Error: ${e.message}`);
     }
