@@ -1,211 +1,211 @@
 _id,_name,_category,_effectType,_effectConditionValue,_effectValue,_extraEffectValue,_effectDetail,_wayToUse,_wayToGet,_price,_spriteName,_itemTab,_priority,_expireDate,_itemExpireType,_masterReleaseLabelId
-15010001,1x 招募券,9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦.,用途ダミー,入手先ダミー,0,15010001,3,1,,0,1
-15010002,10x 招募券,9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times.,用途ダミー,入手先ダミー,0,15010002,3,2,,0,1
-15010003,10x Limited-Time 招募券,9,6,0,0,0,ticket used 至 招募 (為 limited time only).<br>Allows you 至 招募 10 times.,用途ダミー,入手先ダミー,0,15010003,3,3,,2,1
-15010004,10x 招募券 (SIF Data Link Bonus),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times 來自 specific 招募 pool.,用途ダミー,入手先ダミー,0,15010002,3,4,,0,1
-15010005,10x 招募券 (SIFAS Data Link Bonus),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times 來自 specific 招募 pool.,用途ダミー,入手先ダミー,0,15010002,3,5,,0,223071202
-15010006,1x Normal 招募券 (Available until 11:59AM on 7月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,6,,0,223063001
-15010007,10x Normal 招募券 (Available until 11:59AM on 7月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,7,,0,223063001
-15010008,1x Normal 招募券 (Available until 11:59AM on 7月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,8,,0,223071502
-15010009,10x Normal 招募券 (Available until 11:59AM on 7月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,9,,0,223071502
-15010010,1x Normal 招募券 (Available until 11:59AM on 8月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,10,,0,223073101
-15010011,10x Normal 招募券 (Available until 11:59AM on 8月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,11,,0,223073101
-15010012,1x Normal 招募券 (Available until 11:59AM on 8月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,12,,0,223081501
-15010013,10x Normal 招募券 (Available until 11:59AM on 8月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,13,,0,223081501
-15010014,1x Normal 招募券 (Available until 11:59AM on 9月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,14,,0,223083107
-15010015,10x Normal 招募券 (Available until 11:59AM on 9月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,15,,0,223083107
-15010016,1x Normal 招募券 (Available until 11:59AM on 9月 30th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,16,,0,223091501
-15010017,10x Normal 招募券 (Available until 11:59AM on 9月 30th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,17,,0,223091501
-15010018,1x Normal 招募券 (Available until 11:59AM on 10月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,18,,0,223093001
-15010019,10x Normal 招募券 (Available until 11:59AM on 10月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,19,,0,223093001
-15010020,1x Normal 招募券 (Available until 11:59AM on 10月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,20,,0,223101505
-15010021,10x Normal 招募券 (Available until 11:59AM on 10月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,21,,0,223101505
-15010022,1x Normal 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,22,,0,223092302
-15010023,1x Normal 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,23,,0,223103107
-15010024,10x Normal 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,24,,0,223103107
-15010025,1x Normal 招募券 (Available until 07:59AM on 3月 15th，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,25,,0,223111501
-15010026,10x Normal 招募券 (Available until 07:59AM on 3月 15th，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,26,,0,223111501
-15010027,1x Normal 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,27,,0,223102506
-15010028,1x Normal 招募券 (Available until 07:59AM on 3月 30th，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,28,,0,223113008
-15010029,10x Normal 招募券 (Available until 07:59AM on 3月 30th，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,29,,0,223113008
-15010030,1x Normal 招募券 (Available until 07:59AM on 4月 15th，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,30,,0,223121513
-15010031,10x Normal 招募券 (vailable until 07:59AM on 4月 15th，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,31,,0,223121513
-15010032,1x Normal 招募券 (Available until 11:59AM on 12月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,32,,0,223120804
-15010033,10x Normal 招募券 (Available until 11:59AM on 12月 31st，2023),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,33,,0,223120804
-15010034,1x Normal 招募券 (Available until 07:59AM on 4月 30，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,34,,0,223123107
-15010035,10x Normal 招募券 (Available until 07:59AM on 4月 30，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,35,,0,223123107
-15010036,1x Normal 招募券 (Available until 07:59AM on 5月 15，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,36,,0,224011508
-15010037,10x Normal 招募券 (Available until 07:59AM on 5月 15，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,37,,0,224011508
-15010038,1x Normal 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,38,,0,224013108
-15010039,10x Normal 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,39,,0,224013108
-15010040,1x Normal 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 一旦 via 普通招募.,用途ダミー,入手先ダミー,0,15010006,3,40,,0,224020109
-15010041,10x Normal 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used 至 招募.<br>Allows you 至 招募 10 times via 普通招募.,用途ダミー,入手先ダミー,0,15010003,3,41,,0,224020109
-15020001,10x 招募券 (學園偶像 Festival 2 Super Thanks),9,6,0,0,0,ticket used 至 招募 於 學園偶像 Festival 2 Super Thanks 招募.<br>Allows you 至 招募 10 times.,用途ダミー,入手先ダミー,0,15010003,3,100,,0,224030118
-15500001,開服紀念招募 points,1,0,0,0,0,Points obtained 來自 開服紀念招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223041501
-15500002,Harajuku Liella！After School ♡ 招募 Points,1,0,0,0,0,Points obtained 來自 焦點招募: Harajuku Liella！After School ♡.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223041901
-15510004,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 5月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223043001
-15510005,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 5月 31st.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223051501
-15510006,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 6月 19th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223053101
-15510007,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 6月 30th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223061501
-15510008,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 7月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223063001
-15510009,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 7月 31st.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223071502
-15510010,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 8月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223073101
-15510011,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 8月 31st.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223081501
-15510012,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 9月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223083107
-15510013,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 9月 30th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223091501
-15510014,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 10月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223093001
-15510015,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 10月 31st.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223101505
-15510016,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 11月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223103107
-15510017,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 11月 30th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223111501
-15510018,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 12月 15th.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223113008
-15510019,招募 Points (Normal),1,0,0,0,0,"Points obtained through ""普通招募""</br>can be exchanged 為 various club 成員 與 items.</br>After expiration date，it will be 轉換 至 技能筆記 (Medium).</br> ※ deadline 為 conversion 的 this point is 12月 31.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,223121513
-15510020,招募 Points (Normal),1,0,0,0,0,"Points obtained through ""普通招募""</br>can be exchanged 為 various club 成員 與 items.</br>After expiration date，it will be 轉換 至 技能筆記 (Medium).</br> ※ deadline 為 conversion 的 this point is 1月 15.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,223123107
-15510021,招募 Points (Normal),1,0,0,0,0,"Points obtained through ""普通招募""</br>can be exchanged 為 various club 成員 與 items.</br> After expiration date，it will be 轉換 至 技能筆記 (Medium).</br> ※ deadline 為 conversion 的 this point is 1月 31.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,224011508
-15510022,招募 Points (Normal),1,0,0,0,0,"Points obtained through ""普通招募""</br>can be exchanged 為 various club 成員 與 items.</br> After expiration date，it will be 轉換 至 技能筆記 (Medium).</br> ※ deadline 為 conversion 的 this point is 2月 14.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,224013108
-15510023,招募 Points (Normal),1,0,0,0,0,"Points obtained through ""普通招募""</br>can be exchanged 為 various club 成員 與 items.</br> After expiration date，it will be 轉換 至 技能筆記 (Medium).</br> ※ deadline 為 conversion 的 this point is 3月 1.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,224021409
-15510024,招募 Points (Normal),1,0,0,0,0,Points obtained 來自 普通招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.<br>*These points must be exchanged 透過 3月 31st.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224030120
-15520001,招募 Points (Out on Town),1,0,0,0,0,Points obtained 來自 焦點招募: Out on Town.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223043002
-15520002,招募 Points (Shopping Streets),1,0,0,0,0,Points obtained 來自 焦點招募: Shopping Streets.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223051502
-15520003,招募 Points (演唱會 於 Nature),1,0,0,0,0,Points obtained 來自 焦點招募: 演唱會 於 Nature.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223053102
-15520004,招募 Points (Glittering Dancers),1,0,0,0,0,Points obtained 來自 焦點招募: Glittering Dancers.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223061502
-15520005,招募 Points (Sunny Summer Camp),1,0,0,0,0,Points obtained 來自 焦點招募: Sunny Summer Camp.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223063002
-15520006,招募 Points (Midsummer Mermaid),1,0,0,0,0,Points obtained 來自 焦點招募: Midsummer Mermaid.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223071503
-15520007,招募 Points (Summer Beach Run),1,0,0,0,0,Points obtained 來自 焦點招募: Summer Beach Run.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223073102
-15520008,招募 Points (Flowers Bloom 於 Summer Night),1,0,0,0,0,Points obtained 來自 焦點招募: Flowers Bloom 於 Summer Night.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223081502
-15520009,招募 Points (Moonlight Silvergrass),1,0,0,0,0,Points obtained 來自 焦點招募: Moonlight Silvergrass.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223083102
-15520010,招募 Points (Wandering Yukata),1,0,0,0,0,Points obtained 來自 焦點招募: Wandering Yukata.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223091502
-15520011,招募 Points (Trick 或 Treat!),1,0,0,0,0,Points obtained 來自 焦點招募: Trick 或 Treat!<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223093002
-15520012,招募 Points: Sunny Marching Band:,1,0,0,0,0,Points obtained 來自 焦點招募: Sunny Marching Band.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223103108
-15520013,招募 Points: Kitty Cat 🐾 Maids,1,0,0,0,0,Points obtained 來自 焦點招募: Kitty Cat 🐾 Maids.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223111502
-15520014,招募 Points: Everyone's Merry Christmas!,1,0,0,0,0,Points obtained 來自 焦點招募: Everyone's Merry Christmas!<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223113009
-15520015,招募 Points [Santa Claus at Snow Festival]),1,0,0,0,0,Points obtained through Pickup 招募: Santa Claus 的 Snow Festival!<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223121505
-15520016,招募 Points [Happy New Year 至 Everyone!],1,0,0,0,0,Points obtained through Pickup 招募: Happy New Year 至 everyone<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223123102
-15520017,招募 Points [Fairy on Ice],1,0,0,0,0,Points obtained through Pickup 招募: Fairy on Ice<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224011502
-15520018,招募 Points [Maiden Trapped 於 Love],1,0,0,0,0,Points obtained through Pickup 招募: Maiden Trapped 於 Love<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224013102
-15520019,招募 Points [Night 的 Hundred Demons],1,0,0,0,0,Points obtained through Pickup 招募: Night 的 Hundred Demons<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224021402
-15520020,招募 Points (Y2K♡GALS),1,0,0,0,0,Points obtained 來自 焦點招募: Y2K♡GALS.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224030102
-15530001,招募 Points (香音's 生日),1,0,0,0,0,Points obtained 來自 香音's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223050101
-15530002,招募 Points (愛's 生日),1,0,0,0,0,Points obtained 來自 愛's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223053001
-15530003,招募 Points (希's 生日),1,0,0,0,0,Points obtained 來自 希's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223060901
-15530004,招募 Points (鞠莉's 生日),1,0,0,0,0,Points obtained 來自 鞠莉's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223061301
-15530005,招募 Points (四季's 生日),1,0,0,0,0,Points obtained 來自 四季's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223061701
-15530006,招募 Points (果林's 生日),1,0,0,0,0,Points obtained 來自 果林's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223062901
-15530007,招募 Points (善子's 生日),1,0,0,0,0,Points obtained 來自 善子's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223071301
-15530008,招募 Points (可可's 生日),1,0,0,0,0,Points obtained 來自 可可's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223071702
-15530009,招募 Points (妮可's 生日),1,0,0,0,0,Points obtained 來自 妮可's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223072201
-15530010,招募 Points (千歌's 生日),1,0,0,0,0,Points obtained 來自 千歌's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223080102
-15530011,招募 Points (穗乃果's 生日),1,0,0,0,0,Points obtained 來自 穗乃果's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223080303
-15530012,招募 Points (夏美's 生日),1,0,0,0,0,Points obtained 來自 夏美's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223080701
-15530013,招募 Points (雪菜's 生日),1,0,0,0,0,Points obtained 來自 雪菜's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223080801
-15530014,招募 Points (小鳥's 生日),1,0,0,0,0,Points obtained 來自 小鳥's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223091201
-15530015,招募 Points (梨子's 生日),1,0,0,0,0,Points obtained 來自 梨子's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223091901
-15530016,招募 Points (露比's 生日),1,0,0,0,0,Points obtained 來自 露比's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223092101
-15530017,招募 Points (堇's 生日),1,0,0,0,0,Points obtained 來自 堇's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223092801
-15530018,招募 Points (栞子's 生日),1,0,0,0,0,Points obtained 來自 栞子's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223100502
-15530019,招募 Points (繪里's 生日),1,0,0,0,0,Points obtained 來自 繪里's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223102101
-15530020,招募 Points (芽衣's 生日),1,0,0,0,0,Points obtained 來自 芽衣's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223102901
-15530021,招募 Points (凜's 生日),1,0,0,0,0,Points obtained 來自 凜's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223110101
-15530022,招募 Points (璃奈's 生日),1,0,0,0,0,Points obtained 來自 璃奈's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223111301
-15530023,招募 Points (戀's 生日),1,0,0,0,0,Points obtained 來自 戀's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223112401
-15530024,招募 Points (米雅's 生日),1,0,0,0,0,Points obtained 來自 米雅's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223120601
-15530025,招募 Points (彼方's 生日),1,0,0,0,0,Points obtained 來自 彼方's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223121601
-15530026,招募 Points (冬毬's 生日),1,0,0,0,0,Points obtained 來自 冬毬's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223122801
-15530027,招募 Points [Daiya's Birth Anniversary],1,0,0,0,0,Points obtained through Daiya's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224010103
-15530028,招募 Points [花陽's Birth Anniversary],1,0,0,0,0,Points obtained through 花陽's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224011702
-15530029,招募 Points [Margarete's Birth Anniversary],1,0,0,0,0,Points obtained through Margarete's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224012002
-15530030,招募 Points [霞's Birth Anniversary],1,0,0,0,0,Points obtained through 霞's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224012302
-15530031,招募 Points [Ema's Birth Anniversary],1,0,0,0,0,Points obtained through Ema's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224020502
-15530032,招募 Points [果南's Birth Anniversary],1,0,0,0,0,Points obtained through 果南's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224021004
-15530033,招募 Points [Ranju's Birth Anniversary],1,0,0,0,0,Points obtained through Ranju's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224021502
-15530034,招募 Points (千砂都's 生日),1,0,0,0,0,Points obtained 來自 千砂都's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224022502
-15530035,招募 Points (步夢's 生日),1,0,0,0,0,Points obtained 來自 步夢's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224030107
-15530036,招募 Points (花丸's 生日),1,0,0,0,0,Points obtained 來自 花丸's 生日 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224030402
-15530037,招募 Points [海未's 生日 Anniversary],1,0,0,0,0,Points that can be earned through “海未's 生日 Anniversary 招募”</br>Can be exchanged 為 various 成員 與 items</br>*After 期間 ends，it will be 轉換 至 技能筆記 (Medium).,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224031502
-15540001,招募 Points (SIF Data Link Bonus),1,0,0,0,0,Points obtained 來自 SIF Data Link Bonus 票券 招募.<br>Can be exchanged 為 various 成員 與 items.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223043003
-15540002,招募 Points (Attribute Spotlight),1,0,0,0,0,Points obtained 來自 Smile Only！焦點招募，Pure Only！焦點招募，或 Cool Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223061103
-15540005,招募 Points (Love 歌曲 Carnival: 步夢),1,0,0,0,0,Points obtained 來自 步夢's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223100301
-15540006,招募 Points (Love 歌曲 Carnival: 霞),1,0,0,0,0,Points obtained 來自 霞's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223101001
-15540007,招募 Points (Love 歌曲 Carnival: 雫),1,0,0,0,0,Points obtained 來自 雫's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223101701
-15540008,招募 Points (Love 歌曲 Carnival: 果林),1,0,0,0,0,Points obtained 來自 果林's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223102401
-15540009,招募 Points (Love 歌曲 Carnival: 愛),1,0,0,0,0,Points obtained 來自 愛's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223103101
-15540010,招募 Points (Love 歌曲 Carnival: 彼方),1,0,0,0,0,Points obtained 來自 彼方's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223110701
-15540011,招募 Points (Love 歌曲 Carnival: 雪菜),1,0,0,0,0,Points obtained 來自 雪菜's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223111401
-15540012,招募 Points (Love 歌曲 Carnival: 艾瑪),1,0,0,0,0,Points obtained 來自 艾瑪's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223112101
-15540013,招募 Points (Love 歌曲 Carnival: 璃奈),1,0,0,0,0,Points obtained 來自 璃奈's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223112801
-15540014,招募 Points (Love 歌曲 Carnival: 栞子),1,0,0,0,0,Points obtained 來自 栞子's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223120501
-15540015,招募 Points (Love 歌曲 Carnival: 米雅),1,0,0,0,0,Points obtained 來自 米雅's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223121201
-15540016,招募 Points (Love 歌曲 Carnival: 嵐珠),1,0,0,0,0,Points obtained 來自 嵐珠's Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223121901
-15540017,招募 Points (Half Anniversary),1,0,0,0,0,Points obtained 來自 One--Day！Half Anniversary 招募，保證 UR！Half Anniversary 招募，或 焦點招募: Boo！Boo！Halloweenland.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223101501
-15540023,招募 Points (Love 歌曲 透過 Me),1,0,0,0,0,"Points obtained 來自 ""Love 歌曲 透過 Me"" Launch 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,223090603
-15540024,招募 Points: μ's Spotlight,1,0,0,0,0,Points obtained 來自 μ's Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223103111
-15540025,招募 Points: Aqours Spotlight,1,0,0,0,0,Points obtained 來自 Aqours Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223111508
-15540027,招募 Points: Yohane Parhelion,1,0,0,0,0,Points obtained 來自 Yohane Parhelion: Story 的 Sound 的 Heart 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223121402
-15540028,招募 Points: 1st-Years Spotlight,1,0,0,0,0,Points obtained 來自 1st-Years Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223111702
-15540029,招募 Points: 2nd-Years Spotlight,1,0,0,0,0,Points obtained 來自 2nd-Years Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223112404
-15540030,招募 Points: 3rd-Years Spotlight,1,0,0,0,0,Points obtained 來自 3rd-Years Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,223120103
-15540031,招募 Points [Year-End & New Year Memorial],1,0,0,0,0,"Points obtained through ""Year End & New-Year Commemoration！Free 招募 up 至 240 times"" 與 ""Year End & New-Year Commemoration！UR confirmed scout""<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,223122604
-15540032,招募 Points [New Year Commemoration],1,0,0,0,0,"Points obtained through ""New-Year's First Dream Commemoration!"" 與 ""New-Year's First Dream！UR confirmed scout""<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,224010105
-15540033,招募 Points [Love 歌曲 Carnival],1,0,0,0,0,"Points obtained through ""Love 歌曲 Carnival Memorial 招募""<br>can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.",用途ダミー,入手先ダミー,0,15020001,5,500,,0,224011304
-15540034,招募 Points (Super Thanks),1,0,0,0,0,Points obtained 來自 學園偶像 Festival 2 Super Thanks 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224030109
-15540035,招募 Points [Special 招募],1,0,0,0,0,Points that can be earned through “Special 招募”</br>Can be exchanged 為 various 成員 與 items</br>*After 期間 ends，it will be 轉換 至 技能筆記 (Medium).,用途ダミー,入手先ダミー,0,15020001,5,500,,0,224031602
-30010001,Memorial Piece,1,0,0,0,0,Special items obtained 來自 events，登入 bonuses，etc.<br>Can be exchanged 為 memorial 成員 at 交換 一旦 enough pieces have been collected.,用途ダミー,入手先ダミー,0,30010001,5,500,,0,1
-30010002,Weiß Schwarz Exchange 票券,1,0,0,0,0,交換 ticket that 你可以use at Weiß Schwarz Registration Campaign Exchange Shop.,用途ダミー,入手先ダミー,0,30010002,5,501,,0,223110106
-30010003,Snowy White Christmas Exchange 票券,1,0,0,0,0,交換 ticket that can be used at Snowy White Christmas Campaign Exchange shop.,用途ダミー,入手先ダミー,0,30010003,5,502,,0,223120107
-30010004,Lucky Bag Points,1,0,0,0,0,新春記念！福袋パック交換所で利用できる交換券,用途ダミー,入手先ダミー,0,30010004,5,502,,0,224010107
-30010005,Valentine's Exchange 票券,1,0,0,0,0,交換 ticket that can be used at Happy Valentine's Day Campaign Exchange Shop.,用途ダミー,入手先ダミー,0,30010005,5,502,,0,224020104
-16005001,Lesson Notebook (S),4,3,0,100,0,使用d 於 lessons 至 grant experience points 至 specific 成員.,用途ダミー,入手先ダミー,100,16005001,1,217,,0,1
-16005002,Lesson Notebook (M),4,3,0,1000,0,使用d 於 lessons 至 grant experience points 至 specific 成員.,用途ダミー,入手先ダミー,1000,16005002,1,218,,0,1
-16005003,Lesson Notebook (L),4,3,0,5000,0,使用d 於 lessons 至 grant experience points 至 specific 成員.,用途ダミー,入手先ダミー,5000,16005003,1,219,,0,1
-17001001,技能筆記 (S),5,4,0,100,0,使用d 於 skill lessons 至 grant experience points 至 specific skill.,用途ダミー,入手先ダミー,1000,17001001,1,321,,0,1
-17001002,技能筆記 (M),5,4,0,1000,0,使用d 於 skill lessons 至 grant experience points 至 specific skill.,用途ダミー,入手先ダミー,10000,17001002,1,322,,0,1
-17001003,技能筆記 (L),5,4,0,5000,0,使用d 於 skill lessons 至 grant experience points 至 specific skill.,用途ダミー,入手先ダミー,50000,17001003,1,323,,0,1
-19100001,螢光棒,3,8,0,0,0,使用d 至 Idolize 成員.,用途ダミー,入手先ダミー,0,19400001,1,405,,0,1
-20000001,LP Candy (S),8,1,0,10,0,item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20000001,2,1,,0,1
-20000002,LP Candy (M),8,1,0,50,0,item that 恢復 50 LP.,用途ダミー,入手先ダミー,0,20000002,2,2,,0,1
-20000003,LP Candy (L),8,1,0,100,0,item that 恢復 100 LP.,用途ダミー,入手先ダミー,0,20000003,2,3,,0,1
-20001001,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,10,2023/05/25 4:59:59,0,1
-20002001,Limited-Time LP Candy (M),8,1,0,50,0,limited-time item that 恢復 50 LP.,用途ダミー,入手先ダミー,0,20002001,2,11,2023/05/25 4:59:59,0,1
-20003001,Limited-Time LP Candy (L),8,1,0,100,0,limited-time item that 恢復 100 LP.,用途ダミー,入手先ダミー,0,20003001,2,12,2023/05/25 4:59:59,0,1
-20001002,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,13,2023/06/10 4:59:59,0,223051506
-20001003,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,14,2023/06/25 4:59:59,0,223053106
-20001004,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,15,2024/03/31 14:59:59,0,223061107
-20001005,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,16,2023/08/31 14:59:59,0,223063006
-20001006,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,17,2023/09/30 14:59:59,0,223073106
-20001007,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,18,2023/10/31 14:59:59,0,223083106
-20001008,Halloween LP Candy (S),8,1,0,10,0,item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001002,2,19,,0,223102502
-20001009,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,20,2023/11/30 14:59:59,0,223093006
-20001010,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,20,2024/03/31 14:59:59,0,223103106
-20001011,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,20,2024/04/15 14:59:59,0,223113006
-20001012,Christmas LP Candy (S),8,1,0,10,0,item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001003,2,20,,0,223120106
-20001013,LP Sticky Mochi,8,1,0,10,0,item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001004,2,20,,0,224010109
-20001014,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,20,2024/04/30 14:59:59,0,223120803
-20001015,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,20,2024/05/15 14:59:59,0,223123105
-20001016,LP Valentine's Chocolate (S),8,1,0,10,0,item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001005,2,20,,0,224020105
-20001017,LP White Day Macaron (S),8,1,0,10,0,item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001006,2,20,,0,224030112
-20001018,Limited-Time LP Candy (S),8,1,0,10,0,limited-time item that 恢復 10 LP.,用途ダミー,入手先ダミー,0,20001001,2,20,2024/05/31 14:59:59,0,224013105
-21000001,跳過 票券,1,10,0,0,0,ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21000001,3,10,,0,1
-21001001,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/05/25 4:59:59,0,1
-21001002,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/06/10 4:59:59,0,223051506
-21001003,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/06/25 4:59:59,0,223053106
-21001004,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/07/31 14:59:59,0,223061107
-21001005,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/08/31 14:59:59,0,223063006
-21001006,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/09/30 14:59:59,0,223073106
-21001007,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/10/31 14:59:59,0,223083106
-21001008,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2023/11/30 14:59:59,0,223093006
-21001009,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2024/03/31 14:59:59,0,223103106
-21001010,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2024/04/15 14:59:59,0,223113006
-21001011,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2024/04/30 14:59:59,0,223120803
-21001012,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2024/05/15 14:59:59,0,223123105
-21001013,Limited-Time 跳過 票券,1,10,0,0,0,limited-time ticket used 至 skip 演唱會 that has already been cleared.,用途ダミー,入手先ダミー,0,21001001,3,10,2024/05/31 14:59:59,0,224013105
-22000001,Star Assist 票券,1,9,0,0,0,ticket needed 至 use Star Assist.,用途ダミー,入手先ダミー,0,22000001,5,500,,0,223111506
-22001001,Star Assist 票券 (Limited),1,9,0,0,0,ticket needed 至 use Star Assist (limited time).,用途ダミー,入手先ダミー,0,22001001,5,500,2024/05/10 07:59:59,0,223103106
-22001003,Star Assist 票券 (Limited),1,9,0,0,0,ticket needed 至 use Star Assist (limited time).,用途ダミー,入手先ダミー,0,22001001,5,500,2024/05/10 07:59:59,0,224011505
-22001004,Star Assist 票券 (Limited),1,9,0,0,0,ticket needed 至 use Star Assist (limited time).,用途ダミー,入手先ダミー,0,22001001,5,500,2024/05/10 07:59:59,0,224021405
-15570001,招募 Points (Global Launch SP 招募 ~Set 1~),1,0,0,0,0,Points obtained 來自 Global Launch SP 招募 ~Set 1~<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924020101
-15570002,招募 Points (Global Launch SP 招募 ~Set 2~),1,0,0,0,0,Points obtained 來自 Global Launch SP 招募 ~Set 2~<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924021601
-15570003,招募 Points [Rerun](Global Launch SP 招募 ~Set 1~),1,0,0,0,0,Points obtained 來自 Global Launch SP 招募 ~Set 1~<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924031701
-15570004,招募 Points:[Rerun](μ's Spotlight),1,0,0,0,0,Points obtained 來自 μ's Only！焦點招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after 交換 期間.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924032501
-15570005,招募 Points:[Rerun](Aqours Spotlight),1,0,0,0,0,「Aqours限定！ピックアップ勧誘」で獲得できるポイント<br>様々な部員やアイテムと交換することができる<br>※期限終了後、スキルブック(中)に変換されます,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924041701
-15570006,招募 Points [Rerun](Global Launch SP 招募 ~Set 2~),1,0,0,0,0,Points obtained 來自 Global Launch SP 招募 ~Set 2~<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924042401
-15570007,招募 Points (Special 招募),1,0,0,0,0,Points obtained 來自 Rerun UR Guaranteed！Special 招募！<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924050701
-15570008,招募 Points (Love 歌曲 Carnival),1,0,0,0,0,Points obtained 來自 Rerun Love 歌曲 Carnival 招募.<br>Can be exchanged 為 various 成員 與 items.<br>*Converted into 技能筆記 (M) after they expire.,用途ダミー,入手先ダミー,0,15020001,5,500,,0,924052401
+15010001,1次招募券,9,6,0,0,0,可用於招募的券。<br>可以進行1次招募。,用途暫定,取得途徑暫定,0,15010001,3,1,,0,1
+15010002,10次招募券,9,6,0,0,0,可用於招募的券。<br>可以進行10次招募。,用途暫定,取得途徑暫定,0,15010002,3,2,,0,1
+15010003,10次期間限定招募券,9,6,0,0,0,期間限定招募券。<br>可以進行10次招募。,用途暫定,取得途徑暫定,0,15010003,3,3,,2,1
+15010004,10次招募券 (SIF Data Link Bonus),9,6,0,0,0,可用於指定招募池的券。<br>可以進行10次招募。,用途暫定,取得途徑暫定,0,15010002,3,4,,0,1
+15010005,10次招募券 (SIFAS Data Link Bonus),9,6,0,0,0,可用於指定招募池的券。<br>可以進行10次招募。,用途暫定,取得途徑暫定,0,15010002,3,5,,0,223071202
+15010006,1x 普通 招募券 (Available until 11:59AM on 7月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,6,,0,223063001
+15010007,10x 普通 招募券 (Available until 11:59AM on 7月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,7,,0,223063001
+15010008,1x 普通 招募券 (Available until 11:59AM on 7月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,8,,0,223071502
+15010009,10x 普通 招募券 (Available until 11:59AM on 7月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,9,,0,223071502
+15010010,1x 普通 招募券 (Available until 11:59AM on 8月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,10,,0,223073101
+15010011,10x 普通 招募券 (Available until 11:59AM on 8月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,11,,0,223073101
+15010012,1x 普通 招募券 (Available until 11:59AM on 8月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,12,,0,223081501
+15010013,10x 普通 招募券 (Available until 11:59AM on 8月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,13,,0,223081501
+15010014,1x 普通 招募券 (Available until 11:59AM on 9月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,14,,0,223083107
+15010015,10x 普通 招募券 (Available until 11:59AM on 9月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,15,,0,223083107
+15010016,1x 普通 招募券 (Available until 11:59AM on 9月 30th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,16,,0,223091501
+15010017,10x 普通 招募券 (Available until 11:59AM on 9月 30th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,17,,0,223091501
+15010018,1x 普通 招募券 (Available until 11:59AM on 10月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,18,,0,223093001
+15010019,10x 普通 招募券 (Available until 11:59AM on 10月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,19,,0,223093001
+15010020,1x 普通 招募券 (Available until 11:59AM on 10月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,20,,0,223101505
+15010021,10x 普通 招募券 (Available until 11:59AM on 10月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,21,,0,223101505
+15010022,1x 普通 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,22,,0,223092302
+15010023,1x 普通 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,23,,0,223103107
+15010024,10x 普通 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,24,,0,223103107
+15010025,1x 普通 招募券 (Available until 07:59AM on 3月 15th，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,25,,0,223111501
+15010026,10x 普通 招募券 (Available until 07:59AM on 3月 15th，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,26,,0,223111501
+15010027,1x 普通 招募券 (Available until 11:59AM on 11月 15th，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,27,,0,223102506
+15010028,1x 普通 招募券 (Available until 07:59AM on 3月 30th，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,28,,0,223113008
+15010029,10x 普通 招募券 (Available until 07:59AM on 3月 30th，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,29,,0,223113008
+15010030,1x 普通 招募券 (Available until 07:59AM on 4月 15th，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,30,,0,223121513
+15010031,10x 普通 招募券 (vailable until 07:59AM on 4月 15th，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,31,,0,223121513
+15010032,1x 普通 招募券 (Available until 11:59AM on 12月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,32,,0,223120804
+15010033,10x 普通 招募券 (Available until 11:59AM on 12月 31st，2023),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,33,,0,223120804
+15010034,1x 普通 招募券 (Available until 07:59AM on 4月 30，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,34,,0,223123107
+15010035,10x 普通 招募券 (Available until 07:59AM on 4月 30，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,35,,0,223123107
+15010036,1x 普通 招募券 (Available until 07:59AM on 5月 15，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,36,,0,224011508
+15010037,10x 普通 招募券 (Available until 07:59AM on 5月 15，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,37,,0,224011508
+15010038,1x 普通 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,38,,0,224013108
+15010039,10x 普通 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,39,,0,224013108
+15010040,1x 普通 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募1次 via 普通招募.,用途暫定,取得途徑暫定,0,15010006,3,40,,0,224020109
+15010041,10x 普通 招募券 (Available until 05:59AM on 5月 31，2024),9,6,0,0,0,ticket used至招募.<br>Allows you至招募 10 times via 普通招募.,用途暫定,取得途徑暫定,0,15010003,3,41,,0,224020109
+15020001,10次招募券 (學園偶像 Festival 2 Super Thanks),9,6,0,0,0,ticket used至招募於學園偶像 Festival 2 Super Thanks 招募.<br>Allows you至招募 10 times.,用途暫定,取得途徑暫定,0,15010003,3,100,,0,224030118
+15500001,開服紀念招募 points,1,0,0,0,0,Points 獲得來自開服紀念招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223041501
+15500002,Harajuku Liella！After School ♡ 招募 Points,1,0,0,0,0,Points 獲得來自焦點招募: Harajuku Liella！After School ♡.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223041901
+15510004,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過5月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223043001
+15510005,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過5月 31st.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223051501
+15510006,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過6月 19th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223053101
+15510007,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過6月 30th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223061501
+15510008,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過7月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223063001
+15510009,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過7月 31st.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223071502
+15510010,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過8月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223073101
+15510011,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過8月 31st.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223081501
+15510012,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過9月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223083107
+15510013,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過9月 30th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223091501
+15510014,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過10月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223093001
+15510015,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過10月 31st.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223101505
+15510016,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過11月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223103107
+15510017,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過11月 30th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223111501
+15510018,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過12月 15th.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223113008
+15510019,招募 Points (普通),1,0,0,0,0,"Points 獲得 through ""普通招募""</br>can be exchanged為various club 成員與道具.</br>After expiration date，it will be 轉換至技能筆記 (Medium).</br> ※ deadline為conversion的this point is 12月 31.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,223121513
+15510020,招募 Points (普通),1,0,0,0,0,"Points 獲得 through ""普通招募""</br>can be exchanged為various club 成員與道具.</br>After expiration date，it will be 轉換至技能筆記 (Medium).</br> ※ deadline為conversion的this point is 1月 15.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,223123107
+15510021,招募 Points (普通),1,0,0,0,0,"Points 獲得 through ""普通招募""</br>can be exchanged為various club 成員與道具.</br> After expiration date，it will be 轉換至技能筆記 (Medium).</br> ※ deadline為conversion的this point is 1月 31.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,224011508
+15510022,招募 Points (普通),1,0,0,0,0,"Points 獲得 through ""普通招募""</br>can be exchanged為various club 成員與道具.</br> After expiration date，it will be 轉換至技能筆記 (Medium).</br> ※ deadline為conversion的this point is 2月 14.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,224013108
+15510023,招募 Points (普通),1,0,0,0,0,"Points 獲得 through ""普通招募""</br>can be exchanged為various club 成員與道具.</br> After expiration date，it will be 轉換至技能筆記 (Medium).</br> ※ deadline為conversion的this point is 3月 1.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,224021409
+15510024,招募 Points (普通),1,0,0,0,0,Points 獲得來自普通招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.<br>*These points must be exchanged透過3月 31st.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224030120
+15520001,招募 Points (Out on Town),1,0,0,0,0,Points 獲得來自焦點招募: Out on Town.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223043002
+15520002,招募 Points (商店ping Streets),1,0,0,0,0,Points 獲得來自焦點招募: 商店ping Streets.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223051502
+15520003,招募 Points (演唱會於Nature),1,0,0,0,0,Points 獲得來自焦點招募: 演唱會於Nature.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223053102
+15520004,招募 Points (Glittering Dancers),1,0,0,0,0,Points 獲得來自焦點招募: Glittering Dancers.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223061502
+15520005,招募 Points (Sunny Summer Camp),1,0,0,0,0,Points 獲得來自焦點招募: Sunny Summer Camp.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223063002
+15520006,招募 Points (Midsummer Mermaid),1,0,0,0,0,Points 獲得來自焦點招募: Midsummer Mermaid.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223071503
+15520007,招募 Points (Summer Beach Run),1,0,0,0,0,Points 獲得來自焦點招募: Summer Beach Run.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223073102
+15520008,招募 Points (Flowers Bloom於Summer Night),1,0,0,0,0,Points 獲得來自焦點招募: Flowers Bloom於Summer Night.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223081502
+15520009,招募 Points (Moonlight Silvergrass),1,0,0,0,0,Points 獲得來自焦點招募: Moonlight Silvergrass.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223083102
+15520010,招募 Points (Wandering Yukata),1,0,0,0,0,Points 獲得來自焦點招募: Wandering Yukata.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223091502
+15520011,招募 Points (Trick 或 Treat!),1,0,0,0,0,Points 獲得來自焦點招募: Trick 或 Treat!<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223093002
+15520012,招募 Points: Sunny Marching Band:,1,0,0,0,0,Points 獲得來自焦點招募: Sunny Marching Band.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223103108
+15520013,招募 Points: Kitty Cat 🐾 Maids,1,0,0,0,0,Points 獲得來自焦點招募: Kitty Cat 🐾 Maids.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223111502
+15520014,招募 Points: Everyone's Merry Christmas!,1,0,0,0,0,Points 獲得來自焦點招募: Everyone's Merry Christmas!<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223113009
+15520015,招募 Points [Santa Claus at Snow Festival]),1,0,0,0,0,Points 獲得 through Pickup 招募: Santa Claus的Snow Festival!<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223121505
+15520016,招募 Points [Happy New Year至Everyone!],1,0,0,0,0,Points 獲得 through Pickup 招募: Happy New Year至everyone<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223123102
+15520017,招募 Points [Fairy on Ice],1,0,0,0,0,Points 獲得 through Pickup 招募: Fairy on Ice<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224011502
+15520018,招募 Points [Maiden Trapped於Love],1,0,0,0,0,Points 獲得 through Pickup 招募: Maiden Trapped於Love<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224013102
+15520019,招募 Points [Night的Hundred Demons],1,0,0,0,0,Points 獲得 through Pickup 招募: Night的Hundred Demons<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224021402
+15520020,招募 Points (Y2K♡GALS),1,0,0,0,0,Points 獲得來自焦點招募: Y2K♡GALS.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224030102
+15530001,招募 Points (香音's 生日),1,0,0,0,0,Points 獲得來自香音's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223050101
+15530002,招募 Points (愛's 生日),1,0,0,0,0,Points 獲得來自愛's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223053001
+15530003,招募 Points (希's 生日),1,0,0,0,0,Points 獲得來自希's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223060901
+15530004,招募 Points (鞠莉's 生日),1,0,0,0,0,Points 獲得來自鞠莉's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223061301
+15530005,招募 Points (四季's 生日),1,0,0,0,0,Points 獲得來自四季's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223061701
+15530006,招募 Points (果林's 生日),1,0,0,0,0,Points 獲得來自果林's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223062901
+15530007,招募 Points (善子's 生日),1,0,0,0,0,Points 獲得來自善子's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223071301
+15530008,招募 Points (可可's 生日),1,0,0,0,0,Points 獲得來自可可's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223071702
+15530009,招募 Points (妮可's 生日),1,0,0,0,0,Points 獲得來自妮可's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223072201
+15530010,招募 Points (千歌's 生日),1,0,0,0,0,Points 獲得來自千歌's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223080102
+15530011,招募 Points (穗乃果's 生日),1,0,0,0,0,Points 獲得來自穗乃果's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223080303
+15530012,招募 Points (夏美's 生日),1,0,0,0,0,Points 獲得來自夏美's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223080701
+15530013,招募 Points (雪菜's 生日),1,0,0,0,0,Points 獲得來自雪菜's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223080801
+15530014,招募 Points (小鳥's 生日),1,0,0,0,0,Points 獲得來自小鳥's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223091201
+15530015,招募 Points (梨子's 生日),1,0,0,0,0,Points 獲得來自梨子's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223091901
+15530016,招募 Points (露比's 生日),1,0,0,0,0,Points 獲得來自露比's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223092101
+15530017,招募 Points (堇's 生日),1,0,0,0,0,Points 獲得來自堇's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223092801
+15530018,招募 Points (栞子's 生日),1,0,0,0,0,Points 獲得來自栞子's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223100502
+15530019,招募 Points (繪里's 生日),1,0,0,0,0,Points 獲得來自繪里's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223102101
+15530020,招募 Points (芽衣's 生日),1,0,0,0,0,Points 獲得來自芽衣's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223102901
+15530021,招募 Points (凜's 生日),1,0,0,0,0,Points 獲得來自凜's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223110101
+15530022,招募 Points (璃奈's 生日),1,0,0,0,0,Points 獲得來自璃奈's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223111301
+15530023,招募 Points (戀's 生日),1,0,0,0,0,Points 獲得來自戀's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223112401
+15530024,招募 Points (米雅's 生日),1,0,0,0,0,Points 獲得來自米雅's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223120601
+15530025,招募 Points (彼方's 生日),1,0,0,0,0,Points 獲得來自彼方's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223121601
+15530026,招募 Points (冬毬's 生日),1,0,0,0,0,Points 獲得來自冬毬's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223122801
+15530027,招募 Points [Daiya's Birth 紀念日],1,0,0,0,0,Points 獲得 through Daiya's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224010103
+15530028,招募 Points [花陽's Birth 紀念日],1,0,0,0,0,Points 獲得 through 花陽's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224011702
+15530029,招募 Points [瑪格麗特e's Birth 紀念日],1,0,0,0,0,Points 獲得 through 瑪格麗特e's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224012002
+15530030,招募 Points [霞's Birth 紀念日],1,0,0,0,0,Points 獲得 through 霞's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224012302
+15530031,招募 Points [Ema's Birth 紀念日],1,0,0,0,0,Points 獲得 through Ema's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224020502
+15530032,招募 Points [果南's Birth 紀念日],1,0,0,0,0,Points 獲得 through 果南's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224021004
+15530033,招募 Points [Ranju's Birth 紀念日],1,0,0,0,0,Points 獲得 through Ranju's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224021502
+15530034,招募 Points (千砂都's 生日),1,0,0,0,0,Points 獲得來自千砂都's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224022502
+15530035,招募 Points (步夢's 生日),1,0,0,0,0,Points 獲得來自步夢's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224030107
+15530036,招募 Points (花丸's 生日),1,0,0,0,0,Points 獲得來自花丸's 生日 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224030402
+15530037,招募 Points [海未's 生日 紀念日],1,0,0,0,0,Points that can be earned through “海未's 生日 紀念日 招募”</br>Can be exchanged為various 成員與道具</br>*After 期間 ends，it will be 轉換至技能筆記 (Medium).,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224031502
+15540001,招募 Points (SIF Data Link Bonus),1,0,0,0,0,Points 獲得來自SIF Data Link Bonus 票券 招募.<br>Can be exchanged為various 成員與道具.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223043003
+15540002,招募 Points (Attribute Spotlight),1,0,0,0,0,Points 獲得來自Smile Only！焦點招募，Pure Only！焦點招募，或 Cool Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223061103
+15540005,招募 Points (Love 歌曲 Carnival: 步夢),1,0,0,0,0,Points 獲得來自步夢's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223100301
+15540006,招募 Points (Love 歌曲 Carnival: 霞),1,0,0,0,0,Points 獲得來自霞's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223101001
+15540007,招募 Points (Love 歌曲 Carnival: 雫),1,0,0,0,0,Points 獲得來自雫's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223101701
+15540008,招募 Points (Love 歌曲 Carnival: 果林),1,0,0,0,0,Points 獲得來自果林's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223102401
+15540009,招募 Points (Love 歌曲 Carnival: 愛),1,0,0,0,0,Points 獲得來自愛's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223103101
+15540010,招募 Points (Love 歌曲 Carnival: 彼方),1,0,0,0,0,Points 獲得來自彼方's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223110701
+15540011,招募 Points (Love 歌曲 Carnival: 雪菜),1,0,0,0,0,Points 獲得來自雪菜's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223111401
+15540012,招募 Points (Love 歌曲 Carnival: 艾瑪),1,0,0,0,0,Points 獲得來自艾瑪's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223112101
+15540013,招募 Points (Love 歌曲 Carnival: 璃奈),1,0,0,0,0,Points 獲得來自璃奈's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223112801
+15540014,招募 Points (Love 歌曲 Carnival: 栞子),1,0,0,0,0,Points 獲得來自栞子's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223120501
+15540015,招募 Points (Love 歌曲 Carnival: 米雅),1,0,0,0,0,Points 獲得來自米雅's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223121201
+15540016,招募 Points (Love 歌曲 Carnival: 嵐珠),1,0,0,0,0,Points 獲得來自嵐珠's Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223121901
+15540017,招募 Points (Half 紀念日),1,0,0,0,0,Points 獲得來自One--Day！Half 紀念日 招募，保證 UR！Half 紀念日 招募，或 焦點招募: Boo！Boo！Halloweenland.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223101501
+15540023,招募 Points (Love 歌曲透過Me),1,0,0,0,0,"Points 獲得來自""Love 歌曲透過Me"" Launch 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,223090603
+15540024,招募 Points: μ's Spotlight,1,0,0,0,0,Points 獲得來自μ's Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223103111
+15540025,招募 Points: Aqours Spotlight,1,0,0,0,0,Points 獲得來自Aqours Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223111508
+15540027,招募 Points: 夜羽 Parhelion,1,0,0,0,0,Points 獲得來自夜羽 Parhelion: 劇情的Sound的Heart 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223121402
+15540028,招募 Points: 1st-Years Spotlight,1,0,0,0,0,Points 獲得來自1st-Years Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223111702
+15540029,招募 Points: 2nd-Years Spotlight,1,0,0,0,0,Points 獲得來自2nd-Years Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223112404
+15540030,招募 Points: 3rd-Years Spotlight,1,0,0,0,0,Points 獲得來自3rd-Years Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,223120103
+15540031,招募 Points [Year-End & New Year Memorial],1,0,0,0,0,"Points 獲得 through ""Year End & New-Year Commemoration！免費 招募 up至240 times""與""Year End & New-Year Commemoration！UR confirmed scout""<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,223122604
+15540032,招募 Points [New Year Commemoration],1,0,0,0,0,"Points 獲得 through ""New-Year's First Dream Commemoration!""與""New-Year's First Dream！UR confirmed scout""<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,224010105
+15540033,招募 Points [Love 歌曲 Carnival],1,0,0,0,0,"Points 獲得 through ""Love 歌曲 Carnival Memorial 招募""<br>can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.",用途暫定,取得途徑暫定,0,15020001,5,500,,0,224011304
+15540034,招募 Points (Super Thanks),1,0,0,0,0,Points 獲得來自學園偶像 Festival 2 Super Thanks 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224030109
+15540035,招募 Points [Special 招募],1,0,0,0,0,Points that can be earned through “Special 招募”</br>Can be exchanged為various 成員與道具</br>*After 期間 ends，it will be 轉換至技能筆記 (Medium).,用途暫定,取得途徑暫定,0,15020001,5,500,,0,224031602
+30010001,Memorial Piece,1,0,0,0,0,Special 道具 獲得來自events，登入 bonuses，etc.<br>Can be exchanged為memorial 成員 at 交換1次 enough pieces have been collected.,用途暫定,取得途徑暫定,0,30010001,5,500,,0,1
+30010002,Weiß Schwarz Exchange 票券,1,0,0,0,0,交換 ticket that 你可以use at Weiß Schwarz Registration Campaign 交換所.,用途暫定,取得途徑暫定,0,30010002,5,501,,0,223110106
+30010003,Snowy White Christmas Exchange 票券,1,0,0,0,0,交換 ticket that can be used at Snowy White Christmas Campaign 交換所.,用途暫定,取得途徑暫定,0,30010003,5,502,,0,223120107
+30010004,Lucky Bag Points,1,0,0,0,0,新春記念！福袋パック交換所で利用できる交換券,用途暫定,取得途徑暫定,0,30010004,5,502,,0,224010107
+30010005,Valentine's Exchange 票券,1,0,0,0,0,交換 ticket that can be used at Happy Valentine's Day Campaign 交換所.,用途暫定,取得途徑暫定,0,30010005,5,502,,0,224020104
+16005001,練習 Notebook (S),4,3,0,100,0,使用d於練習s至grant experience points至指定 成員.,用途暫定,取得途徑暫定,100,16005001,1,217,,0,1
+16005002,練習 Notebook (M),4,3,0,1000,0,使用d於練習s至grant experience points至指定 成員.,用途暫定,取得途徑暫定,1000,16005002,1,218,,0,1
+16005003,練習 Notebook (L),4,3,0,5000,0,使用d於練習s至grant experience points至指定 成員.,用途暫定,取得途徑暫定,5000,16005003,1,219,,0,1
+17001001,技能筆記 (S),5,4,0,100,0,使用d於skill 練習s至grant experience points至指定 skill.,用途暫定,取得途徑暫定,1000,17001001,1,321,,0,1
+17001002,技能筆記 (M),5,4,0,1000,0,使用d於skill 練習s至grant experience points至指定 skill.,用途暫定,取得途徑暫定,10000,17001002,1,322,,0,1
+17001003,技能筆記 (L),5,4,0,5000,0,使用d於skill 練習s至grant experience points至指定 skill.,用途暫定,取得途徑暫定,50000,17001003,1,323,,0,1
+19100001,螢光棒,3,8,0,0,0,使用d至Idolize 成員.,用途暫定,取得途徑暫定,0,19400001,1,405,,0,1
+20000001,LP Candy (S),8,1,0,10,0,道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20000001,2,1,,0,1
+20000002,LP Candy (M),8,1,0,50,0,道具 that 恢復 50 LP.,用途暫定,取得途徑暫定,0,20000002,2,2,,0,1
+20000003,LP Candy (L),8,1,0,100,0,道具 that 恢復 100 LP.,用途暫定,取得途徑暫定,0,20000003,2,3,,0,1
+20001001,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,10,2023/05/25 4:59:59,0,1
+20002001,期間限定 LP Candy (M),8,1,0,50,0,limited-time 道具 that 恢復 50 LP.,用途暫定,取得途徑暫定,0,20002001,2,11,2023/05/25 4:59:59,0,1
+20003001,期間限定 LP Candy (L),8,1,0,100,0,limited-time 道具 that 恢復 100 LP.,用途暫定,取得途徑暫定,0,20003001,2,12,2023/05/25 4:59:59,0,1
+20001002,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,13,2023/06/10 4:59:59,0,223051506
+20001003,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,14,2023/06/25 4:59:59,0,223053106
+20001004,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,15,2024/03/31 14:59:59,0,223061107
+20001005,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,16,2023/08/31 14:59:59,0,223063006
+20001006,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,17,2023/09/30 14:59:59,0,223073106
+20001007,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,18,2023/10/31 14:59:59,0,223083106
+20001008,Halloween LP Candy (S),8,1,0,10,0,道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001002,2,19,,0,223102502
+20001009,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,20,2023/11/30 14:59:59,0,223093006
+20001010,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,20,2024/03/31 14:59:59,0,223103106
+20001011,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,20,2024/04/15 14:59:59,0,223113006
+20001012,Christmas LP Candy (S),8,1,0,10,0,道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001003,2,20,,0,223120106
+20001013,LP Sticky Mochi,8,1,0,10,0,道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001004,2,20,,0,224010109
+20001014,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,20,2024/04/30 14:59:59,0,223120803
+20001015,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,20,2024/05/15 14:59:59,0,223123105
+20001016,LP Valentine's Chocolate (S),8,1,0,10,0,道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001005,2,20,,0,224020105
+20001017,LP White Day Macaron (S),8,1,0,10,0,道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001006,2,20,,0,224030112
+20001018,期間限定 LP Candy (S),8,1,0,10,0,limited-time 道具 that 恢復 10 LP.,用途暫定,取得途徑暫定,0,20001001,2,20,2024/05/31 14:59:59,0,224013105
+21000001,跳過 票券,1,10,0,0,0,ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21000001,3,10,,0,1
+21001001,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/05/25 4:59:59,0,1
+21001002,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/06/10 4:59:59,0,223051506
+21001003,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/06/25 4:59:59,0,223053106
+21001004,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/07/31 14:59:59,0,223061107
+21001005,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/08/31 14:59:59,0,223063006
+21001006,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/09/30 14:59:59,0,223073106
+21001007,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/10/31 14:59:59,0,223083106
+21001008,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2023/11/30 14:59:59,0,223093006
+21001009,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2024/03/31 14:59:59,0,223103106
+21001010,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2024/04/15 14:59:59,0,223113006
+21001011,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2024/04/30 14:59:59,0,223120803
+21001012,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2024/05/15 14:59:59,0,223123105
+21001013,期間限定 跳過 票券,1,10,0,0,0,limited-time ticket used至skip 演唱會 that has already been cleared.,用途暫定,取得途徑暫定,0,21001001,3,10,2024/05/31 14:59:59,0,224013105
+22000001,Star Assist 票券,1,9,0,0,0,ticket needed至use Star Assist.,用途暫定,取得途徑暫定,0,22000001,5,500,,0,223111506
+22001001,Star Assist 票券 (Limited),1,9,0,0,0,ticket needed至use Star Assist (期間限定).,用途暫定,取得途徑暫定,0,22001001,5,500,2024/05/10 07:59:59,0,223103106
+22001003,Star Assist 票券 (Limited),1,9,0,0,0,ticket needed至use Star Assist (期間限定).,用途暫定,取得途徑暫定,0,22001001,5,500,2024/05/10 07:59:59,0,224011505
+22001004,Star Assist 票券 (Limited),1,9,0,0,0,ticket needed至use Star Assist (期間限定).,用途暫定,取得途徑暫定,0,22001001,5,500,2024/05/10 07:59:59,0,224021405
+15570001,招募 Points (Global Launch SP 招募 ~Set 1~),1,0,0,0,0,Points 獲得來自Global Launch SP 招募 ~Set 1~<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924020101
+15570002,招募 Points (Global Launch SP 招募 ~Set 2~),1,0,0,0,0,Points 獲得來自Global Launch SP 招募 ~Set 2~<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924021601
+15570003,招募 Points [Rerun](Global Launch SP 招募 ~Set 1~),1,0,0,0,0,Points 獲得來自Global Launch SP 招募 ~Set 1~<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924031701
+15570004,招募 Points:[Rerun](μ's Spotlight),1,0,0,0,0,Points 獲得來自μ's Only！焦點招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after 交換 期間.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924032501
+15570005,招募 Points:[Rerun](Aqours Spotlight),1,0,0,0,0,「Aqours限定！ピックアップ勧誘」で獲得できるポイント<br>様々な部員やアイテムと交換することができる<br>※期限終了後、スキルブック(中)に変換されます,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924041701
+15570006,招募 Points [Rerun](Global Launch SP 招募 ~Set 2~),1,0,0,0,0,Points 獲得來自Global Launch SP 招募 ~Set 2~<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924042401
+15570007,招募 Points (Special 招募),1,0,0,0,0,Points 獲得來自Rerun UR Guaranteed！Special 招募！<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924050701
+15570008,招募 Points (Love 歌曲 Carnival),1,0,0,0,0,Points 獲得來自Rerun Love 歌曲 Carnival 招募.<br>Can be exchanged為various 成員與道具.<br>*轉換後的 into 技能筆記 (M) after they expire.,用途暫定,取得途徑暫定,0,15020001,5,500,,0,924052401

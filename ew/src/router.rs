@@ -43,7 +43,25 @@ use crate::encryption;
 
 // Requests without client headers (a browser) get the webui
 async fn webui_fallback(req: ServiceRequest, next: Next<impl MessageBody + 'static>) -> Result<ServiceResponse<BoxBody>, actix_web::Error> {
-    let is_from_game = req.headers().get("aoharu-asset-version").is_some() || req.path().starts_with("/api/webui");
+    let path = req.path();
+
+    // JP startup compatibility:
+    // In the current modular router, /api/start and /api/start/assetHash live
+    // inside this WebUI fallback middleware.  These two paths are unambiguous
+    // game startup APIs, not browser/WebUI routes.  If the JP client sends one
+    // of these POSTs without aoharu-asset-version, the old check below sends it
+    // to webui::main(), which returns a redirect.  Unity/libcurl then reports:
+    //   Curl error 65: necessary data rewind wasn't possible
+    //
+    // Keep the exception deliberately narrow.  Do not classify all /api/* as
+    // game traffic, and keep /api/webui as WebUI.
+    let is_startup_api = is_startup_api_path(path);
+
+    let is_from_game =
+        is_startup_api
+        || req.headers().get("aoharu-asset-version").is_some()
+        || path.starts_with("/api/webui");
+
     if !is_from_game {
         let req = req.into_parts().0;
         let resp = if crate::get_args().hidden {
@@ -73,6 +91,10 @@ fn not_found(headers: &HeaderMap) -> HttpResponse {
     global::send(rv, 0, headers)
 }
 
+fn is_startup_api_path(path: &str) -> bool {
+    path == "/api/start" || path == "/api/start/assetHash"
+}
+
 // Fallback for paths no actix route matched. Game endpoints live in each module's routes()
 async fn api_req(req: HttpRequest, body: String) -> HttpResponse {
     let args = crate::get_args();
@@ -91,7 +113,15 @@ pub async fn request(req: HttpRequest, body: String) -> HttpResponse {
     if args.hidden && (req.path().starts_with("/api/webui/") || req.path().starts_with("/live_clear_rate.html")) {
         return not_found(headers);
     }
-    if headers.get("aoharu-asset-version").is_none() && req.path().starts_with("/api") && !req.path().starts_with("/api/webui") {
+    // Keep browser/WebUI fallback for unknown no-header /api requests, but do
+    // not redirect the startup POSTs.  If /api/start reaches default_service
+    // instead of the modular route, sending it to WebUI produces a redirect and
+    // Unity/libcurl reports error 65.
+    if headers.get("aoharu-asset-version").is_none()
+        && req.path().starts_with("/api")
+        && !req.path().starts_with("/api/webui")
+        && !is_startup_api_path(req.path())
+    {
         if args.hidden {
             return not_found(headers);
         } else {
@@ -100,6 +130,11 @@ pub async fn request(req: HttpRequest, body: String) -> HttpResponse {
     }
     if req.method() == "POST" {
         match req.path() {
+            // Defensive fallback path.  Normally these are handled by
+            // start::routes, but if the request falls through to default_service
+            // we still must not treat them as WebUI/browser requests.
+            "/api/start" => start::start(req, body).await,
+            "/api/start/assetHash" => start::asset_hash(req, body).await,
             "/api/webui/login" => webui::login(req, body),
             "/api/webui/startLoginbonus" => webui::start_loginbonus(req, body),
             "/api/webui/import" => webui::import(req, body),

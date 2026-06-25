@@ -163,7 +163,13 @@ pub fn main(req: HttpRequest) -> HttpResponse {
         }
     }
 
-    if let Some(file) = WEBUI_ASSETS.get_file(&path) {
+    if let Some(file) = WEBUI_ASSETS.get_file(&path)
+        // include_dir!("webui/") stores paths as images/..., scripts/..., etc.
+        // Browser requests, however, may be /webui/images/....
+        // Try the original path first, then the webui/stripped path.  This keeps
+        // the original 303 fallback intact and only adds a local hit before it.
+        .or_else(|| path.strip_prefix("webui/").and_then(|p| WEBUI_ASSETS.get_file(p)))
+    {
         let body = file.contents();
         let mime = mime_guess::from_path(path).first_or_octet_stream();
         return HttpResponse::Ok()
@@ -174,8 +180,21 @@ pub fn main(req: HttpRequest) -> HttpResponse {
         let args = crate::get_args();
 
         let file_name = path.split("/").last().unwrap_or("");
-        let file_path = format!("{}/{}", args.image_asset_path, file_name).replace("//", "/");
-        return if args.image_asset_path != "" && let Ok(body) = fs::read(file_path) {
+        let mut candidates = vec![
+            // Desktop/dev convenience when the downloader has populated
+            // webui/images/card-thumbnails in the working tree.
+            path.to_string(),
+        ];
+        if args.image_asset_path != "" {
+            candidates.extend([
+                format!("{}/{}", args.image_asset_path, file_name).replace("//", "/"),
+                format!("{}/card-thumbnails/{}", args.image_asset_path, file_name).replace("//", "/"),
+                format!("{}/images/card-thumbnails/{}", args.image_asset_path, file_name).replace("//", "/"),
+                format!("{}/webui/images/card-thumbnails/{}", args.image_asset_path, file_name).replace("//", "/"),
+            ]);
+        }
+
+        return if let Some(body) = candidates.iter().find_map(|p| fs::read(p).ok()) {
             let mime = mime_guess::from_path(path).first_or_octet_stream();
             HttpResponse::Ok()
                 .insert_header(ContentType(mime))
@@ -279,13 +298,54 @@ fn enrich_card(mut card: JsonValue, chars: &HashMap<i64, String>) -> JsonValue {
     card
 }
 
+fn decode_query_component(value: &str) -> String {
+    let plus_as_space = value.replace('+', " ");
+    urlencoding::decode(&plus_as_space)
+        .map(|v| v.into_owned())
+        .unwrap_or(plus_as_space)
+}
+
 fn get_query_str(req: &HttpRequest, key: &str, def: &str) -> String {
-    let query_str = req.query_string();
-    query_str
-        .split('&')
-        .find(|s| s.starts_with(&format!("{key}=")))
-        .and_then(|s| s.split('=').nth(1))
-        .unwrap_or(def).to_string()
+    for part in req.query_string().split('&') {
+        let Some((k, v)) = part.split_once('=') else { continue; };
+        if k == key {
+            return decode_query_component(v);
+        }
+    }
+    def.to_string()
+}
+
+fn normalize_search_text(value: &str) -> String {
+    value.trim().to_lowercase()
+}
+
+fn push_card_search_term(out: &mut String, value: &JsonValue) {
+    let s = value.to_string();
+    if !s.is_empty() {
+        out.push(' ');
+        out.push_str(&normalize_search_text(&s));
+    }
+}
+
+fn card_search_index() -> HashMap<i64, String> {
+    let mut index: HashMap<i64, String> = HashMap::new();
+    for region in [Region::Jp, Region::En, Region::Kr, Region::ZhCht] {
+        let cards = crate::router::databases::csv::table(region, "card");
+        let chars = character_name_map(region);
+        for item in cards.members() {
+            let card = enrich_card(item.clone(), &chars);
+            let Some(id) = card["id"].as_i64() else { continue; };
+            let entry = index.entry(id).or_default();
+            push_card_search_term(entry, &card["id"]);
+            push_card_search_term(entry, &card["name"]);
+            push_card_search_term(entry, &card["character"]);
+            push_card_search_term(entry, &card["rarityName"]);
+            push_card_search_term(entry, &card["attribute"]);
+            push_card_search_term(entry, &card["masterCharacterId"]);
+            push_card_search_term(entry, &card["illustId"]);
+        }
+    }
+    index
 }
 
 pub fn get_card_info(req: HttpRequest) -> HttpResponse {
@@ -304,13 +364,20 @@ pub fn get_card_info(req: HttpRequest) -> HttpResponse {
         return HttpResponse::Ok().content_type(ContentType::json()).body(jzon::stringify(resp));
     }
     if !name_query.is_empty() {
-        let lowercase_query = name_query.to_lowercase();
+        let query = normalize_search_text(&name_query);
+        let search_index = card_search_index();
         enriched.retain(|item| {
-            item["name"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["character"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["rarityName"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["attribute"].to_string().to_lowercase().contains(&lowercase_query)
-                || item["id"].to_string().contains(&lowercase_query)
+            let mut local_terms = String::new();
+            push_card_search_term(&mut local_terms, &item["id"]);
+            push_card_search_term(&mut local_terms, &item["name"]);
+            push_card_search_term(&mut local_terms, &item["character"]);
+            push_card_search_term(&mut local_terms, &item["rarityName"]);
+            push_card_search_term(&mut local_terms, &item["attribute"]);
+            let global_terms = item["id"].as_i64()
+                .and_then(|id| search_index.get(&id))
+                .map(|s| s.as_str())
+                .unwrap_or("");
+            local_terms.contains(&query) || global_terms.contains(&query)
         });
     }
     let total_len = enriched.len();

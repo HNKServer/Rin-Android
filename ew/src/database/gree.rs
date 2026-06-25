@@ -82,7 +82,10 @@ pub fn get_uuid(headers: &HeaderMap, body: &str) -> String {
         return String::new();
     }
 
-    let cert = DATABASE.lock_and_select("SELECT cert FROM users WHERE user_id=?1;", params!(uid)).unwrap();
+    let cert = match DATABASE.lock_and_select("SELECT cert FROM users WHERE user_id=?1;", params!(uid)) {
+        Ok(cert) => cert,
+        Err(_) => return String::new(),
+    };
 
     let data = format!("{}{}{}{}{}", uid, "sk1bdzb310n0s9tl", version, timestamp, body);
     let encoded = general_purpose::STANDARD.encode(data.as_bytes());

@@ -1,23 +1,23 @@
-﻿_id,_name,_type,_masterEventId,_loop,_priority,_prefabName,_boardSpriteName,_masterVoiceId,_masterReleaseLabelId
+_id,_name,_type,_masterEventId,_loop,_priority,_prefabName,_boardSpriteName,_masterVoiceId,_masterReleaseLabelId
 1,每日 登入獎勵,1,0,1,0,DailyLoginBonus,loginbonus_daily,0,1
-2,開始ing Dash 登入獎勵,2,0,0,3,LoginBonus_startdash_0001,loginbonus_startdash_0001,0,223041502
-3,開始ing Dash 登入獎勵 (Constant),2,0,0,3,LoginBonus_startdash_0002,loginbonus_startdash_0002,0,223071501
+2,開始 Dash 登入獎勵,2,0,0,3,LoginBonus_startdash_0001,loginbonus_startdash_0001,0,223041502
+3,開始 Dash 登入獎勵 (Constant),2,0,0,3,LoginBonus_startdash_0002,loginbonus_startdash_0002,0,223071501
 10001,Thanksgiving 10-Day,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0001,0,223061402
 10002,Thanksgiving Day 1,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0002,0,223062401
 10003,Thanksgiving Day 2,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0003,0,223062501
-10004,Yohane 1,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223062502
-10005,Yohane 2,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223070201
-10006,Yohane 3,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223070901
-10007,Yohane 4,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223071601
-10008,Yohane 5,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223072301
-10009,Yohane 6,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223073001
-10010,Yohane 7,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223080601
-10011,Yohane 8,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223081301
-10012,Yohane 9,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223082001
-10013,Yohane 10,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223082701
-10014,Yohane 11,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223090301
-10015,Yohane 12,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223091001
-10016,Yohane 13,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223091701
+10004,夜羽 1,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223062502
+10005,夜羽 2,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223070201
+10006,夜羽 3,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223070901
+10007,夜羽 4,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223071601
+10008,夜羽 5,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223072301
+10009,夜羽 6,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223073001
+10010,夜羽 7,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223080601
+10011,夜羽 8,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223081301
+10012,夜羽 9,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223082001
+10013,夜羽 10,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223082701
+10014,夜羽 11,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223090301
+10015,夜羽 12,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223091001
+10016,夜羽 13,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0004,0,223091701
 10017,虹咲 OVA Release Celebration 登入獎勵,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0017,0,223062302
 10018,Bon Festival,1,0,0,1,LoginBonus_campaign07day_0001,loginbonus_campaign_0018,0,223081001
 10019,Animelo Summer 登入獎勵 1,1,0,0,1,LoginBonus_common01day_0001,loginbonus_campaign_0019,0,223082501
@@ -35,7 +35,7 @@
 10031,蓮之空: Aichi Concert,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0031,0,223112501
 10034,IJIGEN FES THE IDOLM@STER★︎♥LOVE LIVE！登入獎勵,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0034,0,223120902
 10037,Fall Festival,1,0,0,1,LoginBonus_campaign07day_0001,loginbonus_campaign_0037,0,223111103
-10035,Yohane Parhelion: Story 的 Sound 的 Heart 登入獎勵,1,0,0,1,LoginBonus_common03day_0001,loginbonus_campaign_0035,0,223121504
+10035,夜羽 Parhelion: 劇情的Sound的Heart 登入獎勵,1,0,0,1,LoginBonus_common03day_0001,loginbonus_campaign_0035,0,223121504
 10036,Love 演唱會！虹咲學園學園偶像同好會 6th 演唱會！I love 曜 ⇆ 曜 love Me Aichi Concert 登入獎勵,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0036,0,223122302
 10038,Snow White Christmas Campaign first half,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0038,0,223120105
 10039,New Year's！Miracle Campaign 登入獎勵,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0039,0,223122804
@@ -49,15 +49,15 @@
 10047,Winter Vacation！Let’s Play Together All We Can Campaign 登入獎勵,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0047,0,224020106
 10050,Colorful Spring Campaign 登入獎勵,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0050,0,224030113
 10051,Super Thanks！Let’s Play Together Until End Campaign 登入獎勵,1,0,0,1,LoginBonus_common10day_0001,loginbonus_campaign_0051,0,224030115
-10054,Anime Broadcast 10 Year Anniversary Love演唱會！Special Talk Session 登入獎勵,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0054,0,224022302
+10054,Anime Broadcast 10 Year 紀念日 Love演唱會！Special Talk Session 登入獎勵,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0054,0,224022302
 10055,Love演唱會！Series 禮物s ユニット甲子園 2024　開催記念ログインボーナス,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0055,0,224030902
 10056,LoveLive!TVアニメ放送10周年記念　Love演唱會！Orchestra Concert　開催記念ログインボーナス,1,0,0,1,LoginBonus_common02day_0001,loginbonus_campaign_0056,0,224033002
 10057,學園偶像 Festival 2 Super Thanks 登入獎勵,1,0,0,1,LoginBonus_event30day_0001,loginbonus_campaign_0057,0,224030117
 10058,學園偶像 Festival 2 Super Thanks 登入獎勵,1,0,0,1,LoginBonus_event30day_0001,loginbonus_campaign_0058,0,224030117
-10059,スペシャル勧誘記念ログインボーナス～桜坂しずく～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_03003_01,0,224031702
-10060,スペシャル勧誘記念ログインボーナス～桜小路きな子～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_04006_01,0,224031802
-10061,スペシャル勧誘記念ログインボーナス～渡辺 曜～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_02005_01,0,224031902
-10062,スペシャル勧誘記念ログインボーナス～西木野真姫～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_01006_01,0,224032002
+10059,スペシャル勧誘記念ログインボーナス～櫻坂雫～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_03003_01,0,224031702
+10060,スペシャル勧誘記念ログインボーナス～櫻小路希奈子～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_04006_01,0,224031802
+10061,スペシャル勧誘記念ログインボーナス～渡邊曜～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_02005_01,0,224031902
+10062,スペシャル勧誘記念ログインボーナス～西木野真姬～,1,0,0,1,LoginBonus_common01day_0001,ThanksLoginBonus_01006_01,0,224032002
 20000,Subscription 登入獎勵,6,0,0,0,,,0,1
 20001,Operation: Slump Escape！登入獎勵,5,101,0,3,LoginBonus_event10day_0001,loginbonus_event_0101,0,223041903
 20002,4月 2023 (Event): μ's 登入獎勵,5,102,0,3,LoginBonus_event10day_0001,loginbonus_event_0102,0,223043004
@@ -140,7 +140,7 @@
 30038,四季's 生日 登入獎勵,1,0,0,0,BirthdayLoginBonus_04008_01,loginbonus_birthday_04008_01,40038102,123061701
 30039,夏美's 生日 登入獎勵,1,0,0,0,BirthdayLoginBonus_04009_01,loginbonus_birthday_04009_01,40039103,123080701
 30040,梨子's 生日 登入獎勵,1,0,0,0,BirthdayLoginBonus_02002_01,loginbonus_birthday_02002_01,40011098,123091903
-30041,Margarete's 生日 登入獎勵,1,0,0,0,BirthdayLoginBonus_04010_01,loginbonus_birthday_04010_01,40040104,124012001
+30041,瑪格麗特e's 生日 登入獎勵,1,0,0,0,BirthdayLoginBonus_04010_01,loginbonus_birthday_04010_01,40040104,124012001
 30042,冬毬's 生日 登入獎勵,1,0,0,0,BirthdayLoginBonus_04011_01,loginbonus_birthday_04011_01,40041105,123122801
 40001,每日 登入獎勵 1,1,0,0,0,LoginBonus_common01day_0001,loginbonus_everyday_231011,0,223101102
 40002,每日 登入獎勵 2,1,0,0,0,LoginBonus_common01day_0001,loginbonus_everyday_231012,0,223101201

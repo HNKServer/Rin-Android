@@ -3,42 +3,42 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 2,1,1,8,Solo Stage Costumes,Solo Performance,9,series_thumbnail_2_1,1
 3,1,1,6,Jobs,Vocational,9,series_thumbnail_3_1,1
 4,1,1,9,Animals,Animal,3,series_thumbnail_4_1,1
-5,1,1,13,8月 (Swimsuits) Part 1,Summer Uniform (1/2),13,series_thumbnail_5_1,1
-6,1,1,14,8月 (Swimsuits) Part 2,Summer Uniform (2/2),12,series_thumbnail_6_1,1
-7,1,1,16,9月 (Yukata) Part 1,Yukata (1/2),13,series_thumbnail_7_1,1
-8,1,1,17,9月 (Yukata) Part 2,Yukata (2/2),12,series_thumbnail_8_1,1
-9,1,1,18,10月 (Cheerleaders) Part 1,Sports (1/2),13,series_thumbnail_9_1,1
-10,1,1,19,10月 (Cheerleaders) Part 2,Sports (2/2),12,series_thumbnail_10_1,1
-11,1,1,20,11月 (Cooking) Part 1,Cooking (1/2),13,series_thumbnail_11_1,1
-12,1,1,21,11月 (Cooking) Part 2,Cooking (2/2),12,series_thumbnail_12_1,1
-13,1,1,23,12月 (Santa) Part 1,Winter Holiday (1/2),13,series_thumbnail_13_1,1
-14,1,1,24,12月 (Santa) Part 2,Winter Holiday (2/2),12,series_thumbnail_14_1,1
-15,1,1,27,1月 (Sunday Best) Part 1,Kimono (1/2),13,series_thumbnail_15_1,1
-16,1,1,28,1月 (Sunday Best) Part 2,Kimono (2/2),12,series_thumbnail_16_1,1
-17,1,1,32,2月 (Valentine's) Part 1,Chocolate (1/2),13,series_thumbnail_17_1,1
-18,1,1,33,2月 (Valentine's) Part 2,Chocolate (2/2),12,series_thumbnail_18_1,1
-19,1,1,35,3月 (Flowers) Part 1,Blooming (1/2),13,series_thumbnail_19_1,1
-20,1,1,36,3月 (Flowers) Part 2,Blooming (2/2),12,series_thumbnail_20_1,1
-21,1,1,38,4月 (Fruit Stand) Part 1,Fruit Stand (1/2),13,series_thumbnail_21_1,1
-22,1,1,39,4月 (Fruit Stand) Part 2,Fruit Stand (2/2),12,series_thumbnail_22_1,1
-23,1,1,42,5月 (Fairy Tales) Part 1,Fairy Tale (1/2),13,series_thumbnail_23_1,1
-24,1,1,43,5月 (Fairy Tales) Part 2,Fairy Tale (2/2),12,series_thumbnail_24_1,1
-25,1,1,44,6月 (Dresses) Part 1,Party Dress (1/2),13,series_thumbnail_25_1,1
-26,1,1,45,6月 (Dresses) Part 2,Party Dress (2/2),12,series_thumbnail_26_1,1
-27,1,1,49,7月 (Mermaids) Part 1,Summer Casual (1/2),13,series_thumbnail_27_1,1
-28,1,1,50,7月 (Mermaids) Part 2,Summer Casual (2/2),12,series_thumbnail_28_1,1
-29,1,1,55,China Dresses Part 1,Kung Fu Star (1/2),13,series_thumbnail_29_1,1
-30,1,1,56,China Dresses Part 2,Kung Fu Star (2/2),12,series_thumbnail_30_1,1
+5,1,1,13,8月 (虹咲 Swim Suit) Part 1,8月 (虹咲 Swim Suit) Part 1,13,series_thumbnail_5_1,1
+6,1,1,14,8月 (虹咲 Swim Suit) Part 2,8月 (虹咲 Swim Suit) Part 2,12,series_thumbnail_6_1,1
+7,1,1,16,9月 (Yukata) Part 1,9月 (Yukata) Part 1,13,series_thumbnail_7_1,1
+8,1,1,17,9月 (Yukata) Part 2,9月 (Yukata) Part 2,12,series_thumbnail_8_1,1
+9,1,1,18,10月 (Cheerleaders) Part 1,10月 (Cheerleaders) Part 1,13,series_thumbnail_9_1,1
+10,1,1,19,10月 (Cheerleaders) Part 2,10月 (Cheerleaders) Part 2,12,series_thumbnail_10_1,1
+11,1,1,20,11月 (Cooking) Part 1,11月 (Cooking) Part 1,13,series_thumbnail_11_1,1
+12,1,1,21,11月 (Cooking) Part 2,11月 (Cooking) Part 2,12,series_thumbnail_12_1,1
+13,1,1,23,12月 (Santa) Part 1,12月 (Santa) Part 1,13,series_thumbnail_13_1,1
+14,1,1,24,12月 (Santa) Part 2,12月 (Santa) Part 2,12,series_thumbnail_14_1,1
+15,1,1,27,1月 (Sunday Best) Part 1,1月 (Sunday Best) Part 1,13,series_thumbnail_15_1,1
+16,1,1,28,1月 (Sunday Best) Part 2,1月 (Sunday Best) Part 2,12,series_thumbnail_16_1,1
+17,1,1,32,2月 (Valentine's) Part 1,2月 (Valentine's) Part 1,13,series_thumbnail_17_1,1
+18,1,1,33,2月 (Valentine's) Part 2,2月 (Valentine's) Part 2,12,series_thumbnail_18_1,1
+19,1,1,35,3月 (Flowers) Part 1,3月 (Flowers) Part 1,13,series_thumbnail_19_1,1
+20,1,1,36,3月 (Flowers) Part 2,3月 (Flowers) Part 2,12,series_thumbnail_20_1,1
+21,1,1,38,4月 (Fruit Stand) Part 1,4月 (Fruit Stand) Part 1,13,series_thumbnail_21_1,1
+22,1,1,39,4月 (Fruit Stand) Part 2,4月 (Fruit Stand) Part 2,12,series_thumbnail_22_1,1
+23,1,1,42,5月 (Fairy Tales) Part 1,5月 (Fairy Tales) Part 1,13,series_thumbnail_23_1,1
+24,1,1,43,5月 (Fairy Tales) Part 2,5月 (Fairy Tales) Part 2,12,series_thumbnail_24_1,1
+25,1,1,44,6月 (Dresses) Part 1,6月 (Dresses) Part 1,13,series_thumbnail_25_1,1
+26,1,1,45,6月 (Dresses) Part 2,6月 (Dresses) Part 2,12,series_thumbnail_26_1,1
+27,1,1,49,7月 (Mermaids) Part 1,7月 (Mermaids) Part 1,13,series_thumbnail_27_1,1
+28,1,1,50,7月 (Mermaids) Part 2,7月 (Mermaids) Part 2,12,series_thumbnail_28_1,1
+29,1,1,55,演唱會於Chinatown (1/2),Kung Fu Star (1/2),13,series_thumbnail_29_1,1
+30,1,1,56,演唱會於Chinatown (2/2),Kung Fu Star (2/2),12,series_thumbnail_30_1,1
 31,1,1,58,Café Maids Part 1,Cafe Maid (1/2),13,series_thumbnail_31_1,1
 32,1,1,59,Café Maids Part 2,Cafe Maid (2/2),12,series_thumbnail_32_1,1
-33,1,1,60,Halloween Part 1,Halloween (1/2),13,series_thumbnail_33_1,1
-34,1,1,61,Halloween Part 2,Halloween (2/2),12,series_thumbnail_34_1,1
+33,1,1,60,Trick 或 Treat (1/2),Halloween (1/2),13,series_thumbnail_33_1,1
+34,1,1,61,Trick 或 Treat (2/2),Halloween (2/2),12,series_thumbnail_34_1,1
 35,1,1,64,Constellations Part 1,Zodiac (1/2),13,series_thumbnail_35_1,1
 36,1,1,65,Constellations Part 2,Zodiac (2/2),12,series_thumbnail_36_1,1
-37,1,1,67,Snowy Mountain Part 1,Winter Sports (1/2),13,series_thumbnail_37_1,1
-38,1,1,68,Snowy Mountain Part 2,Winter Sports (2/2),12,series_thumbnail_38_1,1
-39,1,1,73,Seven Lucky Gods Part 1,Goddesses 的 Fortune (1/2),13,series_thumbnail_39_1,1
-40,1,1,74,Seven Lucky Gods Part 2,Goddesses 的 Fortune (2/2),12,series_thumbnail_40_1,1
+37,1,1,67,Snowy Mountain Part 1,Winter 10月 (Cheerleaders) Part 1,13,series_thumbnail_37_1,1
+38,1,1,68,Snowy Mountain Part 2,Winter 10月 (Cheerleaders) Part 2,12,series_thumbnail_38_1,1
+39,1,1,73,Goddesses的Fortune (1/2),Goddesses的Fortune (1/2),13,series_thumbnail_39_1,1
+40,1,1,74,Goddesses的Fortune (2/2),Goddesses的Fortune (2/2),12,series_thumbnail_40_1,1
 41,1,1,76,Valentine's Part 1,Valentines (1/2),13,series_thumbnail_41_1,1
 42,1,1,77,Valentine's Part 2,Valentines (2/2),12,series_thumbnail_42_1,1
 43,1,1,78,White Day Part 1,White Day (1/2),13,series_thumbnail_43_1,1
@@ -75,8 +75,8 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 74,1,1,133,Idol Outfits Part 2,Idol Costume (2/2),12,series_thumbnail_74_1,1
 75,1,1,135,Little Devils Part 1,Little Devil (1/2),13,series_thumbnail_75_1,1
 76,1,1,136,Little Devils Part 2,Little Devil (2/2),12,series_thumbnail_76_1,1
-77,1,1,138,Pool Prep Part 1,Ready 為 Summer (1/2),15,series_thumbnail_77_1,1
-78,1,1,139,Pool Prep Part 2,Ready 為 Summer (2/2),14,series_thumbnail_78_1,1
+77,1,1,138,Ready為Summer (1/2),Ready為Summer (1/2),15,series_thumbnail_77_1,1
+78,1,1,139,Ready為Summer (2/2),Ready為Summer (2/2),14,series_thumbnail_78_1,1
 79,1,1,140,Birthstones Part 1,Birth Stones (1/2),15,series_thumbnail_79_1,1
 80,1,1,141,Birthstones Part 2,Birth Stones (2/2),14,series_thumbnail_80_1,1
 81,1,1,144,Slumber Party Part 1,Pajama Party (1/2),15,series_thumbnail_81_1,1
@@ -93,8 +93,8 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 92,1,1,157,Crayons Part 2,Crayon (2/2),14,series_thumbnail_92_1,1
 93,1,1,160,Instruments Part 1,Marching Band (1/2),15,series_thumbnail_93_1,1
 94,1,1,161,Instruments Part 2,Marching Band (2/2),14,series_thumbnail_94_1,1
-95,1,1,163,Sky Part 1,完成 Skies (1/2),15,series_thumbnail_95_1,1
-96,1,1,164,Sky Part 2,完成 Skies (2/2),14,series_thumbnail_96_1,1
+95,1,1,163,完成 Skies (1/2),完成 Skies (1/2),15,series_thumbnail_95_1,1
+96,1,1,164,完成 Skies (2/2),完成 Skies (2/2),14,series_thumbnail_96_1,1
 97,1,1,167,Wonderland Part 1,Curious Place (1/2),15,series_thumbnail_97_1,1
 98,1,1,168,Wonderland Part 2,Curious Place (2/2),14,series_thumbnail_98_1,1
 99,1,1,170,Sorceresses Part 1,Witches (1/2),15,series_thumbnail_99_1,1
@@ -113,41 +113,41 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 112,1,1,191,Marbles Part 2,Marble (2/2),14,series_thumbnail_112_1,1
 113,1,1,193,Tropical Part 1,Tropical Adventure (1/2),15,series_thumbnail_113_1,1
 114,1,1,194,Tropical Part 2,Tropical Adventure (2/2),14,series_thumbnail_114_1,1
-115,1,1,196,Studies Part 1,Time 至 Study (1/2),15,series_thumbnail_115_1,1
-116,1,1,197,Studies Part 2,Time 至 Study (2/2),14,series_thumbnail_116_1,1
+115,1,1,196,Time至Study (1/2),Time至Study (1/2),15,series_thumbnail_115_1,1
+116,1,1,197,Time至Study (2/2),Time至Study (2/2),14,series_thumbnail_116_1,1
 117,1,1,198,White Snow Part 1,Sparkling Snow (1/2),15,series_thumbnail_117_1,1
 118,1,1,199,White Snow Part 2,Sparkling Snow (2/2),14,series_thumbnail_118_1,1
 119,1,1,203,Make-Up Magic,Makeup's Magic (1/2),15,series_thumbnail_119_1,1
 120,1,1,201,生日 Surprise!,生日 Surprise,9,series_thumbnail_120_8,1
-121,1,1,202,SIF Thanksgiving 2019,Fan Festival 2019,9,series_thumbnail_121_8,1
-122,1,1,192,Starlight Sailors<br>(SIF AC),Starlight Sailor,9,series_thumbnail_122_1,1
+121,1,1,202,粉絲 Festival 2019,粉絲 Festival 2019,9,series_thumbnail_121_8,1
+122,1,1,192,星光 Sailors<br>(SIF AC),星光 Sailor,9,series_thumbnail_122_1,1
 123,1,1,186,Smile Parade,Smile Parade,9,series_thumbnail_123_1,1
 124,1,1,183,生日 演唱會,生日 演唱會,9,series_thumbnail_124_1,1
-125,1,1,165,Bokutachi wa Hitotsu no Hikari (UR),Bokutachi wa Hitotsu no Hikari (UR),9,series_thumbnail_125_1,1
+125,1,1,165,我們是合而為一的光芒 (UR),我們是合而為一的光芒 (UR),9,series_thumbnail_125_1,1
 126,1,1,159,School Unity<br>(SIF AC),School Unity,9,series_thumbnail_126_1,1
 127,1,1,162,SIF AC 2017<br>生日,SIF-AC 生日 2017,9,series_thumbnail_127_1,1
 128,1,1,172,生日 Dresses,生日 2019,9,series_thumbnail_128_1,1
-129,1,1,137,KiRa-KiRa Sensation!<br>(SSR),KiRa-KiRa Sensation!<br>(SSR),9,series_thumbnail_0_1,1
+129,1,1,137,閃閃發光的感覺！<br>(SSR),閃閃發光的感覺！<br>(SSR),9,series_thumbnail_0_1,1
 130,1,1,177,Shrine Maiden (SIF AC),Shrine Maiden,9,series_thumbnail_130_1,1
-131,1,1,5,Special Delivery Part 1,Special Release Part 1,10,series_thumbnail_0_1,1
-132,1,1,10,Special Delivery Part 2,Special Release Part 2,9,series_thumbnail_132_1,1
-133,1,1,11,Special Delivery Part 3,Special Release Part 3,9,series_thumbnail_133_1,1
-134,1,1,30,Special Delivery Part 7,Special Release Part 7,9,series_thumbnail_134_1,1
-135,1,1,31,Takaramonos /<br>Paradise 演唱會 (SR),Takaramonos/<br>Paradise 演唱會 (SR),9,series_thumbnail_135_1,1
-136,1,1,41,It's our miraculous time (R),It's our miraculous time (R),9,series_thumbnail_136_1,1
-137,1,1,47,Special Delivery Part 9,Special Release Part 9,10,series_thumbnail_0_1,1
-138,1,1,57,Special Delivery Part 13,Special Release Part 13,8,series_thumbnail_138_1,1
-139,1,1,75,Special Delivery Part 14,Special Release Part 14,9,series_thumbnail_139_1,1
-140,1,1,91,Special Delivery Part 17,Special Release Part 17,9,series_thumbnail_140_1,1
-141,1,1,92,Special Delivery Part 18,Special Release Part 18,9,series_thumbnail_141_1,1
-142,1,1,105,HEART 至 HEART！(SR),HEART 至 HEART！(SR),9,series_thumbnail_142_1,1
-143,1,1,123,MOMENT RING (SR),MOMENT RING (SR),9,series_thumbnail_143_1,1
+131,1,1,5,Special Delivery Part 1,曜 Decide ♪ Request UR<br>Finals Part 1,10,series_thumbnail_0_1,1
+132,1,1,10,Special Delivery Part 2,曜 Decide ♪ Request UR<br>Finals Part 2,9,series_thumbnail_132_1,1
+133,1,1,11,Special Delivery Part 3,曜 Decide ♪ Request UR<br>Finals Part 3,9,series_thumbnail_133_1,1
+134,1,1,30,Special Delivery Part 7,曜 Decide ♪ Request UR<br>Finals Part 7,9,series_thumbnail_134_1,1
+135,1,1,31,寶物們 /<br>Paradise 演唱會 (SR),寶物們/<br>Paradise 演唱會 (SR),9,series_thumbnail_135_1,1
+136,1,1,41,那是我們的奇蹟 (R),那是我們的奇蹟 (R),9,series_thumbnail_136_1,1
+137,1,1,47,Special Delivery Part 9,曜 Decide ♪ Request UR<br>Finals Part 9,10,series_thumbnail_0_1,1
+138,1,1,57,Special Delivery Part 13,曜 Decide ♪ Request UR<br>Finals Part 13,8,series_thumbnail_138_1,1
+139,1,1,75,Special Delivery Part 14,曜 Decide ♪ Request UR<br>Finals Part 14,9,series_thumbnail_139_1,1
+140,1,1,91,Special Delivery Part 17,曜 Decide ♪ Request UR<br>Finals Part 17,9,series_thumbnail_140_1,1
+141,1,1,92,Special Delivery Part 18,曜 Decide ♪ Request UR<br>Finals Part 18,9,series_thumbnail_141_1,1
+142,1,1,105,HEART至HEART！(SR),HEART至HEART！(SR),9,series_thumbnail_142_1,1
+143,1,1,123,瞬間之環 (SR),瞬間之環 (SR),9,series_thumbnail_143_1,1
 144,1,1,63,Printemps 演唱會,Printemps 演唱會,3,series_thumbnail_144_1,1
 145,1,1,66,lily white 演唱會,lily white 演唱會,3,series_thumbnail_145_1,1
 146,1,1,71,BiBi 演唱會,BiBi 演唱會,3,series_thumbnail_146_1,1
-147,1,1,109,Printemps<br>WAO-WAO Powerful Day!,Printemps<br>WAO-WAO Powerful day!,3,series_thumbnail_147_1,1
-148,1,1,114,lily white<br>Omoide Ijou ni Naritakute,lily white<br>Omoide Ijou ni Naritakute,3,series_thumbnail_148_1,1
-149,1,1,118,BiBi<BR>Sakkaku Crossroads,BiBi<br>Sakkaku CROSSROADS,3,series_thumbnail_149_1,1
+147,1,1,109,Printemps<br>哇喔哇喔 強力的一天！,Printemps<br>哇喔哇喔 強力的一天！,3,series_thumbnail_147_1,1
+148,1,1,114,lily white<br>想成為超越回憶的存在,lily white<br>想成為超越回憶的存在,3,series_thumbnail_148_1,1
+149,1,1,118,BiBi<BR>Sakkaku Crossroads,BiBi<br>錯覺十字路口,3,series_thumbnail_149_1,1
 150,1,1,7,Event 獎勵 (SR) Part 1,Event 獎勵 (SR),9,series_thumbnail_150_1,1
 151,1,1,22,Event 獎勵 (SR) Part 2,Event 獎勵 (SR),9,series_thumbnail_151_1,1
 152,1,1,37,Event 獎勵 (SR) Part 3,Event 獎勵 (SR),9,series_thumbnail_152_1,1
@@ -167,49 +167,49 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 166,1,1,189,Event 獎勵 (SR) Part 17,Event 獎勵 (SR),9,series_thumbnail_166_1,1
 167,1,1,195,Event 獎勵 (SR) Part 18,Event 獎勵 (SR),9,series_thumbnail_167_1,1
 168,1,1,200,Best Besties Election,Companion Election,2,series_thumbnail_168_1,1
-169,1,1,29,NicoRinPana,妮可 凜 Pana,6,series_thumbnail_169_1,1
-170,1,1,129,曜 Decide ♪ Request UR<br>Finals,Special Release,9,series_thumbnail_170_1,1
-171,1,1,12,Special Delivery Part 4,Special Release Part 4,1,series_thumbnail_0_1,1
-172,1,1,15,Special Delivery Part 5,Special Release Part 5,1,series_thumbnail_0_1,1
+169,1,1,29,妮可 凜 Pana,妮可 凜 Pana,6,series_thumbnail_169_1,1
+170,1,1,129,曜 Decide ♪ Request UR<br>Finals,曜 Decide ♪ Request UR<br>Finals,9,series_thumbnail_170_1,1
+171,1,1,12,Special Delivery Part 4,曜 Decide ♪ Request UR<br>Finals Part 4,1,series_thumbnail_0_1,1
+172,1,1,15,Special Delivery Part 5,曜 Decide ♪ Request UR<br>Finals Part 5,1,series_thumbnail_0_1,1
 173,1,1,25,Christmas Card<br>Finals,Christmas Girl,16,series_thumbnail_173_1,1
-174,1,1,26,Special Delivery Part 6,Special Release Part 6,1,series_thumbnail_0_1,1
-175,1,1,34,Special Delivery Part 8,Special Release Part 8,1,series_thumbnail_0_1,1
-176,1,1,48,Special Delivery Part 10,Special Release Part 10,1,series_thumbnail_176_1,1
-177,1,1,51,Special Delivery Part 11,Special Release Part 11,1,series_thumbnail_0_1,1
-178,1,1,52,Special Delivery Part 12,Special Release Part 12,1,series_thumbnail_0_1,1
+174,1,1,26,Special Delivery Part 6,曜 Decide ♪ Request UR<br>Finals Part 6,1,series_thumbnail_0_1,1
+175,1,1,34,Special Delivery Part 8,曜 Decide ♪ Request UR<br>Finals Part 8,1,series_thumbnail_0_1,1
+176,1,1,48,Special Delivery Part 10,曜 Decide ♪ Request UR<br>Finals Part 10,1,series_thumbnail_176_1,1
+177,1,1,51,Special Delivery Part 11,曜 Decide ♪ Request UR<br>Finals Part 11,1,series_thumbnail_0_1,1
+178,1,1,52,Special Delivery Part 12,曜 Decide ♪ Request UR<br>Finals Part 12,1,series_thumbnail_0_1,1
 179,1,1,54,Summer Girl Championship,Summer Girl Election,1,series_thumbnail_179_1,1
-180,1,1,69,Great Christmas 禮物 Caper,Holiday Gift Extravaganza,1,series_thumbnail_180_1,1
-181,1,1,80,Special Delivery Part 15,Special Release Part 15,1,series_thumbnail_0_1,1
-182,1,1,85,I Wanna Go With 曜 ♪ Travel Girl<br>Finals,Travel Girl Competition,1,series_thumbnail_182_1,1
-183,1,1,88,Special Delivery Part 16,Special Release Part 16,3,series_thumbnail_183_1,1
-184,1,1,93,Special Delivery Part 19,Special Release Part 19,1,series_thumbnail_0_1,1
-185,1,1,102,Special Delivery Part 20,Special Release Part 20,1,series_thumbnail_0_1,1
+180,1,1,69,Great Christmas 禮物 Caper,Great Christmas 禮物 Caper,1,series_thumbnail_180_1,1
+181,1,1,80,Special Delivery Part 15,曜 Decide ♪ Request UR<br>Finals Part 15,1,series_thumbnail_0_1,1
+182,1,1,85,I Wanna Go With 曜 ♪ Travel Girl<br>Finals,I Wanna Go With 曜 ♪ Travel Girl<br>Finals,1,series_thumbnail_182_1,1
+183,1,1,88,Special Delivery Part 16,曜 Decide ♪ Request UR<br>Finals Part 16,3,series_thumbnail_183_1,1
+184,1,1,93,Special Delivery Part 19,曜 Decide ♪ Request UR<br>Finals Part 19,1,series_thumbnail_0_1,1
+185,1,1,102,Special Delivery Part 20,曜 Decide ♪ Request UR<br>Finals Part 20,1,series_thumbnail_0_1,1
 186,1,1,106,Summertime Fruit Girl Finals,Summer Fruit Girl Competition,1,series_thumbnail_186_1,1
-187,1,1,112,Special Delivery Part 21,Special Release Part 21,1,series_thumbnail_0_1,1
-188,1,1,122,Special Delivery Part 22,Special Release Part 22,1,series_thumbnail_0_1,1
-189,1,1,126,Special Delivery Part 23,Special Release Part 23,1,series_thumbnail_0_1,1
-190,1,1,143,μ's Fan Meeting Tour 2015<br>Love 演唱會！Comes 至 Your Town!,μ's Fan Meeting Tour 2015<br>〜Love演唱會！於 你的Town〜,1,series_thumbnail_0_1,1
-191,1,1,169,SIF 5th Anniversary<br>Campaign Girl,5th Anniversary Celebration Girls,1,series_thumbnail_191_1,1
+187,1,1,112,Special Delivery Part 21,曜 Decide ♪ Request UR<br>Finals Part 21,1,series_thumbnail_0_1,1
+188,1,1,122,Special Delivery Part 22,曜 Decide ♪ Request UR<br>Finals Part 22,1,series_thumbnail_0_1,1
+189,1,1,126,Special Delivery Part 23,曜 Decide ♪ Request UR<br>Finals Part 23,1,series_thumbnail_0_1,1
+190,1,1,143,μ's 粉絲 Meeting Tour 2015<br>Love 演唱會！Comes至Your Town!,μ's 粉絲 Meeting Tour 2015<br>〜Love演唱會！於 你的Town〜,1,series_thumbnail_0_1,1
+191,1,1,169,SIF 5th 紀念日<br>Campaign Girl,5th 紀念日 Celebration Girls,1,series_thumbnail_191_1,1
 192,1,1,175,Sega Staff Poster Girls,SEGA Staff Costume,1,series_thumbnail_0_1,1
-193,1,1,1,Wonderful Rush (R),Wonderful Rush (R),9,series_thumbnail_193_1,1
-194,1,1,2,"Mogyutto ""Love"" de Sekkinchu!<br>(R)","Mogyutto ""Love"" de Sekkinchu!<br>(R)",9,series_thumbnail_194_1,1
+193,1,1,1,美妙衝刺 (R),美妙衝刺 (R),9,series_thumbnail_193_1,1
+194,1,1,2,以「愛」緊緊接近中！<br>(R),以「愛」緊緊接近中！<br>(R),9,series_thumbnail_194_1,1
 195,1,1,3,Natsuiro Egao de 1，2，Jump！(R),Natsuiro Egao de 1，2，Jump！(R),9,series_thumbnail_195_1,1
-196,1,1,40,Bokura wa Ima no Naka de (R),Bokura wa Ima no Naka de (R),9,series_thumbnail_196_1,1
-197,1,1,46,Snow Halation (R) Part 1,Snow Halation (R) Part 1,9,series_thumbnail_197_1,1
-198,1,1,62,Korekara no Someday (R),Korekara no Someday (R),9,series_thumbnail_198_1,1
-199,1,1,72,Yume no Tobira (R),Yume no Tobira (R),9,series_thumbnail_199_1,1
+196,1,1,40,我們活在當下 (R),我們活在當下 (R),9,series_thumbnail_196_1,1
+197,1,1,46,雪色光暈 (R) Part 1,雪色光暈 (R) Part 1,9,series_thumbnail_197_1,1
+198,1,1,62,今後的某一天 (R),今後的某一天 (R),9,series_thumbnail_198_1,1
+199,1,1,72,夢想之門 (R),夢想之門 (R),9,series_thumbnail_199_1,1
 200,1,1,81,Music S.T..R.T!！(R),Music S.T..R.T!！(R),9,series_thumbnail_200_1,1
 201,1,1,101,Dancing Stars on Me！(R),Dancing stars on me！(R),9,series_thumbnail_201_1,1
 202,1,1,113,KiRa-KiRa Sensation！(R),KiRa-KiRa Sensation！(R),9,series_thumbnail_202_1,1
-203,1,1,121,Snow Halation (R) Part 2,Snow Halation (R) Part 2,9,series_thumbnail_203_1,1
+203,1,1,121,雪色光暈 (R) Part 2,雪色光暈 (R) Part 2,9,series_thumbnail_203_1,1
 204,2,1,208,Marine School,Marine School,9,series_thumbnail_204_1,1
-205,2,1,210,School Rocker,Rockin' 學園偶像s,3,series_thumbnail_205_1,1
-206,2,1,211,Swimsuits Part 1,Swim Suit (1/2),15,series_thumbnail_206_1,1
-207,2,1,212,Swimsuits Part 2,Swim Suit (2/2),14,series_thumbnail_207_1,1
-208,2,1,213,Yukata Part 1,Yukata (1/2),15,series_thumbnail_208_1,1
-209,2,1,214,Yukata Part 2,Yukata (2/2),14,series_thumbnail_209_1,1
-210,2,1,215,Halloween Part 1,Trick 或 Treat (1/2),15,series_thumbnail_210_1,1
-211,2,1,216,Halloween Part 2,Trick 或 Treat (2/2),14,series_thumbnail_211_1,1
+205,2,1,210,Rockin' 學園偶像s,Rockin' 學園偶像s,3,series_thumbnail_205_1,1
+206,2,1,211,虹咲 Swim Suit Part 1,Swim Suit (1/2),15,series_thumbnail_206_1,1
+207,2,1,212,虹咲 Swim Suit Part 2,Swim Suit (2/2),14,series_thumbnail_207_1,1
+208,2,1,213,Yukata Part 1,9月 (Yukata) Part 1,15,series_thumbnail_208_1,1
+209,2,1,214,Yukata Part 2,9月 (Yukata) Part 2,14,series_thumbnail_209_1,1
+210,2,1,215,Trick 或 Treat (1/2),Trick 或 Treat (1/2),15,series_thumbnail_210_1,1
+211,2,1,216,Trick 或 Treat (2/2),Trick 或 Treat (2/2),14,series_thumbnail_211_1,1
 212,2,1,218,Cheerleaders Part 1,Cheerleader (1/2),15,series_thumbnail_212_1,1
 213,2,1,219,Cheerleaders Part 2,Cheerleader (2/2),14,series_thumbnail_213_1,1
 214,2,1,220,Christmas Part 1,Christmas (1/2),15,series_thumbnail_214_1,1
@@ -236,30 +236,30 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 235,2,1,248,Halloween Night Part 2,Halloween Festival (2/2),14,series_thumbnail_235_1,1
 236,2,1,250,Fall Leaf Hunters Part 1,Autumn Colors (1/2),15,series_thumbnail_236_1,1
 237,2,1,251,Fall Leaf Hunters Part 2,Autumn Colors (2/2),14,series_thumbnail_237_1,1
-238,2,1,252,Christmas 歌曲 Part 1,Christmas Choir (1/2),15,series_thumbnail_238_1,1
-239,2,1,253,Christmas 歌曲 Part 2,Christmas Choir (2/2),14,series_thumbnail_239_1,1
+238,2,1,252,Christmas 歌曲 Part 1,Christmas 歌曲 Part 1,15,series_thumbnail_238_1,1
+239,2,1,253,Christmas 歌曲 Part 2,Christmas 歌曲 Part 2,14,series_thumbnail_239_1,1
 240,2,1,256,New Year's Part 1,New Year's (1/2),15,series_thumbnail_240_1,1
 241,2,1,257,New Year's Part 2,New Year's (2/2),14,series_thumbnail_241_1,1
-242,2,1,259,After School Valentine Part 1,Valentine's Chocolate (1/2),15,series_thumbnail_242_1,1
-243,2,1,260,After School Valentine Part 2,Valentine's Chocolate (2/2),14,series_thumbnail_243_1,1
+242,2,1,259,After School Valentine Part 1,Valentine's 2月 (Valentine's) Part 1,15,series_thumbnail_242_1,1
+243,2,1,260,After School Valentine Part 2,Valentine's 2月 (Valentine's) Part 2,14,series_thumbnail_243_1,1
 244,2,1,262,Punk Rockers Part 1,Punk Rock (1/2),15,series_thumbnail_244_1,1
 245,2,1,263,Punk Rockers Part 2,Punk Rock (2/2),14,series_thumbnail_245_1,1
 246,2,1,266,Teachers Part 1,Teacher (1/2),15,series_thumbnail_246_1,1
 247,2,1,267,Teachers Part 2,Teacher (2/2),14,series_thumbnail_247_1,1
-248,2,1,269,Fairy Tales Part 1,Fairy Tale (1/2),15,series_thumbnail_248_1,1
-249,2,1,270,Fairy Tales Part 2,Fairy Tale (2/2),14,series_thumbnail_249_1,1
+248,2,1,269,Fairy Tales Part 1,5月 (Fairy Tales) Part 1,15,series_thumbnail_248_1,1
+249,2,1,270,Fairy Tales Part 2,5月 (Fairy Tales) Part 2,14,series_thumbnail_249_1,1
 250,2,1,274,Wedding Part 1,Wedding Dress (1/2),15,series_thumbnail_250_1,1
 251,2,1,275,Wedding Part 2,Wedding Dress (2/2),14,series_thumbnail_251_1,1
 252,2,1,278,Mermaids Part 1,Mermaid (1/2),15,series_thumbnail_252_1,1
 253,2,1,279,Mermaids Part 2,Mermaid (2/2),14,series_thumbnail_253_1,1
 254,2,1,281,Endless Summer Part 1,Tropical Summer (1/2),14,series_thumbnail_254_1,1
 255,2,1,282,Endless Summer Part 2,Tropical Summer (2/2),15,series_thumbnail_255_1,1
-256,2,1,285,China Dresses Part 1,演唱會 於 Chinatown (1/2),15,series_thumbnail_256_1,1
-257,2,1,286,China Dresses Part 2,演唱會 於 Chinatown (2/2),14,series_thumbnail_257_1,1
+256,2,1,285,演唱會於Chinatown (1/2),演唱會於Chinatown (1/2),15,series_thumbnail_256_1,1
+257,2,1,286,演唱會於Chinatown (2/2),演唱會於Chinatown (2/2),14,series_thumbnail_257_1,1
 258,2,1,290,Universe Part 1,Universe (1/2),15,series_thumbnail_258_1,1
 259,2,1,291,Universe Part 2,Universe (2/2),14,series_thumbnail_259_1,1
-260,2,1,293,Musicians 的 Bremen Part 1,Town Musicians 的 Bremen (1/2),15,series_thumbnail_260_1,1
-261,2,1,294,Musicians 的 Bremen Part 2,Town Musicians 的 Bremen (2/2),14,series_thumbnail_261_1,1
+260,2,1,293,Musicians的Bremen Part 1,Town Musicians的Bremen (1/2),15,series_thumbnail_260_1,1
+261,2,1,294,Musicians的Bremen Part 2,Town Musicians的Bremen (2/2),14,series_thumbnail_261_1,1
 262,2,1,296,Snow Fairies Part 1,Snow Fairy (1/2),15,series_thumbnail_262_1,1
 263,2,1,297,Snow Fairies Part 2,Snow Fairy (2/2),14,series_thumbnail_263_1,1
 264,2,1,300,New Year's Greetings Part 1,New Year's Countdown (1/2),15,series_thumbnail_264_1,1
@@ -286,8 +286,8 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 285,2,1,336,Steampunk Part 2,Steampunk (2/2),14,series_thumbnail_285_1,1
 286,2,1,337,Christmas 禮物s<br>Part 1,Christmas 禮物 (1/2),15,series_thumbnail_286_1,1
 287,2,1,338,Christmas 禮物s<br>Part 2,Christmas 禮物 (2/2),14,series_thumbnail_287_1,1
-288,2,1,340,Seven Lucky Gods Part 1,Goddesses 的 Fortune (1/2),15,series_thumbnail_288_1,1
-289,2,1,341,Seven Lucky Gods Part 2,Goddesses 的 Fortune (2/2),14,series_thumbnail_289_1,1
+288,2,1,340,Goddesses的Fortune (1/2),Goddesses的Fortune (1/2),15,series_thumbnail_288_1,1
+289,2,1,341,Goddesses的Fortune (2/2),Goddesses的Fortune (2/2),14,series_thumbnail_289_1,1
 290,2,1,342,Cat Café Part 1,Cat Cafe (1/2),15,series_thumbnail_290_1,1
 291,2,1,343,Cat Café Part 2,Cat Cafe (2/2),14,series_thumbnail_291_1,1
 292,2,1,327,Shiminnomori Camp<br>(SIF AC),Campsite,9,series_thumbnail_292_1,1
@@ -296,25 +296,25 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 295,2,1,299,School Unity<br>(SIF AC),School Unity,9,series_thumbnail_295_1,1
 296,2,1,295,Worldwide Poster Girls,Worldwide Poster Girl,9,series_thumbnail_0_1,1
 297,2,1,283,2018 生日s UR 成員,生日 2018,9,series_thumbnail_297_1,1
-298,2,1,249,Special Delivery Part 1,Special Release Part 1,9,series_thumbnail_0_1,1
-299,2,1,265,WATER BLUE NEW WORLD (UR),WATER BLUE NEW WORLD（UR）,9,series_thumbnail_299_1,1
-300,2,1,209,1 Panel Comics,Day 於 Life,9,series_thumbnail_0_1,1
-301,2,1,254,Koini Naritai AQUARIUM<br>(SSR),Koini Naritai AQUARIUM<br>（SSR）,9,series_thumbnail_0_1,1
+298,2,1,249,Special Delivery Part 1,曜 Decide ♪ Request UR<br>Finals Part 1,9,series_thumbnail_0_1,1
+299,2,1,265,水藍新世界 (UR),水藍新世界（UR）,9,series_thumbnail_299_1,1
+300,2,1,209,Day於Life,Day於Life,9,series_thumbnail_0_1,1
+301,2,1,254,想化為戀愛的水族館<br>(SSR),想化為戀愛的水族館<br>（SSR）,9,series_thumbnail_0_1,1
 302,2,1,264,Real Escape Game Collab<br>Round 1,Real-Life Room Escape<br>Collaboration Part 1,9,series_thumbnail_0_1,1
-303,2,1,277,Mirai no Bokura wa Shitteru yo (SSR),Mirai no Bokura wa Shitteru yo<br>（SSR）,9,series_thumbnail_303_1,1
+303,2,1,277,未來的我們早已知道 (SSR),未來的我們早已知道<br>（SSR）,9,series_thumbnail_303_1,1
 304,2,1,284,Fuji-Q Highland Collab,Fuji-Q Highland Collab,9,series_thumbnail_0_1,1
 305,2,1,287,Sega Collab,SEGA Collaboration,9,series_thumbnail_0_1,1
 306,2,1,298,SIF AC 下一步 Stage,SIF-AC 下一步 Stage,9,series_thumbnail_306_1,1
-307,2,1,302,Special Delivery Part 2,Special Release Part 2,9,series_thumbnail_307_1,1
+307,2,1,302,Special Delivery Part 2,曜 Decide ♪ Request UR<br>Finals Part 2,9,series_thumbnail_307_1,1
 308,2,1,303,JOYSOUND Collab,JOYSOUND Collaboration,9,series_thumbnail_308_1,1
 309,2,1,305,Aqours Movie Opening Celebration,Aqours Movie Version<br>Re-Release Campaign,9,series_thumbnail_0_1,1
 310,2,1,308,Performing Worldwide Together<br>Challenge Completion Celebration,Simultaneous Worldwide Challenge Completion,9,series_thumbnail_310_1,1
 311,2,1,323,Real Escape Game Collab<br>Round 2,Real-Life Room Escape<br>Collaboration Part 2,9,series_thumbnail_0_1,1
 312,2,1,330,Shadowverse Collab,Shadowverse Collaboration,9,series_thumbnail_312_1,1
 313,2,1,271,CYaRon!<br>Genki Zenkai DAY！DAY！DAY!,CYaRon!<br>Genki Zenkai DAY！DAY！DAY!,3,series_thumbnail_313_1,1
-314,2,1,273,AZALEA<br>Torikoriko PLEASE!!,AZALEA<br>Torikoriko PLEASE!!,3,series_thumbnail_314_1,1
-315,2,1,276,Guilty Kiss<br>Strawberry Trapper,Guilty Kiss<br>Strawberry Trapper,3,series_thumbnail_315_1,1
-316,2,1,292,SIF Thanksgiving 2018<br>Sub-unit Showdown,SIF Fan Festival 2018 Team Match,3,series_thumbnail_316_1,1
+314,2,1,273,AZALEA<br>請讓我著迷！！,AZALEA<br>請讓我著迷！！,3,series_thumbnail_314_1,1
+315,2,1,276,Guilty Kiss<br>草莓陷阱獵人,Guilty Kiss<br>草莓陷阱獵人,3,series_thumbnail_315_1,1
+316,2,1,292,SIF 粉絲 Festival 2018 Team Match,SIF 粉絲 Festival 2018 Team Match,3,series_thumbnail_316_1,1
 317,2,1,205,Event 獎勵 (SR) Part 1,Event 獎勵 (SR),9,series_thumbnail_317_1,1
 318,2,1,217,Event 獎勵 (SR) Part 2,Event 獎勵 (SR),9,series_thumbnail_318_1,1
 319,2,1,230,Event 獎勵 (SR) Part 3,Event 獎勵 (SR),9,series_thumbnail_319_1,1
@@ -326,41 +326,41 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 325,2,1,320,Event 獎勵 (SR) Part 9,Event 獎勵 (SR),7,series_thumbnail_325_1,1
 326,2,1,334,Event 獎勵 (SR) Part 10,Event 獎勵 (SR),9,series_thumbnail_326_1,1
 327,2,1,339,Best Besties Election,Companion Election,2,series_thumbnail_327_1,1
-328,2,1,222,Come See Aqours ♪<br>Great Winter Break Plan,Winter Holidays 與 Aqours!,1,series_thumbnail_328_1,1
-329,2,1,237,Gamers Numazu 1st Anniversary,Gamers Numazu 1st Anniversary,1,series_thumbnail_0_1,1
-330,2,1,261,Gamers Numazu 2nd Anniversary,Gamers Numazu 2nd Anniversary,1,series_thumbnail_0_1,1
-331,2,1,272,SIF 5th Anniversary<br>Campaign Girl,5th Anniversary Celebration Girls,1,series_thumbnail_331_1,1
+328,2,1,222,Come See Aqours ♪<br>Great Winter Break Plan,Winter Holidays與Aqours!,1,series_thumbnail_328_1,1
+329,2,1,237,Gamers Numazu 1st 紀念日,Gamers Numazu 1st 紀念日,1,series_thumbnail_0_1,1
+330,2,1,261,Gamers Numazu 2nd 紀念日,Gamers Numazu 2nd 紀念日,1,series_thumbnail_0_1,1
+331,2,1,272,SIF 5th 紀念日<br>Campaign Girl,5th 紀念日 Celebration Girls,1,series_thumbnail_331_1,1
 332,2,1,280,7-Eleven Campaign<br>Poster Girl,7-Eleven,1,series_thumbnail_0_1,1
 333,2,1,288,Sega Staff Poster Girls,SEGA Staff Costume,1,series_thumbnail_0_1,1
-334,2,1,312,Special Delivery Part 3,Special Release Part 3,1,series_thumbnail_0_1,1
+334,2,1,312,Special Delivery Part 3,曜 Decide ♪ Request UR<br>Finals Part 3,1,series_thumbnail_0_1,1
 335,2,1,331,Shadowverse Collab<br>Campaign Girl,Shadowverse x SIF<br>Collaboration Event,1,series_thumbnail_335_1,1
-336,2,1,204,Kimino Kokorowa Kagayaiterukai?<br>(R),Kimino Kokorowa Kagayaiterukai?<br>(R),9,series_thumbnail_336_1,1
-337,2,1,206,Koini Naritai AQUARIUM (R),Koini Naritai AQUARIUM (R),9,series_thumbnail_337_1,1
-338,2,1,207,Aozora Jumping Heart (R),Aozora Jumping Heart (R),9,series_thumbnail_338_1,1
-339,2,1,223,Mijuku DREAMER (R),Mijuku DREAMER (R),9,series_thumbnail_339_1,1
-340,2,1,241,HAPPY PARTY TRAIN (R),HAPPY PARTY TRAIN (R),9,series_thumbnail_340_1,1
-341,2,1,246,Omoiyo Hitotsuninare (R),Omoiyo Hitotsuninare (R),9,series_thumbnail_341_1,1
-342,2,1,258,MIRAI TICKET (R),MIRAI TICKET (R),9,series_thumbnail_342_1,1
-343,1,99,348,μ's Childhood Memories,μ's<br>Childhood Memory,9,series_thumbnail_343_1,1
+336,2,1,204,你的心是否正在閃耀？<br>(R),你的心是否正在閃耀？<br>(R),9,series_thumbnail_336_1,1
+337,2,1,206,想化為戀愛的水族館 (R),想化為戀愛的水族館 (R),9,series_thumbnail_337_1,1
+338,2,1,207,青空跳躍之心 (R),青空跳躍之心 (R),9,series_thumbnail_338_1,1
+339,2,1,223,未成熟夢想者 (R),未成熟夢想者 (R),9,series_thumbnail_339_1,1
+340,2,1,241,快樂派對列車 (R),快樂派對列車 (R),9,series_thumbnail_340_1,1
+341,2,1,246,心意啊合而為一吧 (R),心意啊合而為一吧 (R),9,series_thumbnail_341_1,1
+342,2,1,258,未來票券 (R),未來票券 (R),9,series_thumbnail_342_1,1
+343,1,99,348,μ's Childhood 回憶,μ's<br>Childhood Memory,9,series_thumbnail_343_1,1
 344,1,99,350,μ's Baby Animals,μ's<br>Tiny Animal,9,series_thumbnail_344_1,1
 345,1,99,344,A-RISE,A-RISE,3,series_thumbnail_345_1,1
-346,1,99,346,Support 成員<br>(School),Support 成員<br>School Staff & Students,17,series_thumbnail_346_1,1
+346,1,99,346,Support 成員<br>(School),Support 成員<br>School Staff & 學生s,17,series_thumbnail_346_1,1
 347,1,99,347,Support 成員<br>(Family),Support 成員<br>Family,17,series_thumbnail_347_1,1
 348,1,99,345,Support 成員<br>(Animals),Support 成員<br>Animal,5,series_thumbnail_348_1,1
 349,1,99,349,Love 演唱會！Puchiguru Collab,Puchiguru Love 演唱會！Collaboration,1,series_thumbnail_349_1,1
-350,1,99,351,Starlight Sailors<br>(SIF AC),Starlight Sailor,1,series_thumbnail_350_1,1
-351,2,99,356,Aqours Childhood Memories,Aqours<br>Childhood Memory,9,series_thumbnail_351_1,1
+350,1,99,351,星光 Sailors<br>(SIF AC),星光 Sailor,1,series_thumbnail_350_1,1
+351,2,99,356,Aqours Childhood 回憶,Aqours<br>Childhood Memory,9,series_thumbnail_351_1,1
 352,2,99,358,Aqours Baby Animals,Aqours<br>Tiny Animal,9,series_thumbnail_352_1,1
 353,2,99,352,Saint Snow,Saint Snow,11,series_thumbnail_353_1,1
-354,2,99,354,Support 成員 (School),Support 成員<br>School Staff & Students,4,series_thumbnail_354_1,1
+354,2,99,354,Support 成員 (School),Support 成員<br>School Staff & 學生s,4,series_thumbnail_354_1,1
 355,2,99,355,Support 成員 (Family),Support 成員<br>Family,4,series_thumbnail_355_1,1
 356,2,99,353,Support 成員 (Animals),Support 成員<br>Animal,9,series_thumbnail_356_1,1
 357,2,99,357,Love 演唱會！Puchiguru Collab,Puchiguru Love 演唱會！Collaboration,1,series_thumbnail_357_1,1
 358,2,99,359,Flower Circles<br>(SIF AC),Floral Flourish,1,series_thumbnail_358_1,1
 359,3,1,402,T確定IMEKI Runners (SR),T確定IMEKI Runners (SR),9,series_thumbnail_359_1,1
-360,3,1,404,虹咲 High 學園偶像<br>Club Special Delivery Part 1,虹咲學園學園偶像同好會<br>Special Release,9,series_thumbnail_360_1,1
-361,3,1,403,SIF 5th Anniversary<br>Campaign Girl,5th Anniversary Celebration Girls,1,series_thumbnail_361_1,1
-362,3,1,405,虹咲 High 學園偶像<br>Club Special Delivery Part 2,虹咲學園學園偶像同好會<br>Special Release,3,series_thumbnail_362_1,1
+360,3,1,404,虹咲 High 學園偶像<br>Club Special Delivery Part 1,虹咲學園學園偶像同好會<br>曜 Decide ♪ Request UR<br>Finals,9,series_thumbnail_360_1,1
+361,3,1,403,SIF 5th 紀念日<br>Campaign Girl,5th 紀念日 Celebration Girls,1,series_thumbnail_361_1,1
+362,3,1,405,虹咲 High 學園偶像<br>Club Special Delivery Part 2,虹咲學園學園偶像同好會<br>曜 Decide ♪ Request UR<br>Finals,3,series_thumbnail_362_1,1
 363,99,99,360,Seiran High School Part 1,Seiran High School,9,series_thumbnail_363_1,1
 364,99,99,361,Seiran High School Part 2,Seiran High School,9,series_thumbnail_364_1,1
 365,99,99,362,Seiran High School Part 3,Seiran High School,9,series_thumbnail_365_1,1
@@ -404,7 +404,7 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 403,99,99,400,Y.G。International Academy Part 6,Y。G。International School,9,series_thumbnail_0_1,1
 404,99,99,401,Y.G。International Academy Part 7,Y。G。International School,8,series_thumbnail_404_2,1
 405,99,99,406,SIF All Stars 60 Day Login 成員,All Stars 60-Day 成員,2,series_thumbnail_0_1,1
-406,1,1,407,Together 於 Our Dreams,Together 於 Our Dreams,1,series_thumbnail_406_1,1
+406,1,1,407,Together於Our Dreams,Together於Our Dreams,1,series_thumbnail_406_1,1
 407,2,1,326,Chinese Server Originals,Special UR Release,2,series_thumbnail_407_1,1
 408,1,1,408,Chinese Server Originals,Special UR Release,2,series_thumbnail_408_1,1
 409,2,1,409,Spring Fairies Part 1,Springtime Fairy (1/2),15,series_thumbnail_409_1,1
@@ -412,14 +412,14 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 411,1,1,411,Event 獎勵 (SR) Part 19,Event 獎勵 (SR),2,series_thumbnail_411_1,1
 412,1,1,412,Make-Up Magic Part 2,Makeup's Magic (2/2),14,series_thumbnail_412_1,1
 413,2,1,413,Event 獎勵 (SR) Part 11,Event 獎勵 (SR),2,series_thumbnail_413_1,1
-414,2,1,414,Mirai no Bokura wa Shitteru yo (UR),Mirai no Bokura wa Shitteru yo<br>（UR）,9,series_thumbnail_414_2,1
-415,2,1,415,Special Delivery Part 4,Special Release Part 4,1,series_thumbnail_0_1,1
+414,2,1,414,未來的我們早已知道 (UR),未來的我們早已知道<br>（UR）,9,series_thumbnail_414_2,1
+415,2,1,415,Special Delivery Part 4,曜 Decide ♪ Request UR<br>Finals Part 4,1,series_thumbnail_0_1,1
 416,1,1,416,Powerpuff Girls Collab,Powerpuff Girls Collab,9,series_thumbnail_416_1,1
 417,2,1,417,Powerpuff Girls Collab,Powerpuff Girls Collab,9,series_thumbnail_417_1,1
 419,1,1,419,Amusement Park Part 1,Amusement Park (1/2),7,series_thumbnail_419_1,1
-420,1,1,420,Bokura wa Ima no Naka de (UR),Bokura wa Ima no Naka de（UR）,9,series_thumbnail_420_2,1
+420,1,1,420,我們活在當下 (UR),我們活在當下（UR）,9,series_thumbnail_420_2,1
 421,2,1,421,生日 Surprise!,生日 Surprise,9,series_thumbnail_421_9,1
-422,2,1,422,SIF Thanksgiving 2019,Fan Festival 2019,9,series_thumbnail_422_9,1
+422,2,1,422,粉絲 Festival 2019,粉絲 Festival 2019,9,series_thumbnail_422_9,1
 423,1,99,423,SR Special Costumes μ's,μ's<br>Special SR Costume,1,series_thumbnail_423_1,1
 424,2,99,424,SR Special Costumes Aqours,Aqours<br>Special SR Costume,1,series_thumbnail_424_1,1
 425,2,1,425,Flower Wreaths Part 1,Flower Crown (1/2),7,series_thumbnail_425_1,1
@@ -432,16 +432,16 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 432,2,1,432,Rainy Day Part 2,Rainy Day(2/2),2,series_thumbnail_432_1,1
 433,2,1,433,Chapel Part 1,Chapel (1/2),7,series_thumbnail_433_1,1
 434,1,1,434,Star Festival Part 2,Star Festival (2/2),2,series_thumbnail_434_1,1
-435,2,1,435,AZALEA<br>Amazing Travel DNA,AZALEA<br>Amazing Travel DNA,3,series_thumbnail_435_1,1
-436,1,1,436,Unit 演唱會s,Unit 演唱會,9,series_thumbnail_436_2,1
+435,2,1,435,AZALEA<br>驚奇旅行DNA,AZALEA<br>驚奇旅行DNA,3,series_thumbnail_435_1,1
+436,1,1,436,Unit 演唱會,Unit 演唱會,9,series_thumbnail_436_2,1
 437,1,1,437,Challengers,Challenges,9,series_thumbnail_437_9,1
-438,2,1,438,CYaRon!<br>Braveheart Coaster,CYaRon!<br>Braveheart Coaster,3,series_thumbnail_438_1,1
+438,2,1,438,CYaRon!<br>勇敢之心雲霄飛車,CYaRon!<br>勇敢之心雲霄飛車,3,series_thumbnail_438_1,1
 439,2,1,439,Chapel Part 2,Chapel (2/2),2,series_thumbnail_439_1,1
 440,2,1,440,Unit vs。Unit,Unit Battle,9,series_thumbnail_440_2,1
-441,2,1,441,Heading 至 Tokyo,Tokyo Visit,9,series_thumbnail_441_9,1
-442,2,1,442,Guilty Kiss<br>New Romantic Sailors,Guilty Kiss<br>New Romantic Sailors,3,series_thumbnail_442_1,1
+441,2,1,441,Heading至Tokyo,Heading至Tokyo,9,series_thumbnail_441_9,1
+442,2,1,442,Guilty Kiss<br>新浪漫水手,Guilty Kiss<br>新浪漫水手,3,series_thumbnail_442_1,1
 443,1,1,443,Sandy Beach,On Shore,2,series_thumbnail_443_1,1
-444,2,1,444,Kimino Kokorowa Kagayaiterukai?<br>(UR),Kimino Kokorowa Kagayaiterukai?<br>（UR）,9,series_thumbnail_444_2,1
+444,2,1,444,你的心是否正在閃耀？<br>(UR),你的心是否正在閃耀？<br>（UR）,9,series_thumbnail_444_2,1
 445,2,1,445,Fireworks,Summer Fireworks,2,series_thumbnail_445_1,1
 446,1,1,446,Bar-B-Q,Barbecue,2,series_thumbnail_446_1,1
 447,2,1,447,Sea Swimming,Beach Day,2,series_thumbnail_447_1,1
@@ -449,16 +449,16 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 449,1,1,450,Cheerleaders,Cheerleader,9,series_thumbnail_449_2,1
 450,2,1,451,Halloween Outing,Halloween Outing,2,series_thumbnail_450_1,1
 451,2,1,452,Uniforms,Uniform,9,series_thumbnail_451_2,1
-452,3,1,449,虹咲 Anime Special Delivery,TV Anime Nijigaku Special Broadcast,9,series_thumbnail_452_1,1
+452,3,1,449,虹咲 Anime Special Delivery,虹咲 Anime Special Delivery,9,series_thumbnail_452_1,1
 453,1,1,453,Fall Leaves,Vivid Foliage,2,series_thumbnail_453_1,1
-454,2,1,454,2020 Costume Contest<br>Sweets 的 World,Sweets 的 World,9,series_thumbnail_454_2,1
-455,1,1,456,2020 Costume Contest<br>Sweets 的 World,Sweets 的 World,9,series_thumbnail_455_2,1
+454,2,1,454,2020 Costume Contest<br>Sweets的World,Sweets的World,9,series_thumbnail_454_2,1
+455,1,1,456,2020 Costume Contest<br>Sweets的World,Sweets的World,9,series_thumbnail_455_2,1
 456,2,1,455,Taking Walk,Taking Stroll,2,series_thumbnail_456_1,1
 457,1,99,457,Support 成員 (Family) Part 2,Support 成員<br>Family 2,1,series_thumbnail_457_1,1
 458,2,99,458,Support 成員 (Family) Part 2,Support 成員<br>Family 2,1,series_thumbnail_458_1,1
 459,3,99,459,Support 成員 (Family),Support 成員<br>Family,1,series_thumbnail_459_1,1
-460,3,1,460,SIF Series Thanksgiving<br>2020 Costumes,Fan Festival 2020,9,series_thumbnail_460_2,1
-461,3,99,461,Support 成員 (School),Support 成員<br>School Staff & Students 1,1,series_thumbnail_461_1,1
+460,3,1,460,粉絲 Festival 2020,粉絲 Festival 2020,9,series_thumbnail_460_2,1
+461,3,99,461,Support 成員 (School),Support 成員<br>School Staff & 學生s 1,1,series_thumbnail_461_1,1
 462,1,1,462,Christmas Costumes,Christmas Costume,2,series_thumbnail_462_1,1
 463,2,1,463,Christmas Musical,Christmas Musical,2,series_thumbnail_463_1,1
 464,1,1,464,Ninestar Venus<br>(SIF AC),Nine Star Venus,9,series_thumbnail_464_2,1
@@ -467,159 +467,159 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 467,1,1,467,Hot-Pot Party,Hot Pot Party,9,series_thumbnail_467_2,1
 468,1,1,468,Fairy Tale<br>Princesses Costumes,Fairy Tale Princess,9,series_thumbnail_468_9,1
 469,2,1,469,Kimono Fitting,Kimono Wearing,2,series_thumbnail_469_1,1
-470,1,1,470,SIF Series Thanksgiving<br>2020 Costumes,Fan Festival 2020,9,series_thumbnail_470_9,1
+470,1,1,470,粉絲 Festival 2020,粉絲 Festival 2020,9,series_thumbnail_470_9,1
 471,2,1,471,Food Stand,Food Stand,9,series_thumbnail_471_2,1
 472,1,1,472,Valentine's 演唱會,Valentine's 演唱會,2,series_thumbnail_472_1,1
 473,2,1,473,Awaken power (UR),Awaken power（UR）,9,series_thumbnail_473_2,1
 474,2,1,474,Setsubun,Setsubun Festival,2,series_thumbnail_474_1,1
 475,1,1,475,Spring Tea Party,Spring Tea Party,2,series_thumbnail_475_1,1
 476,2,1,476,Springtime Sailing,Spring Boat Party,2,series_thumbnail_476_1,1
-477,1,1,477,It's our miraculous time (UR),It's our miraculous time（UR）,9,series_thumbnail_477_2,1
+477,1,1,477,那是我們的奇蹟 (UR),那是我們的奇蹟（UR）,9,series_thumbnail_477_2,1
 478,1,1,478,Strawberry Picking,Strawberry Picking,2,series_thumbnail_478_1,1
 479,1,1,479,Crayon Shin-chan Collab,Crayon Shinchan Collab,9,series_thumbnail_479_1,1
 480,2,1,480,Crayon Shin-chan Collab,Crayon Shinchan Collab,9,series_thumbnail_480_1,1
 484,1,1,484,Flower Festival,Flower Festival,9,series_thumbnail_484_2,1
-485,1,1,485,Try Again,Once More 與 Feeling,9,series_thumbnail_485_9,1
-486,2,1,486,Aozora Jumping Heart (UR),Aozora Jumping Heart（UR）,9,series_thumbnail_486_2,1
+485,1,1,485,Once More與Feeling,Once More與Feeling,9,series_thumbnail_485_9,1
+486,2,1,486,青空跳躍之心 (UR),青空跳躍之心（UR）,9,series_thumbnail_486_2,1
 487,2,1,487,Fairy Tale<br>Princesses Costumes,Fairy Tale Princess,9,series_thumbnail_487_9,1
-488,2,1,489,SIF Series Thanksgiving<br>2020 Costumes,Fan Festival 2020,9,series_thumbnail_488_9,1
-489,2,1,488,Retro Coffee Shop,Retro Cafe,2,series_thumbnail_489_1,1
+488,2,1,489,粉絲 Festival 2020,粉絲 Festival 2020,9,series_thumbnail_488_9,1
+489,2,1,488,Retro Coffee 商店,Retro Coffee 商店,2,series_thumbnail_489_1,1
 490,2,1,498,Little Chicks,Chick,9,series_thumbnail_490_2,1
-491,2,1,499,Shopping Mall 演唱會,Shopping Arcade 演唱會,9,series_thumbnail_491_9,1
-492,3,1,490,Summer Casual,虹咲 Summer Casual,9,series_thumbnail_492_2,1
-493,3,1,491,Summer Uniforms,虹咲 Uniform,9,series_thumbnail_493_2,1
-494,3,1,492,Summer Practice Clothes,虹咲 Practice Wear,9,series_thumbnail_494_2,1
-495,3,1,493,Winter Casual,虹咲 Winter Casual,9,series_thumbnail_495_2,1
-496,3,1,494,Winter Practice Clothes,虹咲 Practice Wear,9,series_thumbnail_496_2,1
-497,3,1,495,Swimsuits,虹咲 Swim Suit,9,series_thumbnail_497_2,1
-498,3,1,496,Solo Stage Costumes (SR),虹咲 Solo Costume (SR),9,series_thumbnail_498_2,1
-499,3,1,497,Love U my Friends (UR),Love U my friends（UR）,9,series_thumbnail_499_2,1
+491,2,1,499,商店ping Mall 演唱會,商店ping Arcade 演唱會,9,series_thumbnail_491_9,1
+492,3,1,490,虹咲 Summer Casual,虹咲 虹咲 Summer Casual,9,series_thumbnail_492_2,1
+493,3,1,491,虹咲 Uniform,虹咲 Uniform,9,series_thumbnail_493_2,1
+494,3,1,492,虹咲 Practice Wear,虹咲 Practice Wear,9,series_thumbnail_494_2,1
+495,3,1,493,虹咲 Winter Casual,虹咲 虹咲 Winter Casual,9,series_thumbnail_495_2,1
+496,3,1,494,虹咲 Practice Wear,虹咲 Practice Wear,9,series_thumbnail_496_2,1
+497,3,1,495,虹咲 Swim Suit,虹咲 Swim Suit,9,series_thumbnail_497_2,1
+498,3,1,496,虹咲 Solo Costume (SR),虹咲 Solo Costume (SR),9,series_thumbnail_498_2,1
+499,3,1,497,Love U my Friends (UR),愛你們，我的朋友（UR）,9,series_thumbnail_499_2,1
 500,1,1,500,Sleepover,Slumber Meeting,2,series_thumbnail_500_1,1
 501,2,1,501,Carp Streamers,Carp Streamers,2,series_thumbnail_501_1,1
 502,3,1,502,生日 演唱會,生日 演唱會,9,series_thumbnail_502_8,1
-503,3,1,503,SIF Thanksgiving 2019,Fan Festival 2019,9,series_thumbnail_503_8,1
+503,3,1,503,粉絲 Festival 2019,粉絲 Festival 2019,9,series_thumbnail_503_8,1
 504,1,1,504,Aquarium,Aquarium,2,series_thumbnail_504_1,1
 505,2,1,505,After Rain,After Rain,2,series_thumbnail_505_1,1
 506,1,1,506,Summertime Sea,Summer Sea,2,series_thumbnail_506_1,1
-507,2,1,507,Fantastic Departure！(UR),Fantastic Departure!（UR）,9,series_thumbnail_507_2,1
+507,2,1,507,粉絲tastic 啟程！(UR),粉絲tastic 啟程!（UR）,9,series_thumbnail_507_2,1
 508,1,1,508,Summer Skies,Summer Sky,9,series_thumbnail_508_2,1
-509,4,1,509,Love 演唱會！Superstar!!<br>Special Delivery Part 1,Love 演唱會！Superstar!!<br>Special Release Part 1,5,series_thumbnail_509_2,1
+509,4,1,509,Love 演唱會！Superstar!!<br>Special Delivery Part 1,Love 演唱會！Superstar!!<br>曜 Decide ♪ Request UR<br>Finals Part 1,5,series_thumbnail_509_2,1
 510,2,1,510,Morning Glory,Morning Glories,2,series_thumbnail_510_1,1
 511,2,1,511,Stargazing,Stargazing,9,series_thumbnail_511_2,1
-512,99,99,512,Transfer Student Election 4,Transfer Student Popularity<br>Contest Round 4,9,series_thumbnail_512_1,1
+512,99,99,512,Transfer 學生 Election 4,Transfer 學生 Popularity<br>Contest Round 4,9,series_thumbnail_512_1,1
 513,1,1,513,Shaved Ice,Shaved Ice,2,series_thumbnail_513_1,1
 514,3,1,515,虹咲 3rd Solo 歌曲 Costumes,虹咲 3rd Solo 歌曲<br>Costume,9,series_thumbnail_514_2,1
 515,3,1,516,虹咲 3rd Solo 歌曲 Costumes 2,虹咲 3rd Solo 歌曲<br>Costume 2,1,series_thumbnail_515_1,1
 516,2,1,519,smile smile ship 開始！(UR),smile smile ship 開始！(UR),9,series_thumbnail_516_2,1
-517,2,1,518,Pool Athletics,Athletic Pool,2,series_thumbnail_517_1,1
+517,2,1,518,Pool 體育會系s,體育會系 Pool,2,series_thumbnail_517_1,1
 518,4,1,520,Casual Clothes,Casual Clothes,5,series_thumbnail_0_1,1
 519,4,1,521,Uniforms,School Uniform,5,series_thumbnail_0_1,1
-520,4,1,522,Hajimari wa Kimi no Sora (SR),Hajimari wa Kimi no Sora (SR),5,series_thumbnail_0_1,1
-521,4,1,523,Hajimari wa Kimi no Sora (SR) 2,Hajimari wa Kimi no Sora (SR) 2,5,series_thumbnail_0_1,1
-522,4,1,524,1 Panel Comics,Everyday Life,5,series_thumbnail_0_1,1
-523,4,1,525,Hajimari wa Kimi no Sora (UR),Hajimari wa Kimi no Sora Costume<br>(UR),5,series_thumbnail_523_2,1
-524,2,1,517,Special Delivery Part 5,Special Release Part 5,9,series_thumbnail_524_1,1
-525,3,1,514,Love 演唱會！Series 9th Anniversary<br>Sega Collab,Love 演唱會！Series<br>9th Anniversary SEGA Collab,9,series_thumbnail_525_1,1
+520,4,1,522,起始是你的天空 (SR),起始是你的天空 (SR),5,series_thumbnail_0_1,1
+521,4,1,523,起始是你的天空 (SR) 2,起始是你的天空 (SR) 2,5,series_thumbnail_0_1,1
+522,4,1,524,Day於Life,Everyday Life,5,series_thumbnail_0_1,1
+523,4,1,525,起始是你的天空 (UR),起始是你的天空 Costume<br>(UR),5,series_thumbnail_523_2,1
+524,2,1,517,Special Delivery Part 5,曜 Decide ♪ Request UR<br>Finals Part 5,9,series_thumbnail_524_1,1
+525,3,1,514,Love 演唱會！Series 9th 紀念日<br>Sega Collab,Love 演唱會！Series<br>9th 紀念日 SEGA Collab,9,series_thumbnail_525_1,1
 526,1,1,526,Stargazing Dumplings,Stargazing Dumplings,2,series_thumbnail_526_1,1
-527,2,1,527,Special Delivery Part 6,Special Release Part 6,9,series_thumbnail_527_1,1
-528,2,1,530,Special Delivery Part 7,Special Release,9,series_thumbnail_528_1,1
+527,2,1,527,Special Delivery Part 6,曜 Decide ♪ Request UR<br>Finals Part 6,9,series_thumbnail_527_1,1
+528,2,1,530,Special Delivery Part 7,曜 Decide ♪ Request UR<br>Finals,9,series_thumbnail_528_1,1
 529,2,1,529,Making Pancakes,Pancakes,2,series_thumbnail_529_1,1
 530,3,1,538,生日 演唱會 2,生日 演唱會 2,3,series_thumbnail_530_3,1
 531,1,1,539,Halloween Cooking,Halloween Cooking,2,series_thumbnail_531_1,1
-532,2,1,528,MIRACLE WAVE (Wardrobe Change Only),MIRACLE WAVE<br>(Makeover Costume),9,series_thumbnail_532_1,1
+532,2,1,528,奇蹟浪潮 (Wardrobe Change Only),奇蹟浪潮<br>(Makeover Costume),9,series_thumbnail_532_1,1
 533,3,1,540,生日 Celebration Prologue,生日 Prologue Costume,3,series_thumbnail_533_3,1
 534,1,1,541,Electric World,Electric World,9,series_thumbnail_534_2,1
-535,2,1,542,Mijuku DREAMER (Wardrobe Change Only),Mijuku DREAMER<br>(Makeover Costume),9,series_thumbnail_535_1,1
-536,3,1,531,Summer Casual 2,虹咲 Summer Casual 2,3,series_thumbnail_536_3,1
-537,3,1,532,Summer Uniforms 2,虹咲 Uniform 2,3,series_thumbnail_537_3,1
-538,3,1,533,Summer Practice Clothes 2,虹咲 Practice Wear 2,3,series_thumbnail_538_3,1
-539,3,1,534,Winter Casual 2,虹咲 Winter Casual 2,3,series_thumbnail_539_3,1
-540,3,1,535,Winter Practice Clothes 2,虹咲 Practice Wear 2,3,series_thumbnail_540_3,1
-541,3,1,536,Swimsuits 2,虹咲 Swim Suit 2,3,series_thumbnail_541_1,1
-542,3,1,537,Solo Stage Costumes (SR) 2,虹咲 Solo Costume (SR) 2,3,series_thumbnail_542_3,1
-543,2,1,543,Halloween Shopping,Halloween Shopping,2,series_thumbnail_543_1,1
+535,2,1,542,未成熟夢想者 (Wardrobe Change Only),未成熟夢想者<br>(Makeover Costume),9,series_thumbnail_535_1,1
+536,3,1,531,虹咲 虹咲 Summer Casual 2,虹咲 虹咲 虹咲 Summer Casual 2,3,series_thumbnail_536_3,1
+537,3,1,532,虹咲 Uniform 2,虹咲 Uniform 2,3,series_thumbnail_537_3,1
+538,3,1,533,虹咲 Practice Wear 2,虹咲 Practice Wear 2,3,series_thumbnail_538_3,1
+539,3,1,534,虹咲 虹咲 Winter Casual 2,虹咲 虹咲 虹咲 Winter Casual 2,3,series_thumbnail_539_3,1
+540,3,1,535,虹咲 Practice Wear 2,虹咲 Practice Wear 2,3,series_thumbnail_540_3,1
+541,3,1,536,虹咲 Swim Suit 2,虹咲 Swim Suit 2,3,series_thumbnail_541_1,1
+542,3,1,537,虹咲 Solo Costume (SR) 2,虹咲 Solo Costume (SR) 2,3,series_thumbnail_542_3,1
+543,2,1,543,Halloween 商店ping,Halloween 商店ping,2,series_thumbnail_543_1,1
 544,2,1,545,Rainy Season Ensemble,Rainy Season Outfit,9,series_thumbnail_544_1,1
 545,3,1,546,虹咲 Tracksuits,虹咲 PE Jacket,9,series_thumbnail_545_1,1
 546,3,1,547,虹咲 Tracksuits 2,虹咲 PE Jacket 2,1,series_thumbnail_546_1,1
 547,2,1,544,Toyland,Toy World,9,series_thumbnail_547_1,1
-548,1,1,549,Autumn Park,Park 於 Fall,2,series_thumbnail_548_1,1
+548,1,1,549,Park於Fall,Park於Fall,2,series_thumbnail_548_1,1
 549,1,1,550,Persona Series Collab,Persona Series Collab,9,series_thumbnail_549_1,1
 550,1,1,551,Persona Series Collab<br>Campaign Girl,Persona Series Collab<br>Campaign Girl,1,series_thumbnail_550_1,1
 551,2,1,552,Persona Series Collab,Persona Series Collab,9,series_thumbnail_551_1,1
-553,3,1,548,Love U my Friends (UR) 2,Love U my friends (UR) 2,1,series_thumbnail_553_1,1
+553,3,1,548,Love U my Friends (UR) 2,愛你們，我的朋友 (UR) 2,1,series_thumbnail_553_1,1
 555,4,1,555,Fresh 演唱會,Fresh 演唱會,5,series_thumbnail_555_1,1
 556,2,1,556,Petting Zoo,Petting Zoo,2,series_thumbnail_556_1,1
-557,2,1,557,MIRAI TICKET (UR),MIRAI TICKET (UR),9,series_thumbnail_557_1,1
+557,2,1,557,未來票券 (UR),未來票券 (UR),9,series_thumbnail_557_1,1
 558,1,1,558,Illuminations,Illumination,2,series_thumbnail_558_1,1
 559,4,1,559,Colorful Performances,Colorful Performance,5,series_thumbnail_559_1,1
 560,2,1,560,White Christmas,White Christmas,2,series_thumbnail_560_1,1
-561,1,1,561,Made 於 Wonderland<br>(SIF AC),Maid 於 Wonderland<br>(SIF AC),9,series_thumbnail_561_1,1
-562,2,1,562,Made 於 Legends<br>(SIF AC),Maid 於 Residence<br>(SIF AC),9,series_thumbnail_562_1,1
+561,1,1,561,Made於Wonderland<br>(SIF AC),Maid於Wonderland<br>(SIF AC),9,series_thumbnail_561_1,1
+562,2,1,562,Made於Legends<br>(SIF AC),Maid於Residence<br>(SIF AC),9,series_thumbnail_562_1,1
 563,1,1,563,New Year's,New Year's,2,series_thumbnail_563_1,1
 564,1,1,564,Icy Dreamworld,Ice Illusion,9,series_thumbnail_564_1,1
-565,1,1,565,Composing Music,歌曲 Making,9,series_thumbnail_565_2,1
+565,1,1,565,歌曲 Making,歌曲 Making,9,series_thumbnail_565_2,1
 566,1,1,566,Brilliant Jewelry,Brilliant Jewelry,9,series_thumbnail_566_1,1
 567,4,1,567,Powerful Event,Powerful Paint,5,series_thumbnail_567_1,1
 568,2,1,574,Lottery Drawing,Omikuji,2,series_thumbnail_568_1,1
-569,2,1,579,Fancy Fashion,Fancy,9,series_thumbnail_569_1,1
+569,2,1,579,粉絲cy Fashion,粉絲cy,9,series_thumbnail_569_1,1
 570,2,1,580,歌曲writing,歌曲 Making,9,series_thumbnail_570_2,1
 571,1,1,571,Countdown 演唱會,Countdown 演唱會,9,series_thumbnail_571_1,1
 572,2,1,568,New Year's 演唱會,New Year's 演唱會,9,series_thumbnail_572_1,1
 573,3,1,573,Fleurs Modernes,Modern Fleur,9,series_thumbnail_573_1,1
-574,2,1,572,DREAMY COLOR (SSR),DREAMY COLOR (SSR),9,series_thumbnail_574_1,1
+574,2,1,572,夢幻色彩 (SSR),夢幻色彩 (SSR),9,series_thumbnail_574_1,1
 575,3,1,575,L!L!L！(SSR),L!L!L！(SSR),9,series_thumbnail_575_1,1
 576,3,1,576,L!L!L！(SSR) 2,L!L!L！(SSR) 2,3,series_thumbnail_576_1,1
 577,4,1,577,START!！True dreams (SSR),START!！True dreams (SSR),5,series_thumbnail_577_1,1
-578,1,1,578,SIF Series Thanksgiving<br>2021 Costumes,Fan Festival 2021,9,series_thumbnail_578_1,1
+578,1,1,578,粉絲 Festival 2021,粉絲 Festival 2021,9,series_thumbnail_578_1,1
 579,1,1,581,Snow Festival,Snow Festival,2,series_thumbnail_579_1,1
 580,4,1,582,Purely Dresses,Purely Dress,5,series_thumbnail_580_1,1
 581,2,1,583,World Cat Day,World Cat Day,2,series_thumbnail_581_1,1
 584,1,1,586,In Audience,演唱會 Cheering,2,series_thumbnail_584_1,1
 585,4,1,587,Retro Pop,Retro Pop,5,series_thumbnail_585_1,1
-587,2,1,585,Gamers Numazu 5th Anniversary,Gamers Numazu 5th Anniversary,9,series_thumbnail_587_1,1
-588,2,1,588,KU-RU-KU-RU Cruller！(UR),KU-RU-KU-RU Cruller!（UR）,9,series_thumbnail_588_1,1
+587,2,1,585,Gamers Numazu 5th 紀念日,Gamers Numazu 5th 紀念日,9,series_thumbnail_587_1,1
+588,2,1,588,KU-RU-KU-RU Cruller！(UR),轉呀轉呀炸圈餅！（UR）,9,series_thumbnail_588_1,1
 589,2,1,589,European Town,European Town,2,series_thumbnail_589_1,1
 590,4,99,590,Sunny Passion,Sunny Passion,2,series_thumbnail_590_1,1
 598,1,1,603,Candy Pop Princesses,Candy Pop Princess,9,series_thumbnail_598_1,1
 599,2,1,605,Code Geass Collab,Code Geass Collab,9,series_thumbnail_599_1,1
 600,2,1,606,Code Geass Collab<br>Campaign Girl,Code Geass Collab<br>Campaign Girl,1,series_thumbnail_600_1,1
 601,1,1,607,Code Geass Collab,Code Geass Collab,9,series_thumbnail_601_1,1
-603,4,99,591,Support 成員 (School),Support 成員<br>School Staff & Students,4,series_thumbnail_603_1,1
+603,4,99,591,Support 成員 (School),Support 成員<br>School Staff & 學生s,4,series_thumbnail_603_1,1
 604,4,99,592,Support 成員 (Family),Support 成員<br>Family,3,series_thumbnail_604_1,1
 605,4,99,593,Support 成員 (Animals),Support 成員<br>Animal,3,series_thumbnail_0_1,1
 606,2,1,594,Ocean Particles,Ocean Particle,9,series_thumbnail_606_1,1
-607,2,1,595,Special Delivery Part 8,Special Release Part 8,9,series_thumbnail_607_1,1
+607,2,1,595,Special Delivery Part 8,曜 Decide ♪ Request UR<br>Finals Part 8,9,series_thumbnail_607_1,1
 609,2,1,611,Brilliant Jewelry,Brilliant Jewelry,9,series_thumbnail_609_8,1
 610,1,1,618,Take Me All Around World♡,Show Me World,9,series_thumbnail_610_1,1
 611,2,1,619,Take Me All Around World♡,Show Me World,9,series_thumbnail_611_1,1
-612,2,1,617,Love 演唱會！Series 9th Anniversary<br>Sega Collab,Love 演唱會！Series<br>9th Anniversary SEGA Collab,9,series_thumbnail_612_2,1
-613,1,1,609,Love 演唱會！Series 9th Anniversary<br>Sega Collab,Love 演唱會！Series<br>9th Anniversary SEGA Collab,9,series_thumbnail_613_2,1
+612,2,1,617,Love 演唱會！Series 9th 紀念日<br>Sega Collab,Love 演唱會！Series<br>9th 紀念日 SEGA Collab,9,series_thumbnail_612_2,1
+613,1,1,609,Love 演唱會！Series 9th 紀念日<br>Sega Collab,Love 演唱會！Series<br>9th 紀念日 SEGA Collab,9,series_thumbnail_613_2,1
 614,4,1,610,Cherry Blossoms,Cherry Blossom,5,series_thumbnail_614_1,1
-615,1,1,612,Bokutachi wa Hitotsu no Hikari (UR) Part 2,Bokutachi wa Hitotsu no Hikari (UR)Part 2,9,series_thumbnail_615_1,1
+615,1,1,612,我們是合而為一的光芒 (UR) Part 2,我們是合而為一的光芒 (UR)Part 2,9,series_thumbnail_615_1,1
 616,2,1,613,下一步 SPARKLING!！(UR),下一步 SPARKLING!！(UR),9,series_thumbnail_616_1,1
 617,3,1,614,T確定IMEKI Runners (UR),T確定IMEKI Runners (UR),9,series_thumbnail_617_1,1
-618,4,1,615,Starlight Prologue (UR),Starlight Prologue (UR),5,series_thumbnail_618_1,1
-619,2,1,616,SIF Series Thanksgiving<br>2021 Costumes,Fan Festival 2021,9,series_thumbnail_619_9,1
+618,4,1,615,星光序章 (UR),星光序章 (UR),5,series_thumbnail_618_1,1
+619,2,1,616,粉絲 Festival 2021,粉絲 Festival 2021,9,series_thumbnail_619_9,1
 620,3,1,621,Odaiba Gamers T-Shirt,ODAIBA Gamers T Shirt Costume,6,series_thumbnail_620_1,1
 621,3,1,622,Odaiba Gamers T-Shirt 2,ODAIBA Gamers T Shirt Costume 2,6,series_thumbnail_621_1,1
 622,4,1,620,START!！True dreams (UR),START!！True dreams (UR),5,series_thumbnail_622_1,1
 623,4,1,623,Boys' Day,Children's Day,5,series_thumbnail_623_1,1
-624,1,1,624,SIF 9th Anniversary<br>Festival Costumes,SIF 9th Anniversary<br>(Festival) costume,1,series_thumbnail_624_1,1
-625,2,1,625,SIF 9th Anniversary<br>Festival Costumes,SIF 9th Anniversary<br>(Festival) costume,1,series_thumbnail_625_1,1
-626,3,1,626,SIF 9th Anniversary<br>Festival Costumes,SIF 9th Anniversary<br>(Festival) costume,1,series_thumbnail_626_1,1
-627,4,1,627,SIF 9th Anniversary<br>Festival Costumes,SIF 9th Anniversary<br>(Festival) costume,1,series_thumbnail_627_1,1
+624,1,1,624,SIF 9th 紀念日<br>Festival Costumes,SIF 9th 紀念日<br>(Festival) costume,1,series_thumbnail_624_1,1
+625,2,1,625,SIF 9th 紀念日<br>Festival Costumes,SIF 9th 紀念日<br>(Festival) costume,1,series_thumbnail_625_1,1
+626,3,1,626,SIF 9th 紀念日<br>Festival Costumes,SIF 9th 紀念日<br>(Festival) costume,1,series_thumbnail_626_1,1
+627,4,1,627,SIF 9th 紀念日<br>Festival Costumes,SIF 9th 紀念日<br>(Festival) costume,1,series_thumbnail_627_1,1
 628,2,1,628,Escape Game Collab Round 3,Real-Life Room Escape<br>Collaboration Part 3,9,series_thumbnail_628_1,1
 629,2,1,629,Flower Circles,Flower Circle,9,series_thumbnail_629_2,1
-630,3,1,631,SIF Series Thanksgiving<br>2021 Costumes,Fan Festival 2021,6,series_thumbnail_630_6,1
+630,3,1,631,粉絲 Festival 2021,粉絲 Festival 2021,6,series_thumbnail_630_6,1
 631,3,1,630,Brilliant Jewelry,Brilliant Jewelry,6,series_thumbnail_631_5,1
-632,1,1,632,Blazers 與 Hats,Blazers 與 Hats,9,series_thumbnail_632_2,1
+632,1,1,632,Blazers與Hats,Blazers與Hats,9,series_thumbnail_632_2,1
 633,4,1,633,6月 Bride,6月 Bride,5,series_thumbnail_633_1,1
 634,2,1,634,Demonstration,Demonstration,1,series_thumbnail_634_1,1
-635,2,1,635,Best Princess 於 World,World's Best Princess,9,series_thumbnail_635_2,1
+635,2,1,635,Best Princess於World,World's Best Princess,9,series_thumbnail_635_2,1
 636,2,1,636,Shell Gathering,Clam Digging,2,series_thumbnail_636_1,1
 637,3,1,637,All-Stars Prologue Costumes,All Stars Prologue,9,series_thumbnail_637_9,1
 638,2,1,638,Nando datte YAKUS確定U！(UR),Nando datte YAKUS確定U！(UR),9,series_thumbnail_638_1,1
-639,1,1,639,Best Princess 於 World,World's Best Princess,9,series_thumbnail_639_2,1
+639,1,1,639,Best Princess於World,World's Best Princess,9,series_thumbnail_639_2,1
 640,1,1,640,Royal Princesses,Royal Princess,9,series_thumbnail_640_3,1
 641,4,1,641,Sunny Ocean,Sunny Ocean,5,series_thumbnail_641_1,1
 642,4,1,642,Winter Uniform,Winter Uniform,4,series_thumbnail_642_2,1
@@ -628,20 +628,20 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 645,2,1,645,Aqours 3rd Solo 歌曲 Costumes,Aqours 3rd Solo 歌曲<br>Costume,9,series_thumbnail_645_2,1
 646,3,1,646,Brilliant Jewelry Part 2,Brilliant Jewelry 2,6,series_thumbnail_646_6,1
 647,1,1,647,Wind Chimes,Wind Chimes,2,series_thumbnail_647_1,1
-648,1,1,648,Visiting Land 的 Gods,Visiting Sacred Grounds,9,series_thumbnail_648_2,1
+648,1,1,648,Visiting Land的Gods,Visiting Sacred Grounds,9,series_thumbnail_648_2,1
 649,2,1,649,Italian Gourmet,Gourmet Italian,9,series_thumbnail_649_2,1
 650,2,1,650,Luxury Cruise,Luxurious Cruise,9,series_thumbnail_650_3,1
-651,3,1,651,SIF Series Thanksgiving<br>2021 Costumes Part 2,Fan Festival 2021 2,6,series_thumbnail_651_6,1
+651,3,1,651,粉絲 Festival 2021 2,粉絲 Festival 2021 2,6,series_thumbnail_651_6,1
 652,1,1,652,Sterling Racing Girls,Star Racing Girl,9,series_thumbnail_652_2,1
-653,2,1,653,Essence 的 Water,Water Essence,9,series_thumbnail_653_2,1
-654,2,1,654,Summer Skies 與 Ice Cream,Summer Ice Pops,2,series_thumbnail_654_1,1
+653,2,1,653,Essence的Water,Essence的Water,9,series_thumbnail_653_2,1
+654,2,1,654,Summer Skies與Ice Cream,Summer Skies與Ice Cream,2,series_thumbnail_654_1,1
 655,2,1,655,Fall Leaf Hunters on Seibu Railway,Fall Leaves - Seibu Railway,9,series_thumbnail_655_2,1
 656,1,1,656,生日 Date,生日 Date,9,series_thumbnail_656_2,1
 657,4,1,657,2022 Costume Contest Little Devils,2022 Costume Contest Little Devil,9,series_thumbnail_657_4,1
-658,1,1,658,End 的 Summer,End 的 Summer,2,series_thumbnail_658_1,1
-659,2,1,659,AZALEA<br>GALAXY HidE 與 SeeK,AZALEA GALAXY HidE 與 SeeK,3,series_thumbnail_659_2,1
-660,2,1,660,CYaRon!<br>Kinmirai Happy End,CYaRon！Kinmirai Happy End,3,series_thumbnail_660_2,1
-661,2,1,661,Guilty Kiss<br>KOWAREYASUKI,Guilty Kiss KOWAREYASUKI,3,series_thumbnail_661_2,1
+658,1,1,658,End的Summer,End的Summer,2,series_thumbnail_658_1,1
+659,2,1,659,AZALEA<br>GALAXY HidE與SeeK,AZALEA GALAXY HidE與SeeK,3,series_thumbnail_659_2,1
+660,2,1,660,CYaRon!<br>近未來快樂結局,CYaRon！近未來快樂結局,3,series_thumbnail_660_2,1
+661,2,1,661,Guilty Kiss<br>易碎,Guilty Kiss 易碎,3,series_thumbnail_661_2,1
 662,1,1,662,Punky Rock Gals,Punkish Rock Girl,9,series_thumbnail_662_2,1
 663,2,1,663,Funktion Rock,Function Rock,9,series_thumbnail_663_2,1
 664,2,1,664,Azul Claro Numazu Collab Uniform,Azul Claro Numazu Collab Uniform,9,series_thumbnail_664_1,1
@@ -650,39 +650,39 @@ _albumSeriesId,_albumGroupId,_albumTabId,_orderNum,_name,_nameEn,_layoutType,_th
 667,2,1,667,Umbrella Sky,Umbrella Sky,2,series_thumbnail_667_1,1
 668,2,1,668,Shine Bright,Shine Bride,9,series_thumbnail_668_2,1
 669,1,1,671,Cat Pigtails,Twin Tailed Cat,9,series_thumbnail_669_2,1
-670,2,1,669,Special Delivery Part 9,Special Release Part 9,3,series_thumbnail_670_1,1
-671,3,1,670,虹咲 High School<br>Idol Club Special Delivery Part 3,虹咲學園學園偶像同好會<br>Special Release 3,3,series_thumbnail_671_1,1
+670,2,1,669,Special Delivery Part 9,曜 Decide ♪ Request UR<br>Finals Part 9,3,series_thumbnail_670_1,1
+671,3,1,670,虹咲 High School<br>Idol Club Special Delivery Part 3,虹咲學園學園偶像同好會<br>曜 Decide ♪ Request UR<br>Finals 3,3,series_thumbnail_671_1,1
 672,1,1,672,[Party]Classical Japanese,[Party Card] Taisho Roman,2,series_thumbnail_672_1,1
-673,1,1,673,[Party]6月 (Dresses),[Party Card] Party Dress,2,series_thumbnail_673_1,1
+673,1,1,673,[Party]6月 (Dresses),[Party]6月 (Dresses),2,series_thumbnail_673_1,1
 674,1,1,674,[Party]Work Study,[Party Card] Vocational,2,series_thumbnail_674_1,1
 675,1,1,675,[Party]Circus,[Party Card] Circus,2,series_thumbnail_675_1,1
 676,1,1,676,[Party]Dancers,[Party Card] Dancer,2,series_thumbnail_676_1,1
-677,1,1,677,[Party]7月 (Mermaids),[Party Card] Summer Casual,2,series_thumbnail_677_1,1
+677,1,1,677,[Party]7月 (Mermaids),[Party]7月 (Mermaids),2,series_thumbnail_677_1,1
 678,1,1,678,[Party]Tea Party,[Party Card] Tea Party,2,series_thumbnail_678_1,1
-679,1,1,679,[Party]3月 (Flowers),[Party Card] Blooming,2,series_thumbnail_679_1,1
+679,1,1,679,[Party]3月 (Flowers),[Party]3月 (Flowers),2,series_thumbnail_679_1,1
 680,1,1,680,[Party]Little Devils,[Party Card] Little Devil,2,series_thumbnail_680_1,1
 681,2,1,681,[Party]Cat Café,[Party Card] Cat Cafe,2,series_thumbnail_681_1,1
 682,2,1,682,[Party]Angels,[Party Card] Angel,2,series_thumbnail_682_1,1
-683,2,1,683,[Party]Halloween Night,[Party Card] Halloween Festival,2,series_thumbnail_683_1,1
+683,2,1,683,[Party Card] Trick 或 Treat Night,[Party Card] Halloween Festival,2,series_thumbnail_683_1,1
 684,2,1,684,[Party]Jobs,[Party Card] Vocational,2,series_thumbnail_684_1,1
 685,2,1,685,[Party]Wonderland,[Party Card] Curious Place,2,series_thumbnail_685_1,1
-686,2,1,686,[Party]Halloween,[Party Card] Trick 或 Treat,2,series_thumbnail_686_1,1
+686,2,1,686,[Party Card] Trick 或 Treat,[Party Card] Trick 或 Treat,2,series_thumbnail_686_1,1
 687,2,1,687,[Party]Mermaids,[Party Card] Mermaid,2,series_thumbnail_687_1,1
 688,2,1,688,[Party]Valentine's,[Party Card] Valentine's,2,series_thumbnail_688_1,1
-689,2,1,689,[Party]Musicians 的 Bremen,[Party Card] Town Musicians 的 Bremen,2,series_thumbnail_689_1,1
-690,2,1,690,Hakodate Christmas,Christmas 於 Hakodate,9,series_thumbnail_690_2,1
+689,2,1,689,[Party]Musicians的Bremen,[Party Card] Town Musicians的Bremen,2,series_thumbnail_689_1,1
+690,2,1,690,Christmas於Hakodate,Christmas於Hakodate,9,series_thumbnail_690_2,1
 691,1,1,691,Flower Garden,Flowery Garden,2,series_thumbnail_691_1,1
 692,1,1,692,μ's Day Off,Day Off - μ's,9,series_thumbnail_692_2,1
 693,2,1,693,Book Café,Book Cafe,2,series_thumbnail_693_1,1
-694,1,1,694,Kanda Shrine First Visit 的 Year,New Year at Kanda Shrine,9,series_thumbnail_694_1,1
+694,1,1,694,Kanda Shrine First Visit的Year,Kanda Shrine First Visit的Year,9,series_thumbnail_694_1,1
 695,2,1,695,Aqours' Day Off,Day Off - Aqours,9,series_thumbnail_695_1,1
-696,1,1,696,Water-Light Dreamland,Dream World 的 Water 與 Light,9,series_thumbnail_696_1,1
+696,1,1,696,Dream World的Water與Light,Dream World的Water與Light,9,series_thumbnail_696_1,1
 697,1,1,697,Love 演唱會！Festival,Love 演唱會！Fest,9,series_thumbnail_698_2,1
 698,2,1,698,Love 演唱會！Festival,Love 演唱會！Fest,9,series_thumbnail_699_2,1
 699,1,1,699,Swimsuit-style Costumes,Swimsuit Costume,9,series_thumbnail_699_1,1
 700,1,1,703,Nighttime Cherry Blossoms,Night Blossom,2,series_thumbnail_700_1,1
-701,1,1,700,SUNNY DAY SONG,SUNNY DAY SONG,9,series_thumbnail_701_1,1
-702,2,1,701,MITAIKEN HORIZON,MITAIKEN HORIZON,9,series_thumbnail_702_1,1
+701,1,1,700,晴天之歌,晴天之歌,9,series_thumbnail_701_1,1
+702,2,1,701,未體驗地平線,未體驗地平線,9,series_thumbnail_702_1,1
 703,4,1,702,Yuijo Festival,Yuijosai,9,series_thumbnail_703_1,1
-704,1,1,704,SIF Series Thanksgiving<br>2020 -ONLINE-,Fan Festival 2020<br>〜ONLINE〜,9,series_thumbnail_704_2,1
-705,2,1,705,Water-Light Dreamland,Dream World 的 Ice 與 Light,9,series_thumbnail_705_1,1
+704,1,1,704,粉絲 Festival 2020<br>〜ONLINE〜,粉絲 Festival 2020<br>〜ONLINE〜,9,series_thumbnail_704_2,1
+705,2,1,705,Dream World的Water與Light,Dream World的Ice與Light,9,series_thumbnail_705_1,1

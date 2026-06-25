@@ -1,11 +1,11 @@
 _id,_masterScenarioId,_dialogTitle,_masterReleaseLabelId
 SubTutorial_FreeLive,0,歌曲 選擇,1
-SubTutorial_Practice,0,Lesson,1
-SubTutorial_SkillPractice,0,Skill Lesson,1
+SubTutorial_Practice,0,練習,1
+SubTutorial_SkillPractice,0,Skill 練習,1
 SubTutorial_Training,0,Idolize,1
 SubTutorial_Mission,0,Goals,1
-SubTutorial_Story,0,Story,1
-SubTutorial_BeginnerMission,0,Beginner Goals,1
+SubTutorial_Story,0,劇情,1
+SubTutorial_BeginnerMission,0,新手 Goals,1
 MainTutorial_Live,0,Tutorial 演唱會,1
 Event_EmotionalRanking,0,Best Girl,1
 SubTutorial_Composition,0,Team,1

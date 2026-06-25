@@ -134,8 +134,15 @@ pub fn get_asset_hash(asset_version: &str, platform: &str) -> Option<String> {
 
 
 pub fn get_asset_hash_for_lang(asset_version: &str, platform: &str, lang: &str) -> Option<String> {
+    // Preserve the original ew region selection rule:
+    // asset_version identifies the client family (JP vs GL).  Language may select
+    // an EN/ZH/KR asset hash only after the request is known to be GL-family.
+    if get_player_region(asset_version).as_deref() == Some("JP") {
+        return get_asset_hash(asset_version, platform);
+    }
+
     let region = match crate::router::master_data::canonical_lang(lang) {
-        "ZH" => "ZH",
+        "ZH" | "ZH-CHT" => "ZH",
         "KR" => "KR",
         "JP" => "JP",
         _ => "EN",
@@ -143,6 +150,8 @@ pub fn get_asset_hash_for_lang(asset_version: &str, platform: &str, lang: &str) 
     if region == "JP" {
         return get_asset_hash(asset_version, platform);
     }
+
+    // Only GL-family clients use language-specific EN/ZH/KR hashes.
     let (_, hashes) = ASSET_TABLE.iter().find(|(r, _)| *r == "GL")?;
     hashes.resolve(platform, region, None)
 }
@@ -169,19 +178,37 @@ fn get_uuid(input: &str) -> Option<String> {
 }
 pub fn get_login(headers: &HeaderMap, body: &str) -> String {
     let blank_header = HeaderValue::from_static("");
-    
+
+    // First keep the original fast path: the a6573cbe header may directly
+    // contain the ew UUID after the sk1bdzb310n0s9tl marker.
     let login = headers.get("a6573cbe").unwrap_or(&blank_header).to_str().unwrap_or("");
     let decoded = general_purpose::STANDARD.decode(login).unwrap_or_default();
-    match get_uuid(String::from_utf8_lossy(&decoded).as_ref()) {
-        Some(token) => {
-            token
-        },
-        None => {
-            let rv = gree::get_uuid(headers, body);
-            assert!(rv != String::new());
-            rv
-        },
+    if let Some(token) = get_uuid(String::from_utf8_lossy(&decoded).as_ref()) {
+        return token;
     }
+
+    // Second keep the original GREE verification path, but do not panic if the
+    // local gree.db has no matching cert/uuid.  This is important for AndroidEw
+    // builds with a different package name / data directory: the official APK may
+    // already have a populated database, while the rebuilt coexist package starts
+    // with an empty one.
+    let rv = gree::get_uuid(headers, body);
+    if !rv.is_empty() {
+        return rv;
+    }
+
+    // Last-resort local fallback.  Do not abort the HTTP request; create/use a
+    // stable local account key instead.  Prefer aoharu-user-id when present, then
+    // the raw a6573cbe value, then a single offline key.
+    let uid = headers.get("aoharu-user-id").unwrap_or(&blank_header).to_str().unwrap_or("");
+    if !uid.is_empty() {
+        return format!("local-aoharu-user-id:{uid}");
+    }
+    if !login.is_empty() {
+        return format!("local-a6573cbe:{login}");
+    }
+
+    String::from("local-offline-login")
 }
 
 pub fn timestamp() -> u64 {

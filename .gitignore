@@ -12,3 +12,4 @@ jniLibs
 release
 *.log
 gradle-daemon-jvm.properties
+*.diff

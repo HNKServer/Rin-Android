@@ -1,83 +1,83 @@
 _id,_mainTitle,_mainMasterNavigationId,_masterReleaseLabelId
-DeckTop,Unit Formation,,1
-DeckEdit,Unit Formation,SubTutorial_Composition,1
-DeckCharaSelect,成員 選擇,,1
-Classmate,成員 List,,1
-CostumeCharaList,Costume Change,,1
-Practice,Lesson,SubTutorial_Practice,1
-SkillPractice,Skill Lesson,SubTutorial_SkillPractice,1
-Training,Idolize,SubTutorial_Training,1
-MemberList,成員 List,,1
-WaitingMemberList,Waiting Room,,1
-CardDetail,成員 Details,,1
-MemberIllustrateList,Albums,,1
-MemberCharaTop,成員 Details,,1
+DeckTop,隊伍編成,,1
+DeckEdit,隊伍編成,SubTutorial_Composition,1
+DeckCharaSelect,成員選擇,,1
+Classmate,成員列表,,1
+CostumeCharaList,變更服裝,,1
+Practice,練習,SubTutorial_Practice,1
+SkillPractice,技能練習,SubTutorial_SkillPractice,1
+Training,覺醒,SubTutorial_Training,1
+MemberList,成員列表,,1
+WaitingMemberList,休息室,,1
+CardDetail,成員詳情,,1
+MemberIllustrateList,相簿,,1
+MemberCharaTop,成員詳情,,1
 AreaTalkList,Dummy,,1
 Album,Dummy,,1
-MovieCollection,Collection,,1
-CardAlbum,Card Albums,,1
-DeckConfirm,Prepare 演唱會,SubTutorial_LiveReady,1
-Profile,Profile,,1
-RecommendList,選擇 Favorite,,1
-Friend,Friend List,,1
-LiveSelect,選擇 演唱會,,1
-MusicSelect,歌曲 選擇,SubTutorial_FreeLive,1
-CooperationLive,選擇 Session,SubTutorial_MultiLive,1
-CooperationLiveMatching,Matching,,1
-MultiMusicSelect,歌曲 選擇,,1
-MusicDecision,歌曲 Shuffle,,1
-MusicDifficulty,選擇 難度,,1
-MultiConfirm,Final 確認ation,,1
-StampSetting,Favorite Setting,,1
-Warehouse,Room parts,,1
-TitleListSelect,選擇 Title,,1
-TitleListView,Title List,,1
-SealExchange,道具 Exchange,,1
-BadgeExchange,道具 Exchange,,1
-EventTop,Events,,1
-EventStoryTop,Event Story Top,,1
-EventStory,選擇 Event,,1
-EventScoreRanking,Event pt 排行榜,,1
-EventReward,Event 獎勵,,1
-ItemList,道具 List,,1
-ExchangeTop,道具 Exchange,,1
-EventMusicSelect,歌曲 選擇,,1
-EventChallengeLiveMusicSelect,歌曲 選擇,,1
-EventLiveTryMusicSelect,歌曲 選擇,,1
-EventDeckConfirm,Prepare Formation,,1
-EventChallengeLiveDeckConfirm,Prepare Formation,,1
-EventLiveTryDeckConfirm,Prepare Formation,,1
-ExchangeItemList,道具 Exchange,,1
+MovieCollection,收藏,,1
+CardAlbum,卡牌相簿,,1
+DeckConfirm,演唱會準備,SubTutorial_LiveReady,1
+Profile,個人資料,,1
+RecommendList,選擇最愛,,1
+Friend,好友列表,,1
+LiveSelect,選擇演唱會,,1
+MusicSelect,歌曲選擇,SubTutorial_FreeLive,1
+CooperationLive,選擇演唱會,SubTutorial_MultiLive,1
+CooperationLiveMatching,配對中,,1
+MultiMusicSelect,歌曲選擇,,1
+MusicDecision,歌曲隨機,,1
+MusicDifficulty,選擇難度,,1
+MultiConfirm,最終確認,,1
+StampSetting,最愛設定,,1
+Warehouse,房間部件,,1
+TitleListSelect,選擇稱號,,1
+TitleListView,稱號列表,,1
+SealExchange,道具交換,,1
+BadgeExchange,道具交換,,1
+EventTop,活動,,1
+EventStoryTop,活動劇情,,1
+EventStory,選擇活動,,1
+EventScoreRanking,活動pt排行榜,,1
+EventReward,活動獎勵,,1
+ItemList,道具列表,,1
+ExchangeTop,道具交換,,1
+EventMusicSelect,歌曲選擇,,1
+EventChallengeLiveMusicSelect,歌曲選擇,,1
+EventLiveTryMusicSelect,歌曲選擇,,1
+EventDeckConfirm,編成準備,,1
+EventChallengeLiveDeckConfirm,編成準備,,1
+EventLiveTryDeckConfirm,編成準備,,1
+ExchangeItemList,道具交換,,1
 BirthdayTop,生日,,1
-MapScene,選擇 Area,,1
-MultiLiveEventCooperationLive,Room select,,1
-MultiLiveEventCooperationLiveMatching,Matching,,1
-MultiLiveEventMultiMusicSelect,歌曲 選擇,,1
-MultiLiveEventMusicDecision,歌曲 Shuffle,,1
-MultiLiveEventMusicDifficulty,選擇 難度,,1
-MultiLiveEventMultiConfirm,Final 確認ation,,1
-LimitedLiveTop,Event 演唱會s,,1
-LimitedLiveLottery,歌曲 Shuffle,,1
-TeacherLiveMusicSelect,歌曲 選擇,,1
-TeacherLiveDeckConfirm,Prepare Formation,,1
-TeacherLiveTop,選擇 演唱會,,1
-CharacterEpisodeLevel,Check Episodes,,1
-BoxGardenTop,Customize Room,,1
+MapScene,選擇區域,,1
+MultiLiveEventCooperationLive,選擇房間,,1
+MultiLiveEventCooperationLiveMatching,配對中,,1
+MultiLiveEventMultiMusicSelect,歌曲選擇,,1
+MultiLiveEventMusicDecision,歌曲隨機,,1
+MultiLiveEventMusicDifficulty,選擇難度,,1
+MultiLiveEventMultiConfirm,最終確認,,1
+LimitedLiveTop,活動演唱會,,1
+LimitedLiveLottery,歌曲隨機,,1
+TeacherLiveMusicSelect,歌曲選擇,,1
+TeacherLiveDeckConfirm,編成準備,,1
+TeacherLiveTop,選擇演唱會,,1
+CharacterEpisodeLevel,查看章節,,1
+BoxGardenTop,自訂房間,,1
 GachaTop,招募,MainTutorial_Gacha,1
-GachaResult,招募 Results,MainTutorial_GachaReslt,1
-BandEnrichTop,Band Strengthening TOP,,1
-BandEnrich,Band Strengthening,,1
-StoryTop,Story Top,,1
-StoryMainTop,Story,SubTutorial_Story,1
-StoryCardMemberTop,選擇 成員,,1
-StoryCardEpisodeTop,選擇 Episode,,1
-Shop,Shop,,1
-BeginnerMission,Beginner Goals,SubTutorial_BeginnerMission,1
-GuestSelect,選擇 Guest,SubTutorial_Guest,1
-MusicRanking,歌曲-specific 排行榜,,1
+GachaResult,招募結果,MainTutorial_GachaReslt,1
+BandEnrichTop,團體強化,,1
+BandEnrich,團體強化,,1
+StoryTop,劇情,,1
+StoryMainTop,劇情,SubTutorial_Story,1
+StoryCardMemberTop,選擇成員,,1
+StoryCardEpisodeTop,選擇章節,,1
+Shop,商店,,1
+BeginnerMission,新手目標,SubTutorial_BeginnerMission,1
+GuestSelect,選擇嘉賓,SubTutorial_Guest,1
+MusicRanking,歌曲排行榜,,1
 MusicRecommend,推薦,,1
 ChatTop,,SubTutorial_Chat,1
-ComicList,Comics,,1
+ComicList,漫畫,,1
 PresentBox,禮物盒,,1
 Mission,Goals,SubTutorial_Mission,1
 ProfileMemberSelect,Profile Settings,,1

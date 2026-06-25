@@ -1,8 +1,10 @@
 use jzon::{JsonValue, object};
-use actix_web::{web, HttpRequest, Responder};
+use actix_web::{web, HttpRequest, HttpResponse};
 
 use crate::encryption;
 use crate::router::{userdata, global};
+#[cfg(all(feature = "library", target_os = "android"))]
+use crate::log_to_logcat;
 
 pub fn routes(cfg: &mut web::ServiceConfig) {
     cfg.route("/start", web::post().to(start));
@@ -33,7 +35,10 @@ fn get_asset_hash(req: &HttpRequest, body: &JsonValue) -> String {
         .unwrap()
 }
 
-async fn asset_hash(req: HttpRequest, body: String) -> impl Responder {
+pub async fn asset_hash(req: HttpRequest, body: String) -> HttpResponse {
+    #[cfg(feature = "library")]
+    #[cfg(target_os = "android")]
+    log_to_logcat!("ew", "Handle: POST /api/start/assetHash");
     let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
 
     global::api(&req, Some(object!{
@@ -41,7 +46,10 @@ async fn asset_hash(req: HttpRequest, body: String) -> impl Responder {
     }))
 }
 
-async fn start(req: HttpRequest, body: String) -> impl Responder {
+pub async fn start(req: HttpRequest, body: String) -> HttpResponse {
+    #[cfg(feature = "library")]
+    #[cfg(target_os = "android")]
+    log_to_logcat!("ew", "Handle: POST /api/start");
     let key = global::get_login(req.headers(), &body);
     let body = jzon::parse(&encryption::decrypt_packet(&body).unwrap()).unwrap();
     let mut user = userdata::get_acc(&key);

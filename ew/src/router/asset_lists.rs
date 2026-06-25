@@ -5,7 +5,9 @@ use lazy_static::lazy_static;
 use std::collections::HashMap;
 use std::sync::Mutex;
 use crate::include_file;
-use crate::router::master_data::canonical_lang;
+use crate::router::master_data::{canonical_lang, region_from_lang};
+use crate::router::databases::csv::Region;
+use crate::router::global;
 
 lazy_static! {
     static ref MERGED_CACHE: Mutex<HashMap<String, String>> = Mutex::new(HashMap::new());
@@ -22,6 +24,22 @@ pub fn routes(cfg: &mut web::ServiceConfig) {
 async fn get(req: HttpRequest) -> impl Responder {
     let platform = req.match_info().get("platform").unwrap_or("Android");
     let lang = canonical_lang(req.match_info().get("LANG").unwrap_or("JP"));
+
+    // JP-safe mode:
+    // Keep JP behavior close to the original successful AndroidEw path.  The
+    // original run reported assetlist support as false / not cached, so JP
+    // clients should not be forced to use server-side merged asset lists when
+    // they are using the official JP client and online CDN.
+    //
+    // EN/KR/ZH-CHT still get the local/multilingual asset-list support.
+    if lang == "JP" {
+        let body = jzon::stringify(object!{});
+        return HttpResponse::Ok()
+            .insert_header(("content-type", ContentType::json()))
+            .insert_header(("content-length", body.len()))
+            .body(body);
+    }
+
     let mut response = object!{};
     response["Bundle"] = load_list("Bundle", platform, lang).into();
     response["Movie"] = load_list("Movie", platform, lang).into();
@@ -123,6 +141,34 @@ fn merge_asset_list(name: &str, base: String, mod_files: Vec<(String, Vec<u8>)>)
     jzon::stringify(root)
 }
 
-async fn supported() -> impl Responder {
-    "SUPPORTED"
+fn supports_extra_asset_lists(req: &HttpRequest) -> bool {
+    // Same JP-safe policy as masterdata.
+    // The successful original AndroidEw JP run reported assetlist support as false.
+    if let Some(asset_version) = req.headers()
+        .get("aoharu-asset-version")
+        .and_then(|v| v.to_str().ok())
+    {
+        match global::get_player_region(asset_version).as_deref() {
+            Some("JP") => return false,
+            Some("GL") => return true,
+            _ => {}
+        }
+    }
+
+    if let Some(lang) = req.headers()
+        .get("aoharu-language")
+        .and_then(|v| v.to_str().ok())
+    {
+        return region_from_lang(lang) != Region::Jp;
+    }
+
+    false
+}
+
+async fn supported(req: HttpRequest) -> HttpResponse {
+    if supports_extra_asset_lists(&req) {
+        HttpResponse::Ok().body("SUPPORTED")
+    } else {
+        HttpResponse::NotFound().body("")
+    }
 }

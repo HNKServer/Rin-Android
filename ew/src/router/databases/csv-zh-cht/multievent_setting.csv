@@ -1,6 +1,6 @@
 _eventId,_name,_type,_targetGroupIds,_targetType,_leftLiveButtonCharaId,_rightLiveButtonCharaId,_needHelperLevel,_needHelperPower,_needHelperRank,_needHelpableMessage,_exclusionLevel,_helpCount,_roomWaitSec,_masterReleaseLabelId
-115,きょうりょくライブ,3,"400,401,402,490,491,499",3,4007,4008,0,33000,10,"曜 can join 為 assistance if you have RANK 10 或 above 與 Pure P 的 33,000 或 more 於 event team.",0,5,60,223081504
-111,きょうりょくライブ,3,"300,301,302,303,304,390,399",2,3001,3010,0,33000,10,"曜 can join 為 assistance if you have RANK 10 或 above 與 Pure P 的 33,000 或 more 於 event team.",4,5,60,223071505
-108,きょうりょくライブ,3,"200,201,202,203,205,290,299",1,2003,2004,0,33000,10,"曜 can join 為 assistance if you have RANK 10 或 above 與 Pure P 的 33,000 或 more 於 event team.",0,5,60,223061504
-119,きょうりょくライブ,3,"100,101,102,103,190,191,199",2,1006,1007,0,33000,10,"曜 can join 為 assistance if you have RANK 10 或 above 與 Pure P 的 33,000 或 more 於 event team.",0,5,60,223091504
-131,きょうりょくライブ,3,"400,401,402,403,404,405,490,491,499",2,4001,4002,0,33000,10,"曜 can join 為 assistance if you have RANK 10 或 above 與 Pure P 的 33,000 或 more 於 event team.",0,5,60,223121507
+115,Teamup 演唱會,3,"400,401,402,490,491,499",3,4007,4008,0,33000,10,"曜 can join為assistance if you have RANK 10 或 above與Pure P的33,000 或 more於event team.",0,5,60,223081504
+111,Teamup 演唱會,3,"300,301,302,303,304,390,399",2,3001,3010,0,33000,10,"曜 can join為assistance if you have RANK 10 或 above與Pure P的33,000 或 more於event team.",4,5,60,223071505
+108,Teamup 演唱會,3,"200,201,202,203,205,290,299",1,2003,2004,0,33000,10,"曜 can join為assistance if you have RANK 10 或 above與Pure P的33,000 或 more於event team.",0,5,60,223061504
+119,Teamup 演唱會,3,"100,101,102,103,190,191,199",2,1006,1007,0,33000,10,"曜 can join為assistance if you have RANK 10 或 above與Pure P的33,000 或 more於event team.",0,5,60,223091504
+131,Teamup 演唱會,3,"400,401,402,403,404,405,490,491,499",2,4001,4002,0,33000,10,"曜 can join為assistance if you have RANK 10 或 above與Pure P的33,000 或 more於event team.",0,5,60,223121507

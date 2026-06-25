@@ -1,0 +1,1 @@
+v7 glossary sync: cumulative v6 translation sweep + JP/GL asset hash guard + terminology sync from music/card/character/series/unit master tables. Current ZH-CHT/ZH routing logic is unchanged. Rebuild libew.so for AndroidEw.

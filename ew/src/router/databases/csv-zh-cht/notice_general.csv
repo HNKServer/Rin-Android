@@ -1,11 +1,11 @@
-﻿_id,_phase,_navigationTitle,_masterNoticeRewardId,_displayableTime,_displayableExpireTime,_masterReleaseLabelId
-3,0,4月 2023: Unraveled mystery reward CP,250000003,0,0,223041701
+_id,_phase,_navigationTitle,_masterNoticeRewardId,_displayableTime,_displayableExpireTime,_masterReleaseLabelId
+3,0,4月 2023: Unraveled mystery 獎勵 CP,250000003,0,0,223041701
 4,0,4月 2023: Distribution CP,250000004,0,0,223042801
 5,0,5月 2023: Golden Week CP,250000005,0,0,223050105
 6,0,,250000006,0,0,223052604
 7,0,,250000007,0,0,223062701
-8,0,Thank you 為 你的cooperation 期間 maintenance,250000008,0,0,223061509
-9,0,Apology 為 bugs,250000009,0,0,223061510
+8,0,Thank you為你的cooperation 期間 maintenance,250000008,0,0,223061509
+9,0,Apology為bugs,250000009,0,0,223061510
 10,0,Thanksgiving stage present,250000010,0,0,223062603
 11,0,Thanksgiving celebration present,250000011,0,0,223063009
 12,0,禮物,250000012,0,0,223072602
